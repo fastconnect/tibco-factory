@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./UpdateAliasesLibsMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo" alt="" coords="16,17,172,42"/>
+<area shape="rect" id="node1" href="./UpdateAliasesLibsMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,5,183,53"/>
+<area shape="rect" id="node2_1" href="./IncludeDependenciesInEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo" alt="" coords="218,17,426,42"/>
+<area shape="rect" id="node2" href="./IncludeDependenciesInEARMojo.html" title="&lt;TABLE&gt;" alt="" coords="207,5,437,53"/>
+<area shape="rect" id="node3_2" href="./CompileProjlibMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo" alt="" coords="471,17,602,42"/>
+<area shape="rect" id="node3" href="./CompileProjlibMojo.html" title="&lt;TABLE&gt;" alt="" coords="461,5,613,53"/>
+<area shape="rect" id="node4_3" href="./CompileEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo" alt="" coords="648,17,769,42"/>
+<area shape="rect" id="node4" href="./CompileEARMojo.html" title="&lt;TABLE&gt;" alt="" coords="637,5,780,53"/>
+<area shape="rect" id="node5_4" href="./ArchiveBuilder.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.ArchiveBuilder" alt="" coords="815,17,917,42"/>
+<area shape="rect" id="node5" href="./ArchiveBuilder.html" title="&lt;TABLE&gt;" alt="" coords="805,5,927,53"/>
+</map>

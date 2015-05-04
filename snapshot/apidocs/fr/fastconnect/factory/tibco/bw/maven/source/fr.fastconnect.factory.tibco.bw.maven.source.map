@@ -1,0 +1,34 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./RemoveProjectsAsModules.html" title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveProjectsAsModules" alt="" coords="16,305,195,330"/>
+<area shape="rect" id="node1" href="./RemoveProjectsAsModules.html" title="&lt;TABLE&gt;" alt="" coords="5,293,205,341"/>
+<area shape="rect" id="node2_1" href="./RemoveDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveDependencyMojo" alt="" coords="499,305,664,330"/>
+<area shape="rect" id="node2" href="./RemoveDependencyMojo.html" title="&lt;TABLE&gt;" alt="" coords="488,293,675,341"/>
+<area shape="rect" id="node3_2" href="./ProcessModel.html" title="fr.fastconnect.factory.tibco.bw.maven.source.ProcessModel" alt="" coords="635,17,738,42"/>
+<area shape="rect" id="node3" href="./ProcessModel.html" title="&lt;TABLE&gt;" alt="" coords="625,5,749,53"/>
+<area shape="rect" id="node4_3" href="./POMManager.html" title="fr.fastconnect.factory.tibco.bw.maven.source.POMManager" alt="" coords="798,17,898,42"/>
+<area shape="rect" id="node4" href="./POMManager.html" title="&lt;TABLE&gt;" alt="" coords="787,5,909,53"/>
+<area shape="rect" id="node5_4" href="./MavenProjectsListWithRootPOMMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo" alt="" coords="72,209,309,234"/>
+<area shape="rect" id="node5" href="./MavenProjectsListWithRootPOMMojo.html" title="&lt;TABLE&gt;" alt="" coords="61,197,320,245"/>
+<area shape="rect" id="node12_5" href="./AddProjectsAsModules.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AddProjectsAsModules" alt="" coords="241,305,397,330"/>
+<area shape="rect" id="node12" href="./AddProjectsAsModules.html" title="&lt;TABLE&gt;" alt="" coords="230,293,407,341"/>
+<area shape="rect" id="node6_6" href="./MavenProjectsListMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" alt="" coords="418,113,571,138"/>
+<area shape="rect" id="node6" href="./MavenProjectsListMojo.html" title="&lt;TABLE&gt;" alt="" coords="407,101,582,149"/>
+<area shape="rect" id="node8_7" href="./MassUnMavenizerMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MassUnMavenizerMojo" alt="" coords="355,209,509,234"/>
+<area shape="rect" id="node8" href="./MassUnMavenizerMojo.html" title="&lt;TABLE&gt;" alt="" coords="345,197,519,245"/>
+<area shape="rect" id="node16_8" href="./AbstractDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo" alt="" coords="555,209,723,234"/>
+<area shape="rect" id="node16" href="./AbstractDependencyMojo.html" title="&lt;TABLE&gt;" alt="" coords="544,197,733,245"/>
+<area shape="rect" id="node7_9" href="./MavenProjectsListMojo.MavenProject.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo.MavenProject" alt="" coords="946,113,1043,138"/>
+<area shape="rect" id="node7" href="./MavenProjectsListMojo.MavenProject.html" title="&lt;TABLE&gt;" alt="" coords="935,101,1054,149"/>
+<area shape="rect" id="node9_10" href="./MassMavenizerMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MassMavenizerMojo" alt="" coords="769,209,906,234"/>
+<area shape="rect" id="node9" href="./MassMavenizerMojo.html" title="&lt;TABLE&gt;" alt="" coords="758,197,917,245"/>
+<area shape="rect" id="node10_11" href="./ExistingBWProjectsListMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.ExistingBWProjectsListMojo" alt="" coords="682,113,867,138"/>
+<area shape="rect" id="node10" href="./ExistingBWProjectsListMojo.html" title="&lt;TABLE&gt;" alt="" coords="671,101,878,149"/>
+<area shape="rect" id="node11_12" href="./ExistingBWProjectsListMojo.BWProject.html" title="fr.fastconnect.factory.tibco.bw.maven.source.ExistingBWProjectsListMojo.BWProject" alt="" coords="1089,113,1172,138"/>
+<area shape="rect" id="node11" href="./ExistingBWProjectsListMojo.BWProject.html" title="&lt;TABLE&gt;" alt="" coords="1079,101,1183,149"/>
+<area shape="rect" id="node13_13" href="./AddDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AddDependencyMojo" alt="" coords="710,305,853,330"/>
+<area shape="rect" id="node13" href="./AddDependencyMojo.html" title="&lt;TABLE&gt;" alt="" coords="699,293,863,341"/>
+<area shape="rect" id="node14_14" href="./AbstractProjectsListMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractProjectsListMojo" alt="" coords="416,17,581,42"/>
+<area shape="rect" id="node14" href="./AbstractProjectsListMojo.html" title="&lt;TABLE&gt;" alt="" coords="405,5,592,53"/>
+<area shape="rect" id="node15_15" href="./AbstractProjectsListMojo.AbstractProject.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractProjectsListMojo.AbstractProject" alt="" coords="973,17,1083,42"/>
+<area shape="rect" id="node15" href="./AbstractProjectsListMojo.AbstractProject.html" title="&lt;TABLE&gt;" alt="" coords="962,5,1094,53"/>
+</map>

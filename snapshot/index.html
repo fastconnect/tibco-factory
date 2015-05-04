@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title>FastConnect TIBCO Factory</title>
+		<title>Maven plugin for TIBCO BusinessWorks</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
 		<meta http-equiv="content-language" content="en" />
@@ -31,10 +31,13 @@
 
 
 		
+<link rel="stylesheet" href="http://fastconnect.github.io/tibco-factory/snapshot//css/custom.css"/>
 <link rel="stylesheet" href="http://fastconnect.github.io/tibco-factory/snapshot//css/github.min.css"/>
+<script src="http://fastconnect.github.io/tibco-factory/snapshot//js/highlight.min.js"></script>
+<script src="http://fastconnect.github.io/tibco-factory/snapshot//js/jquery.min.js"></script>
 	</head>
 
-	<body class="page-index project-fc-tibco-factory" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
+	<body class="page-index project-bw-maven-plugin" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
 
 		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
@@ -44,33 +47,52 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<div class="brand"><style>.navbar .brand { padding: 5px 20px;}</style><a class="brand" href="http://fastconnect.github.io/tibco-factory/snapshot/index.html"><span class="color-highlight">FC</span> TIBCO Factory</a></div>
+					<div class="brand"><style>.navbar .brand { padding: 5px 20px;}</style><a class="brand" href="http://fastconnect.github.io/tibco-factory/snapshot/index.html"><span class="color-highlight">FC</span> TIBCO Factory</a><span class="brand" style="padding: 5px 5px;">/</span><a class="brand" href="http://fastconnect.github.io/tibco-factory/snapshot/bw-maven-plugin/index.html"><span class="color-highlight">BWMaven</span> plugin</a></div>
 					<div class="nav-collapse collapse" id="top-nav-collapse">
 						<ul class="nav pull-right">
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
+							<li class="dropdown active">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Overview <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li ><a href="installation.html" title="Installation">Installation</a></li>
-									<li ><a href="configuration.html" title="Configuration">Configuration</a></li>
+									<li class="active"><a href="" title="Introduction">Introduction</a></li>
+									<li ><a href="plugin-info.html" title="Goals">Goals</a></li>
+									<li ><a href="usage.html" title="Usage">Usage</a></li>
 									<li class="disabled"><a title=""></a></li>
-									<li ><a href="faq.html" title="FAQ">FAQ</a></li>
-									<li ><a href="naming-conventions.html" title="Naming conventions">Naming conventions</a></li>
+									<li ><a href="bwmaven-lifecycles.html" title="Lifecycles">Lifecycles</a></li>
+									<li ><a href="mavenization.html" title="Mavenization">Mavenization</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plugins <b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Lifecycle phases <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li ><a href="current-versions.html" title="Current versions">Current versions</a></li>
-									<li class="disabled"><a title=""></a></li>
-									<li ><a href="bw-maven-plugin/index.html" title="BWMaven">BWMaven</a></li>
-									<li ><a href="code-review-plugin/index.html" title="FCCodeReview">FCCodeReview</a></li>
+									<li ><a href="phases/development.html" title="Development">Development</a></li>
+									<li ><a href="phases/packaging.html" title="Packaging">Packaging</a></li>
+									<li ><a href="phases/deployment.html" title="Deployment">Deployment</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Reports <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li ><a href="fc.html" title="FastConnect">FastConnect</a></li>
-									<li ><a href="contact.html" title="Contact">Contact</a></li>
+									<li class="dropdown-submenu ">
+										<a href="project-info.html" title="Project Information">Project Information</a>
+										<ul class="dropdown-menu">
+											<li ><a href="integration.html" title="Continuous Integration">Continuous Integration</a></li>
+											<li ><a href="dependencies.html" title="Dependencies">Dependencies</a></li>
+											<li ><a href="dependency-info.html" title="Dependency Information">Dependency Information</a></li>
+											<li ><a href="distribution-management.html" title="Distribution Management">Distribution Management</a></li>
+											<li ><a href="license.html" title="Project License">Project License</a></li>
+											<li ><a href="mail-lists.html" title="Mailing Lists">Mailing Lists</a></li>
+											<li ><a href="plugin-management.html" title="Plugin Management">Plugin Management</a></li>
+											<li ><a href="team-list.html" title="Project Team">Project Team</a></li>
+											<li ><a href="source-repository.html" title="Source Repository">Source Repository</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu ">
+										<a href="project-reports.html" title="Project Reports">Project Reports</a>
+										<ul class="dropdown-menu">
+											<li ><a href="plugin-info.html" title="Plugin Documentation">Plugin Documentation</a></li>
+											<li ><a href="apidocs/index.html" title="JavaDocs">JavaDocs</a></li>
+										</ul>
+									</li>
 								</ul>
 							</li>
 						</ul>
@@ -89,8 +111,10 @@
 		<div class="row" id="banner">
 			<div class="span12">
 				<div class="pull-left">
-					<a href="" id="bannerLeft"><h1><span class="color-highlight">FastConnect </span> TIBCO Factory</h1></a>
-					<p class="lead">A Factory, not a framework.</p>
+					<a href="" id="bannerLeft"><h1>Maven plugin for
+          
+          <span class="color-highlight"> TIBCO BusinessWorks</span></h1></a>
+					<p class="lead">Enable Java-like lifecycle management in TIBCO BusinessWorks</p>
 				</div>
 				<div class="pull-right">
 					<div id="bannerRight"><h1><map id="ALM" name="ALM">
@@ -110,37 +134,55 @@
 	</header>
 
 	<div class="main-body">
-	<div class="row">
-		<div class="span12">
-			<div class="body-content">
-				<h1>Introduction</h1>
-<p>The <i><span class="color-highlight">FC</span> TIBCO Factory</i> is a <u>software factory</u> and must not be thought as a framework.</p>
-<p>It will only give tools to <i>develop</i>, <i>build</i>, <i>package</i>, <i>deploy</i>, <i>manage</i> and <i>monitor</i> TIBCO applications and environments, but no actual implementation of functional or technical services (such as ones found in frameworks: logging feature, generic error handling and so on).</p>
-<p>However, the <i><span class="color-highlight">FC</span> TIBCO Factory</i> will dramatically improve the development of such a framework!</p>
-<p>The <i><span class="color-highlight">FC</span> TIBCO Factory</i> is plugin-based and below is a description of <a href="./current-versions.html">each plugin</a>. Before using a plugin, it is advised to start with <i><span class="color-highlight">FC</span> TIBCO Factory</i> common <a href="./installation.html">installation</a> &amp; <a href="./configuration.html">configuration</a> instructions.</p>
+	<div id="carousel0" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="item active">
+				<a href="./phases/packaging.html"><img src="images/banner-configuration.png" alt="Advanced Configuration Management" /></a>
+				<div class="carousel-caption">
+					<h4 id="Advanced_Configuration_Management">Advanced Configuration Management</h4>  
+<p>An advanced configuration management is introduced during all the application lifecycle, from development to deployment through packaging.</p> 
+<div class="section"> 
+</div>
+				</div>
+			</div>
+			<div class="item ">
+				<a href="./phases/development.html"><img src="images/banner-aliases.png" alt="TIBCO Designer aliases" /></a>
+				<div class="carousel-caption">
+					<h4 id="TIBCO_Designer_aliases">TIBCO Designer aliases</h4>  
+<p>BWMaven will automatically adds the aliases in TIBCO Designer based on dependencies declared in the POM file of the project.</p>
+				</div>
 			</div>
 		</div>
+		<a class="left carousel-control" href="#carousel0" data-slide="prev">&lsaquo;</a>
+		<a class="right carousel-control" href="#carousel0" data-slide="next">&rsaquo;</a>
 	</div>
 	<div class="row thumbnail-row">
 		<div class="span12">
 			<ul class="thumbnails">
 				<li class="span6">
 					<div class="thumbnail">
-						<div class="caption"><h1>BWMaven</h1> 
-<p>BWMaven is a Maven plugin enabling a Java-like lifecycle in TIBCO BusinessWorks projects. It includes dependency management, EAR &amp; Projlib compilation, advanced configuration management, delivery package generation and much more. </p> 
-<div> 
- <a href="./bw-maven-plugin/index.html">Learn more &raquo;</a> 
+						<div class="caption"><h2 id="Quick_starter_guide">Quick starter guide</h2>
+<p>To start using this plugin, read following pages:</p>
+<ul> 
+ <li><a href="../../installation.html">Installation</a></li> 
+ <li><a href="../../configuration.html">Configuration</a></li> 
+ <li><a href="./mavenization.html">Mavenization</a></li> 
+</ul>
+<div class="section">   
 </div>
 </div>
 					</div>
 				</li>
 				<li class="span6">
 					<div class="thumbnail">
-						<div class="caption"><h1>FCCodeReview</h1> 
-<p>This Maven plugin will run automatic Code Review on TIBCO BusinessWorks projects. It generates XML/HTML reports of rules passed or failed by the projects and has an open architecture to implement custom rules. </p> 
-<div> 
- <a href="./code-review-plugin/index.html">Learn more &raquo;</a> 
-</div>
+						<div class="caption"><h2 id="Plugin_information">Plugin information</h2>
+<ul> 
+ <li><a href="./usage.html">Usage page</a></li> 
+ <li><a href="./faq.html">FAQ</a></li> 
+ <li><a href="./mail-lists.html">Mailing list</a></li> 
+ <li><a href="./issue-tracking.html">Issue tracker</a></li> 
+ <li><a href="./source-repository.html">Source repository</a></li> 
+</ul>
 </div>
 					</div>
 				</li>
@@ -158,56 +200,58 @@
 			<div class="row">
 				<div class="span3 bottom-nav">
 					<ul class="nav nav-list">
-						<li class="nav-header">Documentation</li>
-						<li >
-							<a href="installation.html" title="Installation">Installation</a>
+						<li class="nav-header">Overview</li>
+						<li class="active">
+							<a href="#" title="Introduction">Introduction</a>
 						</li>
 						<li >
-							<a href="configuration.html" title="Configuration">Configuration</a>
+							<a href="plugin-info.html" title="Goals">Goals</a>
+						</li>
+						<li >
+							<a href="usage.html" title="Usage">Usage</a>
 						</li>
 						<li class="disabled">
 							<a title=""></a>
 						</li>
 						<li >
-							<a href="faq.html" title="FAQ">FAQ</a>
+							<a href="bwmaven-lifecycles.html" title="Lifecycles">Lifecycles</a>
 						</li>
 						<li >
-							<a href="naming-conventions.html" title="Naming conventions">Naming conventions</a>
+							<a href="mavenization.html" title="Mavenization">Mavenization</a>
 						</li>
 					</ul>
 				</div>
 				<div class="span3 bottom-nav">
 					<ul class="nav nav-list">
-						<li class="nav-header">Plugins</li>
+						<li class="nav-header">Lifecycle phases</li>
 						<li >
-							<a href="current-versions.html" title="Current versions">Current versions</a>
-						</li>
-						<li class="disabled">
-							<a title=""></a>
+							<a href="phases/development.html" title="Development">Development</a>
 						</li>
 						<li >
-							<a href="bw-maven-plugin/index.html" title="BWMaven">BWMaven</a>
+							<a href="phases/packaging.html" title="Packaging">Packaging</a>
 						</li>
 						<li >
-							<a href="code-review-plugin/index.html" title="FCCodeReview">FCCodeReview</a>
+							<a href="phases/deployment.html" title="Deployment">Deployment</a>
 						</li>
 					</ul>
 				</div>
 				<div class="span3 bottom-nav">
 					<ul class="nav nav-list">
-						<li class="nav-header">About</li>
+						<li class="nav-header">Reports</li>
 						<li >
-							<a href="fc.html" title="FastConnect">FastConnect</a>
+							<a href="project-info.html" title="Project Information">Project Information <i class="icon-chevron-right"></i></a>
 						</li>
 						<li >
-							<a href="contact.html" title="Contact">Contact</a>
+							<a href="project-reports.html" title="Project Reports">Project Reports <i class="icon-chevron-right"></i></a>
 						</li>
 					</ul>
 				</div>
 				<div class="span3 bottom-description">
-					<blockquote><i><span class="color-highlight">FC</span> TIBCO Factory</i>
-		          is a modular, plugin-based, full-featured solution to improve
-		          development & management of TIBCO applications.</blockquote>
+					<blockquote><i><span class="color-highlight">BW</span>Maven</i>
+		          (part of the
+		          <i><span class="color-highlight">FC</span> TIBCO Factory</i>)
+		          is a lifecycle management tool for TIBCO BusinessWorks based
+		          on <a href="http://maven.apache.org" title="Maven">Maven</a>.</blockquote>
 				</div>
 			</div>
 		</div>
@@ -217,7 +261,7 @@
 		<div class="row">
 			<div class="span12">
 				<p class="pull-right"><a href="#">Back to top</a></p>
-				<p class="copyright">Copyright &copy;2015 <a href="http://www.fastconnect.fr">FastConnect SAS</a>. All Rights Reserved.</p>
+				<p class="copyright">Copyright &copy;2011-2015 <a href="http://www.fastconnect.fr">FastConnect SAS</a>. All Rights Reserved.</p>
 				<p class="version-date"><span class="projectVersion">Version: 2.3.0-SNAPSHOT. </span><span class="publishDate">Last Published: 2015-05-04. </span></p>
 			</div>
 		</div>

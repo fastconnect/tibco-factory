@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./MergePropertiesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo" alt="" coords="16,113,159,138"/>
+<area shape="rect" id="node1" href="./MergePropertiesMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,101,169,149"/>
+<area shape="rect" id="node2_1" href="./GenerateXMLFromPropertiesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo" alt="" coords="204,113,419,138"/>
+<area shape="rect" id="node2" href="./GenerateXMLFromPropertiesMojo.html" title="&lt;TABLE&gt;" alt="" coords="193,101,429,149"/>
+<area shape="rect" id="node3_2" href="./GeneratePropertiesFromXMLMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePropertiesFromXMLMojo" alt="" coords="464,113,679,138"/>
+<area shape="rect" id="node3" href="./GeneratePropertiesFromXMLMojo.html" title="&lt;TABLE&gt;" alt="" coords="453,101,689,149"/>
+<area shape="rect" id="node4_3" href="./GeneratePOM.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM" alt="" coords="724,113,827,138"/>
+<area shape="rect" id="node4" href="./GeneratePOM.html" title="&lt;TABLE&gt;" alt="" coords="713,101,837,149"/>
+<area shape="rect" id="node5_4" href="./ExtractXMLFromEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo" alt="" coords="872,113,1044,138"/>
+<area shape="rect" id="node5" href="./ExtractXMLFromEARMojo.html" title="&lt;TABLE&gt;" alt="" coords="861,101,1055,149"/>
+<area shape="rect" id="node6_5" href="./Events.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.Events" alt="" coords="697,17,755,42"/>
+<area shape="rect" id="node6" href="./Events.html" title="&lt;TABLE&gt;" alt="" coords="686,5,766,53"/>
+<area shape="rect" id="node7_6" href="./ApplicationManagement.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.ApplicationManagement" alt="" coords="801,17,960,42"/>
+<area shape="rect" id="node7" href="./ApplicationManagement.html" title="&lt;TABLE&gt;" alt="" coords="791,5,971,53"/>
+<area shape="rect" id="node8_7" href="./ApplicationManagement.SortedProperties.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.ApplicationManagement.SortedProperties" alt="" coords="1005,17,1121,42"/>
+<area shape="rect" id="node8" href="./ApplicationManagement.SortedProperties.html" title="&lt;TABLE&gt;" alt="" coords="995,5,1132,53"/>
+<area shape="rect" id="node9_8" href="./AbstractPackagingMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" alt="" coords="492,17,651,42"/>
+<area shape="rect" id="node9" href="./AbstractPackagingMojo.html" title="&lt;TABLE&gt;" alt="" coords="481,5,661,53"/>
+</map>
