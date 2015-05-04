@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title>FastConnect TIBCO Factory</title>
+		<title>FastConnect profile for Maven settings.xml | FC TIBCO Factory</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
 		<meta http-equiv="content-language" content="en" />
@@ -34,7 +34,7 @@
 <link rel="stylesheet" href="./css/github.min.css"/>
 	</head>
 
-	<body class="page-index project-fc-tibco-factory" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
+	<body class="page-fc-profile project-fc-tibco-factory" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
 
 		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
@@ -89,7 +89,7 @@
 		<div class="row" id="banner">
 			<div class="span12">
 				<div class="pull-left">
-					<a href="" id="bannerLeft"><h1><span class="color-highlight">FastConnect </span> TIBCO Factory</h1></a>
+					<a href="index.html" id="bannerLeft"><h1><span class="color-highlight">FastConnect </span> TIBCO Factory</h1></a>
 					<p class="lead">A Factory, not a framework.</p>
 				</div>
 				<div class="pull-right">
@@ -113,38 +113,107 @@
 	<div class="row">
 		<div class="span12">
 			<div class="body-content">
-				<h1>Introduction</h1>
-<p>The <i><span class="color-highlight">FC</span> TIBCO Factory</i> is a <u>software factory</u> and must not be thought as a framework.</p>
-<p>It will only give tools to <i>develop</i>, <i>build</i>, <i>package</i>, <i>deploy</i>, <i>manage</i> and <i>monitor</i> TIBCO applications and environments, but no actual implementation of functional or technical services (such as ones found in frameworks: logging feature, generic error handling and so on).</p>
-<p>However, the <i><span class="color-highlight">FC</span> TIBCO Factory</i> will dramatically improve the development of such a framework!</p>
-<p>The <i><span class="color-highlight">FC</span> TIBCO Factory</i> is plugin-based and below is a description of <a href="./current-versions.html">each plugin</a>. Before using a plugin, it is advised to start with <i><span class="color-highlight">FC</span> TIBCO Factory</i> common <a href="./installation.html">installation</a> &amp; <a href="./configuration.html">configuration</a> instructions.</p>
+<div class="page-header">
+ <h1>FastConnect profile for Maven ‘settings.xml’</h1>
+</div> 
+<p>This is the FastConnect profile used to reach all <a class="externalLink" href="https://fastconnect.org/maven/index.html">FastConnect’s repositories</a>.</p> 
+<div class="source"> 
+ <div class="source"> 
+  <pre>&lt;profile&gt;
+	&lt;id&gt;fc&lt;/id&gt;
+	&lt;activation&gt;
+		&lt;activeByDefault&gt;false&lt;/activeByDefault&gt;
+	&lt;/activation&gt;
+	&lt;properties&gt;
+		&lt;settingsRepositoryReleaseURL&gt;https://fastconnect.org/maven/content/repositories/fastconnect&lt;/settingsRepositoryReleaseURL&gt;
+		&lt;settingsRepositorySnapshotURL&gt;https://fastconnect.org/maven/content/repositories/fastconnect-snapshot&lt;/settingsRepositorySnapshotURL&gt;
+		&lt;settingsRepositorySiteProtocol&gt;dav&lt;/settingsRepositorySiteProtocol&gt;
+		&lt;settingsRepositorySiteURL&gt;https://fastconnect.org/maven/content/sites/documentation&lt;/settingsRepositorySiteURL&gt;
+		&lt;settingsRepositoryPublicSiteProtocol&gt;dav&lt;/settingsRepositoryPublicSiteProtocol&gt;
+		&lt;settingsRepositoryPublicSiteURL&gt;https://fastconnect.org/maven/content/sites/public-documentation&lt;/settingsRepositoryPublicSiteURL&gt;
+	&lt;/properties&gt;
+	&lt;pluginRepositories&gt;
+		&lt;pluginRepository&gt;
+			&lt;id&gt;repo.internal.fastconnect.org&lt;/id&gt;
+			&lt;url&gt;https://fastconnect.org/maven/content/repositories/fastconnect&lt;/url&gt;
+		&lt;/pluginRepository&gt;
+		&lt;pluginRepository&gt;
+			&lt;id&gt;repo.third-party.fastconnect.org&lt;/id&gt;
+			&lt;url&gt;https://fastconnect.org/maven/content/repositories/third-party&lt;/url&gt;
+		&lt;/pluginRepository&gt;
+	&lt;/pluginRepositories&gt;
+	&lt;repositories&gt;
+		&lt;repository&gt;
+			&lt;id&gt;repo.internal.fastconnect.org&lt;/id&gt;
+			&lt;url&gt;https://fastconnect.org/maven/content/repositories/fastconnect&lt;/url&gt;
+			&lt;releases&gt;
+				&lt;enabled&gt;true&lt;/enabled&gt;
+				&lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
+				&lt;checksumPolicy&gt;warn&lt;/checksumPolicy&gt;
+			&lt;/releases&gt;
+		&lt;/repository&gt;
+		&lt;repository&gt;
+			&lt;id&gt;repo.internal.snapshot.fastconnect.org&lt;/id&gt;
+			&lt;url&gt;https://fastconnect.org/maven/content/repositories/fastconnect-snapshot&lt;/url&gt;
+			&lt;snapshots&gt;
+				&lt;enabled&gt;true&lt;/enabled&gt;
+				&lt;updatePolicy&gt;daily&lt;/updatePolicy&gt;
+				&lt;checksumPolicy&gt;warn&lt;/checksumPolicy&gt;
+			&lt;/snapshots&gt;
+		&lt;/repository&gt;
+		&lt;repository&gt;
+			&lt;id&gt;repo.opensource.fastconnect.org&lt;/id&gt;
+			&lt;url&gt;https://fastconnect.org/maven/content/repositories/opensource&lt;/url&gt;
+			&lt;releases&gt;
+				&lt;enabled&gt;true&lt;/enabled&gt;
+				&lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
+				&lt;checksumPolicy&gt;warn&lt;/checksumPolicy&gt;
+			&lt;/releases&gt;
+		&lt;/repository&gt;
+		&lt;repository&gt;
+			&lt;id&gt;repo.opensource.snapshot.fastconnect.org&lt;/id&gt;
+			&lt;url&gt;https://fastconnect.org/maven/content/repositories/opensource-snapshot&lt;/url&gt;
+			&lt;snapshots&gt;
+				&lt;enabled&gt;true&lt;/enabled&gt;
+				&lt;updatePolicy&gt;daily&lt;/updatePolicy&gt;
+				&lt;checksumPolicy&gt;warn&lt;/checksumPolicy&gt;
+			&lt;/snapshots&gt;
+		&lt;/repository&gt;
+		&lt;repository&gt;
+			&lt;id&gt;repo.third-party.fastconnect.org&lt;/id&gt;
+			&lt;url&gt;https://fastconnect.org/maven/content/repositories/third-party&lt;/url&gt;
+			&lt;releases&gt;
+				&lt;enabled&gt;true&lt;/enabled&gt;
+				&lt;updatePolicy&gt;always&lt;/updatePolicy&gt;
+				&lt;checksumPolicy&gt;warn&lt;/checksumPolicy&gt;
+			&lt;/releases&gt;
+		&lt;/repository&gt;
+		&lt;repository&gt;
+			&lt;id&gt;repo.site.fastconnect.org&lt;/id&gt;
+			&lt;url&gt;https://fastconnect.org/maven/content/sites/documentation&lt;/url&gt;
+		&lt;/repository&gt;
+		&lt;repository&gt;
+			&lt;id&gt;repo.public.site.fastconnect.org&lt;/id&gt;
+			&lt;url&gt;https://fastconnect.org/maven/content/sites/public-documentation&lt;/url&gt;
+		&lt;/repository&gt;
+	&lt;/repositories&gt;
+&lt;/profile&gt;
+</pre>
+ </div>
+</div> 
+<p><b>NB:</b> to reach a <i>&lt;repository&gt;</i>, a <i>&lt;server&gt;</i> element is used to set credentials (given by commercial support) for the repository.</p> 
+<p>For instance:</p> 
+<div class="source"> 
+ <div class="source"> 
+  <pre>&lt;server&gt;
+	&lt;id&gt;repo.internal.fastconnect.org&lt;/id&gt;
+	&lt;username&gt;username&lt;/username&gt;
+	&lt;password&gt;password&lt;/password&gt;
+&lt;/server&gt;
+</pre>
+ </div>
+</div>
 			</div>
-		</div>
-	</div>
-	<div class="row thumbnail-row">
-		<div class="span12">
-			<ul class="thumbnails">
-				<li class="span6">
-					<div class="thumbnail">
-						<div class="caption"><h1>BWMaven</h1> 
-<p>BWMaven is a Maven plugin enabling a Java-like lifecycle in TIBCO BusinessWorks projects. It includes dependency management, EAR &amp; Projlib compilation, advanced configuration management, delivery package generation and much more. </p> 
-<div> 
- <a href="./bw-maven-plugin/index.html">Learn more &raquo;</a> 
-</div>
-</div>
-					</div>
-				</li>
-				<li class="span6">
-					<div class="thumbnail">
-						<div class="caption"><h1>FCCodeReview</h1> 
-<p>This Maven plugin will run automatic Code Review on TIBCO BusinessWorks projects. It generates XML/HTML reports of rules passed or failed by the projects and has an open architecture to implement custom rules. </p> 
-<div> 
- <a href="./code-review-plugin/index.html">Learn more &raquo;</a> 
-</div>
-</div>
-					</div>
-				</li>
-			</ul>
 		</div>
 	</div>
 	</div>

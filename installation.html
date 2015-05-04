@@ -8,7 +8,7 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title>FastConnect TIBCO Factory</title>
+		<title>Installation | FC TIBCO Factory</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
 		<meta http-equiv="content-language" content="en" />
@@ -34,7 +34,7 @@
 <link rel="stylesheet" href="./css/github.min.css"/>
 	</head>
 
-	<body class="page-index project-fc-tibco-factory" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
+	<body class="page-installation project-fc-tibco-factory" data-spy="scroll" data-offset="60" data-target="#toc-scroll-target">
 
 		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
@@ -47,10 +47,10 @@
 					<div class="brand"><style>.navbar .brand { padding: 5px 20px;}</style><a class="brand" href="./index.html"><span class="color-highlight">FC</span> TIBCO Factory</a></div>
 					<div class="nav-collapse collapse" id="top-nav-collapse">
 						<ul class="nav pull-right">
-							<li class="dropdown">
+							<li class="dropdown active">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Documentation <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li ><a href="installation.html" title="Installation">Installation</a></li>
+									<li class="active"><a href="" title="Installation">Installation</a></li>
 									<li ><a href="configuration.html" title="Configuration">Configuration</a></li>
 									<li class="disabled"><a title=""></a></li>
 									<li ><a href="faq.html" title="FAQ">FAQ</a></li>
@@ -89,7 +89,7 @@
 		<div class="row" id="banner">
 			<div class="span12">
 				<div class="pull-left">
-					<a href="" id="bannerLeft"><h1><span class="color-highlight">FastConnect </span> TIBCO Factory</h1></a>
+					<a href="index.html" id="bannerLeft"><h1><span class="color-highlight">FastConnect </span> TIBCO Factory</h1></a>
 					<p class="lead">A Factory, not a framework.</p>
 				</div>
 				<div class="pull-right">
@@ -113,39 +113,62 @@
 	<div class="row">
 		<div class="span12">
 			<div class="body-content">
-				<h1>Introduction</h1>
-<p>The <i><span class="color-highlight">FC</span> TIBCO Factory</i> is a <u>software factory</u> and must not be thought as a framework.</p>
-<p>It will only give tools to <i>develop</i>, <i>build</i>, <i>package</i>, <i>deploy</i>, <i>manage</i> and <i>monitor</i> TIBCO applications and environments, but no actual implementation of functional or technical services (such as ones found in frameworks: logging feature, generic error handling and so on).</p>
-<p>However, the <i><span class="color-highlight">FC</span> TIBCO Factory</i> will dramatically improve the development of such a framework!</p>
-<p>The <i><span class="color-highlight">FC</span> TIBCO Factory</i> is plugin-based and below is a description of <a href="./current-versions.html">each plugin</a>. Before using a plugin, it is advised to start with <i><span class="color-highlight">FC</span> TIBCO Factory</i> common <a href="./installation.html">installation</a> &amp; <a href="./configuration.html">configuration</a> instructions.</p>
+				<div class="page-header">
+ <h1>Installation</h1>
+</div>
 			</div>
 		</div>
 	</div>
-	<div class="row thumbnail-row">
-		<div class="span12">
-			<ul class="thumbnails">
-				<li class="span6">
-					<div class="thumbnail">
-						<div class="caption"><h1>BWMaven</h1> 
-<p>BWMaven is a Maven plugin enabling a Java-like lifecycle in TIBCO BusinessWorks projects. It includes dependency management, EAR &amp; Projlib compilation, advanced configuration management, delivery package generation and much more. </p> 
-<div> 
- <a href="./bw-maven-plugin/index.html">Learn more &raquo;</a> 
-</div>
-</div>
-					</div>
-				</li>
-				<li class="span6">
-					<div class="thumbnail">
-						<div class="caption"><h1>FCCodeReview</h1> 
-<p>This Maven plugin will run automatic Code Review on TIBCO BusinessWorks projects. It generates XML/HTML reports of rules passed or failed by the projects and has an open architecture to implement custom rules. </p> 
-<div> 
- <a href="./code-review-plugin/index.html">Learn more &raquo;</a> 
-</div>
-</div>
-					</div>
-				</li>
-			</ul>
+	<div class="row columns columns2">
+		<div class="span6">
+			<h1>Reminders about Maven</h1>
+<p>All plugins of the <i><span class="color-highlight">FC</span> TIBCO Factory</i> are provided as standard Maven plugins. It means that the installation procedure consists of having a Maven repository with the plugins deployed.</p>
+<p>There are two ways to install FastConnect plugins:</p>
+<ul> 
+ <li>either connect directly to the <a class="externalLink" href="https://fastconnect.org/maven/index.html">FastConnect’s repositories</a></li> 
+ <li>or to deploy from sources to a private repository</li> 
+</ul>
 		</div>
+		<div class="span6">
+			<h1>Commercial contact</h1>
+<p>To purchase the <i><span class="color-highlight">FC</span> TIBCO Factory</i>, please contact:</p>
+<div> 
+ <pre>sales@fastconnect.fr</pre> 
+</div>
+<p>It is the standard way to get credentials to the FastConnect repositories or to get access to the plugins’ sources to deploy them on private repositories.</p>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+	<div class="row columns columns2">
+		<div class="span6">
+			<h1>FastConnect repositories</h1>
+<p>The simplest way to install a plugin of the <i><span class="color-highlight">FC</span> TIBCO Factory</i> is to reach the FastConnect repositories by adding the <a href="fc-profile.html">FastConnect profile</a> to the <a href="maven-settings.html">Maven <i>settings.xml</i> file</a> of the target environment.</p>
+<p>To test the installation, this command can be launched and should result in a Maven “BUILD SUCCESS”:</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>mvn dependency:copy \
+    -DoutputDirectory=. \
+    -Dartifact=fr.fastconnect.factory.tibco:fc-tibco-factory:2.2.2:pom
+</pre> 
+ </div> 
+</div>
+		</div>
+		<div class="span6">
+			<h1>Private repositories</h1>
+<p>If it’s not possible to use <a class="externalLink" href="https://fastconnect.org/maven/index.html">FastConnect’s repositories</a>, private repositories can be used to deploy plugins. <a class="externalLink" href="http://books.sonatype.com/nexus-book/reference/index.html">Sonatype Nexus OSS</a> is a good standard and open-source software which can be used. It is not discussed here how to install and configure such a tool.</p>
+<p>However, it is considered that the private repositories have the same structure of <a class="externalLink" href="https://fastconnect.org/maven/index.html">FastConnect’s repositories</a> defined in the <a href="fc-profile.html">FastConnect profile</a>.</p>
+<p>The command to deploy a plugin, once its source code is retrieved, is:</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>mvn clean deploy site-deploy 
+</pre> 
+ </div> 
+</div>
+<p>This command must be launched in the same folder as the <i>pom.xml</i> file of the plugin to deploy (<i><span class="color-highlight">FC</span> TIBCO Factory</i> must be installed first) and should result in a Maven “BUILD SUCCESS”.</p>
+		</div>
+	</div>
+	<div class="row">
 	</div>
 	</div>
 
@@ -159,8 +182,8 @@
 				<div class="span3 bottom-nav">
 					<ul class="nav nav-list">
 						<li class="nav-header">Documentation</li>
-						<li >
-							<a href="installation.html" title="Installation">Installation</a>
+						<li class="active">
+							<a href="#" title="Installation">Installation</a>
 						</li>
 						<li >
 							<a href="configuration.html" title="Configuration">Configuration</a>
