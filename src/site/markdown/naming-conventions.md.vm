@@ -1,0 +1,78 @@
+#set($h1 = '#')
+#set($h2 = '##')
+#set($h3 = '###')
+#set($h4 = '####')
+
+$h1 Naming conventions
+
+In all the documentation of the ${factoryNameHighlight} and its plugins, the
+same naming conventions will be used.
+
+Espcially, the examples will follow the same rules. 
+
+---
+
+$h2 Maven artifacts in examples
+
+We consider that the company using the plugin is called <b>"company"</b>. Thus
+the default <i>groupId</i> starts with <i><b>com.company</b></i>.
+	
+This company is developing a project called <b>"project"</b>. Finally, the
+<i>groupId</i> of the project will be <i><b>com.company.project</b></i>.
+	
+We will add <i><b>bw</b></i> to this <i>groupId</i> for BusinessWorks related projects.
+It will enable to create Java projects inside the client project with
+<i><b>java</b></i> at the end of the <i>groupId</i> etc.
+
+---
+
+$h4 Client root project
+
+| groupId             | artifactId   | version |
+|---------------------|--------------|---------|
+| com.company.project | project-root | 1.0.0   |
+
+Client root project coordinates
+
+$h4 Client main Projlib
+
+| groupId                | artifactId   | version |
+|------------------------|--------------|---------|
+| com.company.project.bw | common-utils | 1.0.0   |
+
+Client main Projlib project coordinates
+
+---
+
+$h4 Client sample BW project
+
+| groupId                | artifactId    | version |
+|------------------------|---------------|---------|
+| com.company.project.bw | my-bw-project | 1.0.0   |
+
+Client sample BW project coordinates
+
+$h4 Java addon project
+
+| groupId                  | artifactId      | version |
+|--------------------------|-----------------|---------|
+| com.company.project.java | my-java-project | 1.0.0   |
+
+Client sample Java project coordinates
+
+---
+
+$h2 Command line examples
+
+When we give command line samples to execute, we will always put them in this
+quoted format:
+	
+```bash
+mvn dependency:copy \
+    -DoutputDirectory=. \
+    -Dartifact=${factoryGroupId}:${factoryArtifactId}:${factoryVersion}:pom
+```
+
+${notaBene} the backslash '\\' at the end of line means that the command is not
+finished and continue on the next line. However when using this command, a
+single line must be typed.

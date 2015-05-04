@@ -1,0 +1,9 @@
+# Current versions of plugins
+
+---
+
+| Name                                                                 | Version                    | Maven coordinates                                                                   |
+|----------------------------------------------------------------------|----------------------------|-------------------------------------------------------------------------------------|
+| [${factoryName}](./index.html)                                       | ${factoryVersion}        | fr.fastconnect.factory.tibco:${project.artifactId}:${factoryVersion}              |
+| [BWMaven](./bw-maven-plugin/index.html)              | ${bwMavenPluginVersion}    | fr.fastconnect.factory.tibco.bw.maven:bw-maven-plugin:${bwMavenPluginVersion}       |
+| [FC Code Review](./code-review-plugin/index.html) | ${codeReviewPluginVersion} | fr.fastconnect.factory.tibco.bw.maven:code-review-plugin:${codeReviewPluginVersion} |

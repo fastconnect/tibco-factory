@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faqs xmlns="http://maven.apache.org/FML/1.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/FML/1.0.1 http://maven.apache.org/xsd/fml-1.0.1.xsd" title="Frequently Asked Questions" toplink="false">
+
+	<part id="install">
+
+		<title>Installation</title>
+
+		<faq id="how-install">
+			<question>
+        How do I install the Maven Plugin for TIBCO BusinessWorks?
+			</question>
+			<answer>
+				<p>There are two possibilities to install the plugin:</p>
+				<ul>
+					<li>from the online FastConnect repository
+						<p>please contact your commercial supplier to get your credentials
+          	to retrieve the plugin from the FastConnect repository</p>
+					</li>
+					<li>from an offline archive
+						<p>if your platform requires to run Maven in offline-mode, you will
+          	use an offline archive with a mirror of the FastConnect repository
+						</p>
+					</li>
+				</ul>
+			</answer>
+		</faq>
+		<faq id="factory-on-private-repository">
+			<question>
+        Is it possible to deploy ${factoryNameHighlight} on my own Maven repository?
+			</question>
+			<answer>
+				<p>Yes.</p>
+			</answer>
+		</faq>
+
+	</part>
+
+	<part id="configuration">
+		<title>Configuration</title>
+
+		<faq id="tibco-profile">
+			<question>
+        The plugin complains about TIBCO directories not existing.
+        How do I fix this?
+			</question>
+			<answer>
+				<p>The plugin needs to know where the TIBCO stack (TRA, BW, Designer,...)
+        is installed on the current machine.</p>
+				<p>You should create a <b>&lt;profile&gt;</b> section in your
+					<a href="./documentation/configuration.html#Maven_settingsxml_file">settings.xml</a> file as the one below:
+				</p>
+
+				<source>
+&lt;profile&gt;
+        &lt;id&gt;tibco&lt;/id&gt;
+        &lt;activation&gt;
+                &lt;activeByDefault&gt;true&lt;/activeByDefault&gt;
+        &lt;/activation&gt;
+        &lt;properties&gt;
+                &lt;tibco.home&gt;C:/tibco&lt;/tibco.home&gt;
+                &lt;executables.extension&gt;.exe&lt;/executables.extension&gt;
+                &lt;tibco.bw.version&gt;5.9&lt;/tibco.bw.version&gt;
+                &lt;tibco.designer.version&gt;5.7&lt;/tibco.designer.version&gt;
+                &lt;tibco.ems.version&gt;6.3&lt;/tibco.ems.version&gt;
+                &lt;tibco.tra.version&gt;5.7&lt;/tibco.tra.version&gt;
+                &lt;tibco.rv.version&gt;8.3&lt;/tibco.rv.version&gt;
+        &lt;/properties&gt;
+&lt;/profile&gt;
+				</source>
+				<p>Only the <i>major.minor</i> version number is required (ex: <i>5.9</i>) because
+        the actual folders where TIBCO programs are installed only use this
+        scheme.</p>
+			</answer>
+		</faq>
+
+	</part>
+
+</faqs>

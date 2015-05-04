@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lifecycleMappingMetadata>
+  <pluginExecutions>
+    <pluginExecution>
+      <pluginExecutionFilter>
+        <groupId>fr.fastconnect.factory.tibco.bw.maven</groupId>
+        <artifactId>bw-maven-plugin</artifactId>
+        <versionRange>[1.0.0,)</versionRange>
+        <goals>
+          <goal>initialize</goal>
+          <goal>copy-bw-sources</goal>
+          <goal>copy-bw-dependencies</goal>
+          <goal>resolve-bw-dependencies</goal>
+          <goal>copy-bw-test-sources</goal>
+          <goal>copy-bw-test-dependencies</goal>
+          <goal>resolve-bw-test-dependencies</goal>
+          <goal>update-alias-lib</goal>
+          <goal>compile-bw-ear</goal>
+		  <goal>compile-projlib</goal>
+          <goal>include-dependencies-in-bw-ear</goal>
+        </goals>
+      </pluginExecutionFilter>
+      <action>
+        <ignore />
+      </action>
+    </pluginExecution>
+    <pluginExecution>
+      <pluginExecutionFilter>
+        <groupId>fr.fastconnect.factory.tibco.bw.codereview</groupId>
+        <artifactId>code-review-plugin</artifactId>
+        <versionRange>[1.0.0,)</versionRange>
+        <goals>
+          <goal>copy-display-resources</goal>
+          <goal>code-review</goal>
+          <goal>copy-code-review-bw-project</goal>
+        </goals>
+      </pluginExecutionFilter>
+      <action>
+        <ignore />
+      </action>
+    </pluginExecution>
+    <pluginExecution>
+      <pluginExecutionFilter>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <versionRange>[1.0.0,)</versionRange>
+        <goals>
+          <goal>enforce</goal>
+        </goals>
+      </pluginExecutionFilter>
+      <action>
+        <ignore />
+      </action>
+    </pluginExecution>
+    <pluginExecution>
+      <pluginExecutionFilter>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>jaxb2-maven-plugin</artifactId>
+        <versionRange>[1.6,)</versionRange>
+        <goals>
+          <goal>xjc</goal>
+        </goals>
+      </pluginExecutionFilter>
+      <action>
+        <ignore />
+      </action>
+    </pluginExecution>
+    <pluginExecution>
+      <pluginExecutionFilter>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <versionRange>[1.7,)</versionRange>
+        <goals>
+          <goal>run</goal>
+        </goals>
+      </pluginExecutionFilter>
+      <action>
+        <ignore />
+      </action>
+    </pluginExecution>
+  </pluginExecutions>
+</lifecycleMappingMetadata>
