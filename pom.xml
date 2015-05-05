@@ -148,7 +148,7 @@
 				<github.site.prefix>snapshot</github.site.prefix>
 				<github.site.suffix />
 				<github.site.skip>true</github.site.skip>
- 				<repositorySiteURL>http://fastconnect.github.io/tibco-factory/${github.site.path}</repositorySiteURL>
+ 				<repositorySiteURL>http://fastconnect.github.io/tibco-factory/${github.site.prefix}</repositorySiteURL>
 				<repositorySiteProtocol>${settingsRepositorySiteProtocol}</repositorySiteProtocol>
 			</properties>
 			<distributionManagement>
