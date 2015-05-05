@@ -1,5 +1,16 @@
 updateBannerRightVisibility();
 
+function isIndexPage(pageName, folderName) {
+	return (pageName == "index.html") || 
+		  ((pageName === "") && (folderName == "fc-tibco-factory")) ||
+		   (pageName == "fc-tibco-factory")
+		   ((pageName === "") && (folderName == "tibco-factory")) ||
+		   (pageName == "tibco-factory")
+		   ((pageName === "") && (folderName == "snapshot")) ||
+		   (pageName == "snapshot")
+		   ;
+}
+
 function updateBannerRightVisibility() {
 	var path = $(location).attr('pathname');
 	var pathArray = path.split('/');
@@ -9,11 +20,7 @@ function updateBannerRightVisibility() {
 //	window.alert(pageName);
 //	window.alert(folderName);
 	
-	if (
-		(pageName == "index.html") || 
-		((pageName === "") && (folderName == "fc-tibco-factory")) ||
-		(pageName == "fc-tibco-factory")
-	   ) {
+	if (isIndexPage(pageName, folderName)) {
 		showElement("bannerRight");
 		adjustBodyContent();
 	}
