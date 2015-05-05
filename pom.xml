@@ -8,10 +8,7 @@
 	<packaging>pom</packaging>
 
 	<name>${factoryName}</name>
-
-	<scm>
-		<developerConnection>scm:svn:https://fastconnect.org/svn/FastConnect/rd/products/FCTIBCOFactory2/trunk/</developerConnection>
-	</scm>
+	<description>${factoryName} is a modular factory for TIBCO BusinessWorks</description>
 
 	<properties>
 		<releaseVersion>${project.version}</releaseVersion> <!-- default value will be overridden by release:perform command line -->
@@ -256,24 +253,6 @@
 			</build>
 		</profile>
 	</profiles>
-
-	<!-- Deployment of artefacts is done on the FastConnect Internal repository. -->
-	<distributionManagement>
-		<repository>
-			<id>repo.internal.fastconnect.org</id>
-			<url>${repositoryReleaseURL}</url>
-		</repository>
-		<snapshotRepository>
-			<id>repo.internal.snapshot.fastconnect.org</id>
-			<url>${repositorySnapshotURL}</url>
-		</snapshotRepository>
-	</distributionManagement>
-
-	<!-- Jenkins URL for FCTibcoFactory -->
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://fcrack7.fastconnect.fr/jenkins/view/FCTIBCOFactory/</url>
-	</ciManagement>
 
 	<!-- Defines default version for most used dependencies -->
 	<dependencyManagement>
@@ -698,8 +677,38 @@
 		</plugins>
 	</reporting>
 
+	<!-- Jenkins URL for FCTibcoFactory -->
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://fcrack7.fastconnect.fr/jenkins/view/FCTIBCOFactory/</url>
+	</ciManagement>
+
+	<developers>
+		<developer>
+			<email>mathieu.debove@fastconnect.fr</email>
+			<name>Mathieu Debove</name>
+			<url>https://github.com/debovema</url>
+			<id>debovema</id>
+		</developer>
+	</developers>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
 	<organization>
 		<name>FastConnect SAS</name>
 		<url>http://www.fastconnect.fr</url>
 	</organization>
+
+	<scm>
+		<url>https://github.com/fastconnect/tibco-factory</url>
+		<connection>scm:git:git://github.com/fastconnect/tibco-factory.git</connection>
+		<developerConnection>scm:git:git@github.com:fastconnect/tibco-factory.git</developerConnection>
+	</scm>
+
 </project>
