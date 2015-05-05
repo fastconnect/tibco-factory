@@ -3,9 +3,9 @@ updateBannerRightVisibility();
 function isIndexPage(pageName, folderName) {
 	return (pageName == "index.html") || 
 		  ((pageName === "") && (folderName == "fc-tibco-factory")) ||
-		   (pageName == "fc-tibco-factory")
+		   (pageName == "fc-tibco-factory") ||
 		   ((pageName === "") && (folderName == "tibco-factory")) ||
-		   (pageName == "tibco-factory")
+		   (pageName == "tibco-factory") ||
 		   ((pageName === "") && (folderName == "snapshot")) ||
 		   (pageName == "snapshot")
 		   ;
