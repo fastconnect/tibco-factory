@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./ResolveBWTestDependenciesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWTestDependenciesMojo" alt="" coords="15,113,238,138"/>
+<area shape="rect" id="node1" href="./ResolveBWTestDependenciesMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,101,249,149"/>
+<area shape="rect" id="node2_1" href="./ResolveBWDependenciesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWDependenciesMojo" alt="" coords="284,113,481,138"/>
+<area shape="rect" id="node2" href="./ResolveBWDependenciesMojo.html" title="&lt;TABLE&gt;" alt="" coords="273,101,492,149"/>
+<area shape="rect" id="node3_2" href="./ITSetupTestsMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.builtin.ITSetupTestsMojo" alt="" coords="527,113,652,138"/>
+<area shape="rect" id="node3" href="./ITSetupTestsMojo.html" title="&lt;TABLE&gt;" alt="" coords="516,101,663,149"/>
+<area shape="rect" id="node4_3" href="./ITRunTestsMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.builtin.ITRunTestsMojo" alt="" coords="698,113,811,138"/>
+<area shape="rect" id="node4" href="./ITRunTestsMojo.html" title="&lt;TABLE&gt;" alt="" coords="687,101,822,149"/>
+<area shape="rect" id="node5_4" href="./ITInstallTestsMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.builtin.ITInstallTestsMojo" alt="" coords="857,113,983,138"/>
+<area shape="rect" id="node5" href="./ITInstallTestsMojo.html" title="&lt;TABLE&gt;" alt="" coords="847,101,993,149"/>
+<area shape="rect" id="node6_5" href="./CopyBWTestSourcesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo" alt="" coords="1028,113,1201,138"/>
+<area shape="rect" id="node6" href="./CopyBWTestSourcesMojo.html" title="&lt;TABLE&gt;" alt="" coords="1017,101,1212,149"/>
+<area shape="rect" id="node7_6" href="./CopyBWTestDependenciesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestDependenciesMojo" alt="" coords="1247,113,1455,138"/>
+<area shape="rect" id="node7" href="./CopyBWTestDependenciesMojo.html" title="&lt;TABLE&gt;" alt="" coords="1236,101,1465,149"/>
+<area shape="rect" id="node8_7" href="./CopyBWSourcesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWSourcesMojo" alt="" coords="1500,113,1649,138"/>
+<area shape="rect" id="node8" href="./CopyBWSourcesMojo.html" title="&lt;TABLE&gt;" alt="" coords="1489,101,1660,149"/>
+<area shape="rect" id="node9_8" href="./CopyBWDependenciesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWDependenciesMojo" alt="" coords="1695,113,1878,138"/>
+<area shape="rect" id="node9" href="./CopyBWDependenciesMojo.html" title="&lt;TABLE&gt;" alt="" coords="1685,101,1889,149"/>
+<area shape="rect" id="node10_9" href="./AbstractWrapperForBuiltinMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo" alt="" coords="707,17,1133,42"/>
+<area shape="rect" id="node10" href="./AbstractWrapperForBuiltinMojo.html" title="&lt;TABLE&gt;" alt="" coords="697,5,1143,53"/>
+</map>
