@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1_0" href="./MavenProjectsListMojo.MavenProject.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo.MavenProject" alt="" coords="16,113,115,138"/>
-<area shape="rect" id="node1" href="./MavenProjectsListMojo.MavenProject.html" title="&lt;TABLE&gt;" alt="" coords="5,101,125,149"/>
-<area shape="rect" id="node2_1" href="./ExistingBWProjectsListMojo.BWProject.html" title="fr.fastconnect.factory.tibco.bw.maven.source.ExistingBWProjectsListMojo.BWProject" alt="" coords="161,113,245,138"/>
-<area shape="rect" id="node2" href="./ExistingBWProjectsListMojo.BWProject.html" title="&lt;TABLE&gt;" alt="" coords="150,101,255,149"/>
-<area shape="rect" id="node3_2" href="./AbstractProjectsListMojo.AbstractProject.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractProjectsListMojo.AbstractProject" alt="" coords="77,17,189,42"/>
-<area shape="rect" id="node3" href="./AbstractProjectsListMojo.AbstractProject.html" title="&lt;TABLE&gt;" alt="" coords="67,5,200,53"/>
-</map>
