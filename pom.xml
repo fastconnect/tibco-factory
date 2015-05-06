@@ -127,9 +127,6 @@
 	</properties>
 
 	<profiles>
-		<!-- the "public-site" profile is used to deploy documentation without 
-			restricted parts that must not be public (Javadocs, sources...) the "site" 
-			profile is used to deploy documentation internally -->
 		<profile>
 			<id>site</id>
 			<activation>
@@ -248,6 +245,33 @@
 						<configuration>
 							<skip>false</skip>
 						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+		<profile>
+			<id>deploy</id> <!--  -->
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-gpg-plugin</artifactId>
+						<version>1.6</version>
+						<executions>
+							<execution>
+								<id>sign-artifacts</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+								<configuration>
+									<passphraseServerId>fc.gpg</passphraseServerId>
+								</configuration>
+							</execution>
+						</executions>
 					</plugin>
 				</plugins>
 			</build>
@@ -677,7 +701,6 @@
 		</plugins>
 	</reporting>
 
-	<!-- Jenkins URL for FCTibcoFactory -->
 	<ciManagement>
 		<system>Jenkins</system>
 		<url>http://fcrack7.fastconnect.fr/jenkins/view/FCTIBCOFactory/</url>
@@ -699,6 +722,11 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+
+	<issueManagement>
+		<url>https://github.com/fastconnect/tibco-factory/issues</url>
+		<system>Github Issues</system>
+	</issueManagement>
 
 	<organization>
 		<name>FastConnect SAS</name>
