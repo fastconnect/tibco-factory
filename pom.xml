@@ -511,7 +511,7 @@
 						<tagNameFormat>@{project.version}</tagNameFormat>
 						<useReleaseProfile>false</useReleaseProfile>
 						<releaseProfiles>deploy</releaseProfiles>
-						<goals>deploy</goals>
+						<goals>deploy site-deploy</goals>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -781,6 +781,6 @@
 		<tag>HEAD</tag>
 	</scm>
 
-	<url>https://fastconnect.github.com/tibco-factory</url>
+	<url>https://fastconnect.github.io/tibco-factory</url>
 
 </project>
