@@ -137,7 +137,6 @@
 				<!-- <repositorySiteURL>${settingsRepositorySiteURL}/${factoryArtifactId}</repositorySiteURL> -->
 				<github.site.repositoryName>tibco-factory</github.site.repositoryName>
 				<github.site.repositoryOwner>fastconnect</github.site.repositoryOwner>
-				<github.site.path>snapshot</github.site.path>
 				<github.site.path>${github.site.prefix}${github.site.suffix}</github.site.path>
 				<github.site.prefix>snapshot</github.site.prefix>
 				<github.site.suffix />
@@ -264,6 +263,9 @@
 					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 				</repository>
 			</distributionManagement>
+			<properties>
+				<github.site.prefix />
+			</properties>
 			<build>
 				<plugins>
 					<!-- sign artifacts with GnuPG -->
@@ -503,12 +505,13 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>2.4.2</version>
+					<version>2.5</version>
 					<configuration>
-						<tagNameFormat>@{project.version}</tagNameFormat>
 						<autoVersionSubmodules>true</autoVersionSubmodules>
-						<arguments>-DsettingsRepositoryReleaseURL=${settingsRepositoryReleaseURL} -DsettingsRepositorySnapshotURL=${settingsRepositorySnapshotURL} -DsettingsRepositorySiteURL=${settingsRepositorySiteURL} -DsettingsRepositorySiteProtocol=${settingsRepositorySiteProtocol} -DsettingsRepositoryPublicSiteURL=${settingsRepositoryPublicSiteURL} -DsettingsRepositoryPublicSiteProtocol=${settingsRepositoryPublicSiteProtocol}</arguments>
+						<tagNameFormat>@{project.version}</tagNameFormat>
 						<useReleaseProfile>false</useReleaseProfile>
+						<releaseProfiles>deploy</releaseProfiles>
+						<goals>deploy</goals>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -775,6 +778,9 @@
 		<url>https://github.com/fastconnect/tibco-factory</url>
 		<connection>scm:git:git://github.com/fastconnect/tibco-factory.git</connection>
 		<developerConnection>scm:git:git@github.com:fastconnect/tibco-factory.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
+
+	<url>https://fastconnect.github.com/tibco-factory</url>
 
 </project>
