@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./AbstractBWMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" alt="" coords="480,17,600,42"/>
+<area shape="rect" id="node1" href="./AbstractBWMojo.html" title="&lt;TABLE&gt;" alt="" coords="469,5,611,53"/>
+<area shape="rect" id="node2_1" href="./AbstractBWArtifactMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" alt="" coords="459,113,621,138"/>
+<area shape="rect" id="node2" href="./AbstractBWArtifactMojo.html" title="&lt;TABLE&gt;" alt="" coords="449,101,631,149"/>
+<area shape="rect" id="node3_2" href="./compile/UpdateAliasesLibsMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo" alt="" coords="16,209,173,234"/>
+<area shape="rect" id="node3" href="./compile/UpdateAliasesLibsMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,184,245"/>
+<area shape="rect" id="node4_3" href="./compile/IncludeDependenciesInEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo" alt="" coords="219,209,429,234"/>
+<area shape="rect" id="node4" href="./compile/IncludeDependenciesInEARMojo.html" title="&lt;TABLE&gt;" alt="" coords="209,197,439,245"/>
+<area shape="rect" id="node5_4" href="./compile/CompileProjlibMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo" alt="" coords="474,209,606,234"/>
+<area shape="rect" id="node5" href="./compile/CompileProjlibMojo.html" title="&lt;TABLE&gt;" alt="" coords="463,197,617,245"/>
+<area shape="rect" id="node6_5" href="./compile/CompileEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo" alt="" coords="652,209,775,234"/>
+<area shape="rect" id="node6" href="./compile/CompileEARMojo.html" title="&lt;TABLE&gt;" alt="" coords="641,197,785,245"/>
+<area shape="rect" id="node7_6" href="./packaging/AbstractPackagingMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" alt="" coords="820,209,980,234"/>
+<area shape="rect" id="node7" href="./packaging/AbstractPackagingMojo.html" title="&lt;TABLE&gt;" alt="" coords="809,197,991,245"/>
+</map>
