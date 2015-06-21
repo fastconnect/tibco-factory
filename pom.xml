@@ -7,8 +7,8 @@
 	<version>2.3.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>${factoryName}</name>
-	<description>${factoryName} is a modular factory for TIBCO BusinessWorks</description>
+	<name>FC TIBCO Factory</name>
+	<description>FC TIBCO Factory is a modular factory for TIBCO BusinessWorks</description>
 
 	<properties>
 		<releaseVersion>${project.version}</releaseVersion> <!-- default value will be overridden by release:perform command line -->
@@ -834,16 +834,5 @@
 	</scm>
 
 	<url>https://fastconnect.github.io/tibco-factory</url>
-
-			<distributionManagement>
-				<repository>
-					<id>repo.tec</id>
-					<url>http://s00vl9937470.fr.net.intra:8081/nexus/content/repositories/fc</url>
-				</repository>
-				<snapshotRepository>
-					<id>repo.tec.snapshot</id>
-					<url>http://s00vl9937470.fr.net.intra:8081/nexus/content/repositories/fc-snapshot</url>
-				</snapshotRepository>
-			</distributionManagement>
 
 </project>
