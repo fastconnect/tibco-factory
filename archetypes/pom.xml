@@ -10,7 +10,7 @@
 	<artifactId>archetypes</artifactId>
 	<packaging>pom</packaging>
 
-	<name>${factoryName} - Archetypes</name>
+	<name>FC TIBCO Factory - Archetypes</name>
 
 	<properties>
 		<maven.site.skip>true</maven.site.skip>

@@ -10,7 +10,7 @@
 	<artifactId>archetype-default-workspace</artifactId>
 	<packaging>maven-archetype</packaging>
 	
-	<name>${factoryName} - Archetypes - Workspace (with BusinessWorks projects, Java projects &amp; delivery project)</name>
+	<name>FC TIBCO Factory - Archetypes - Workspace (with BusinessWorks projects, Java projects &amp; delivery project)</name>
 	<description>
 		This archetype creates the default workspace.
 	</description>

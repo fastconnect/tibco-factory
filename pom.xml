@@ -8,7 +8,7 @@
 	<packaging>pom</packaging>
 
 	<name>FC TIBCO Factory</name>
-	<description>FC TIBCO Factory is a modular factory for TIBCO BusinessWorks</description>
+	<description>FC TIBCO Factory is a modular software factory for TIBCO BusinessWorks</description>
 
 	<properties>
 		<releaseVersion>${project.version}</releaseVersion> <!-- default value will be overridden by release:perform command line -->
