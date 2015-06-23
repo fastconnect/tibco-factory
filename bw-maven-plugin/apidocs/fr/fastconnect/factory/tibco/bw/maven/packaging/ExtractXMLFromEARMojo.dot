@@ -5,23 +5,23 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo
-	c2286 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ExtractXMLFromEARMojo.html">
+	c2409 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ExtractXMLFromEARMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ExtractXMLFromEARMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ExtractXMLFromEARMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./ExtractXMLFromEARMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c2290 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPackagingMojo.html">
+	c2414 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPackagingMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractPackagingMojo </font></td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractPackagingMojo </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./AbstractPackagingMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./AbstractPackagingMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c2290:p -> c2286:p [dir=back,arrowtail=empty];
+	c2414:p -> c2409:p [dir=back,arrowtail=empty];
 }
 

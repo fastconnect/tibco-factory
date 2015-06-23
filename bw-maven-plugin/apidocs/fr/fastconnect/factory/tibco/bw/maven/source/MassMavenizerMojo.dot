@@ -5,23 +5,23 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// fr.fastconnect.factory.tibco.bw.maven.source.MassMavenizerMojo
-	c3185 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MassMavenizerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MassMavenizerMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MassMavenizerMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MassMavenizerMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.source.ExistingBWProjectsListMojo
-	c3186 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.ExistingBWProjectsListMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExistingBWProjectsListMojo.html">
+	c3367 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.ExistingBWProjectsListMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExistingBWProjectsListMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ExistingBWProjectsListMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ExistingBWProjectsListMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./ExistingBWProjectsListMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.source.MassMavenizerMojo
+	c3377 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MassMavenizerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MassMavenizerMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> MassMavenizerMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="./MassMavenizerMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.source.MassMavenizerMojo extends fr.fastconnect.factory.tibco.bw.maven.source.ExistingBWProjectsListMojo
-	c3186:p -> c3185:p [dir=back,arrowtail=empty];
+	c3367:p -> c3377:p [dir=back,arrowtail=empty];
 }
 

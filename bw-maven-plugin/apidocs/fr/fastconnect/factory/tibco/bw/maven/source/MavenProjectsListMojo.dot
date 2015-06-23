@@ -5,47 +5,47 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo
-	c3299 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MavenProjectsListWithRootPOMMojo.html">
+	c3491 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MavenProjectsListWithRootPOMMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MavenProjectsListWithRootPOMMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./MavenProjectsListWithRootPOMMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./MavenProjectsListWithRootPOMMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo
-	c3300 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MavenProjectsListMojo.html">
+	c3494 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MavenProjectsListMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MavenProjectsListMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./MavenProjectsListMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./MavenProjectsListMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.source.MassUnMavenizerMojo
-	c3302 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MassUnMavenizerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MassUnMavenizerMojo.html">
+	c3497 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MassUnMavenizerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MassUnMavenizerMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MassUnMavenizerMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./MassUnMavenizerMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./MassUnMavenizerMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.source.AbstractProjectsListMojo
-	c3308 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractProjectsListMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractProjectsListMojo.html">
+	c3500 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractProjectsListMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractProjectsListMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractProjectsListMojo </font></td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractProjectsListMojo </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./AbstractProjectsListMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./AbstractProjectsListMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo
-	c3310 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractDependencyMojo.html">
+	c3502 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractDependencyMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AbstractDependencyMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./AbstractDependencyMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./AbstractDependencyMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo extends fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo
-	c3300:p -> c3299:p [dir=back,arrowtail=empty];
+	c3494:p -> c3491:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo extends fr.fastconnect.factory.tibco.bw.maven.source.AbstractProjectsListMojo
-	c3308:p -> c3300:p [dir=back,arrowtail=empty];
+	c3500:p -> c3494:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.source.MassUnMavenizerMojo extends fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo
-	c3300:p -> c3302:p [dir=back,arrowtail=empty];
+	c3494:p -> c3497:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo extends fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo
-	c3300:p -> c3310:p [dir=back,arrowtail=empty];
+	c3494:p -> c3502:p [dir=back,arrowtail=empty];
 }
 

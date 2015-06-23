@@ -5,39 +5,39 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo
-	c192 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UpdateAliasesLibsMojo.html">
+	c480 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./UpdateAliasesLibsMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UpdateAliasesLibsMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./UpdateAliasesLibsMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo
-	c193 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IncludeDependenciesInEARMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> IncludeDependenciesInEARMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="./IncludeDependenciesInEARMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo
-	c194 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CompileProjlibMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CompileProjlibMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CompileProjlibMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./UpdateAliasesLibsMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo
-	c195 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CompileEARMojo.html">
+	c481 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CompileEARMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CompileEARMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./CompileEARMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./CompileEARMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.compile.ArchiveBuilder
-	c196 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.ArchiveBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ArchiveBuilder.html">
+	c482 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.ArchiveBuilder" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ArchiveBuilder.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ArchiveBuilder </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ArchiveBuilder.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./ArchiveBuilder.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo
+	c483 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./IncludeDependenciesInEARMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> IncludeDependenciesInEARMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="./IncludeDependenciesInEARMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo
+	c484 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CompileProjlibMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CompileProjlibMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CompileProjlibMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

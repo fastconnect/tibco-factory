@@ -5,15 +5,15 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.source.ProcessModel
-	c3592 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.ProcessModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProcessModel.html">
+	c3798 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.ProcessModel" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ProcessModel.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ProcessModel </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ProcessModel.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./ProcessModel.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

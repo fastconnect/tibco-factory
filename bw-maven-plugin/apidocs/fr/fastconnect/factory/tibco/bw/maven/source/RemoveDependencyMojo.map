@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./RemoveDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveDependencyMojo" alt="" coords="17,113,183,138"/>
-<area shape="rect" id="node1" href="./RemoveDependencyMojo.html" title="&lt;TABLE&gt;" alt="" coords="6,101,194,149"/>
-<area shape="rect" id="node2_1" href="./AbstractDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo" alt="" coords="15,17,185,42"/>
+<area shape="rect" id="c3854" href="./RemoveDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveDependencyMojo" alt="" coords="17,113,183,138"/>
+<area shape="rect" id="node1" href="./RemoveDependencyMojo.html" title="&lt;TABLE&gt;" alt="" coords="7,101,193,149"/>
+<area shape="rect" id="c3868" href="./AbstractDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo" alt="" coords="15,17,185,42"/>
 <area shape="rect" id="node2" href="./AbstractDependencyMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,5,195,53"/>
 </map>

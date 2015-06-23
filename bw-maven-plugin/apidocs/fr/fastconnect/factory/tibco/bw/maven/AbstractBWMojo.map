@@ -1,16 +1,16 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./InitializeMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.InitializeMojo" alt="" coords="16,209,112,234"/>
-<area shape="rect" id="node1" href="./InitializeMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,123,245"/>
-<area shape="rect" id="node2_1" href="./AbstractBWMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" alt="" coords="396,113,516,138"/>
-<area shape="rect" id="node2" href="./AbstractBWMojo.html" title="&lt;TABLE&gt;" alt="" coords="385,101,527,149"/>
-<area shape="rect" id="node3_2" href="./AbstractBWArtifactMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" alt="" coords="158,209,319,234"/>
-<area shape="rect" id="node3" href="./AbstractBWArtifactMojo.html" title="&lt;TABLE&gt;" alt="" coords="147,197,330,245"/>
-<area shape="rect" id="node4_3" href="./bwengine/AbstractServiceEngineMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" alt="" coords="365,209,547,234"/>
-<area shape="rect" id="node4" href="./bwengine/AbstractServiceEngineMojo.html" title="&lt;TABLE&gt;" alt="" coords="355,197,557,245"/>
-<area shape="rect" id="node5_4" href="./doc/AbstractDocMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo" alt="" coords="593,209,714,234"/>
-<area shape="rect" id="node5" href="./doc/AbstractDocMojo.html" title="&lt;TABLE&gt;" alt="" coords="582,197,725,245"/>
-<area shape="rect" id="node6_5" href="./run/LaunchDesignerMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.run.LaunchDesignerMojo" alt="" coords="760,209,901,234"/>
-<area shape="rect" id="node6" href="./run/LaunchDesignerMojo.html" title="&lt;TABLE&gt;" alt="" coords="749,197,912,245"/>
-<area shape="rect" id="node7_6" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/plugin/AbstractMojo.html" title="org.apache.maven.plugin.AbstractMojo" alt="" coords="407,17,505,42"/>
-<area shape="rect" id="node7" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/plugin/AbstractMojo.html" title="&lt;TABLE&gt;" alt="" coords="397,5,515,53"/>
+<area shape="rect" id="c814" href="./doc/AbstractDocMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo" alt="" coords="15,209,137,234"/>
+<area shape="rect" id="node1" href="./doc/AbstractDocMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,147,245"/>
+<area shape="rect" id="c825" href="./AbstractBWArtifactMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" alt="" coords="181,209,342,234"/>
+<area shape="rect" id="node2" href="./AbstractBWArtifactMojo.html" title="&lt;TABLE&gt;" alt="" coords="171,197,352,245"/>
+<area shape="rect" id="c826" href="./InitializeMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.InitializeMojo" alt="" coords="387,209,483,234"/>
+<area shape="rect" id="node3" href="./InitializeMojo.html" title="&lt;TABLE&gt;" alt="" coords="376,197,493,245"/>
+<area shape="rect" id="c827" href="./AbstractBWMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" alt="" coords="375,113,495,138"/>
+<area shape="rect" id="node4" href="./AbstractBWMojo.html" title="&lt;TABLE&gt;" alt="" coords="364,101,505,149"/>
+<area shape="rect" id="c829" href="./bwengine/AbstractServiceEngineMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" alt="" coords="528,209,709,234"/>
+<area shape="rect" id="node5" href="./bwengine/AbstractServiceEngineMojo.html" title="&lt;TABLE&gt;" alt="" coords="517,197,720,245"/>
+<area shape="rect" id="c857" href="./run/LaunchDesignerMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.run.LaunchDesignerMojo" alt="" coords="755,209,896,234"/>
+<area shape="rect" id="node6" href="./run/LaunchDesignerMojo.html" title="&lt;TABLE&gt;" alt="" coords="744,197,907,245"/>
+<area shape="rect" id="c858" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/plugin/AbstractMojo.html" title="org.apache.maven.plugin.AbstractMojo" alt="" coords="386,17,483,42"/>
+<area shape="rect" id="node10" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/plugin/AbstractMojo.html" title="&lt;TABLE&gt;" alt="" coords="376,5,493,53"/>
 </map>

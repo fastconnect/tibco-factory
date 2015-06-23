@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./RemoveProjectsAsModules.html" title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveProjectsAsModules" alt="" coords="15,209,195,234"/>
-<area shape="rect" id="node1" href="./RemoveProjectsAsModules.html" title="&lt;TABLE&gt;" alt="" coords="5,197,206,245"/>
-<area shape="rect" id="node2_1" href="./MavenProjectsListWithRootPOMMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo" alt="" coords="93,113,331,138"/>
-<area shape="rect" id="node2" href="./MavenProjectsListWithRootPOMMojo.html" title="&lt;TABLE&gt;" alt="" coords="82,101,342,149"/>
-<area shape="rect" id="node4_2" href="./AddProjectsAsModules.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AddProjectsAsModules" alt="" coords="241,209,399,234"/>
-<area shape="rect" id="node4" href="./AddProjectsAsModules.html" title="&lt;TABLE&gt;" alt="" coords="231,197,409,245"/>
-<area shape="rect" id="node3_3" href="./MavenProjectsListMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" alt="" coords="135,17,289,42"/>
-<area shape="rect" id="node3" href="./MavenProjectsListMojo.html" title="&lt;TABLE&gt;" alt="" coords="124,5,300,53"/>
+<area shape="rect" id="c3609" href="./AddProjectsAsModules.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AddProjectsAsModules" alt="" coords="15,209,171,234"/>
+<area shape="rect" id="node1" href="./AddProjectsAsModules.html" title="&lt;TABLE&gt;" alt="" coords="5,197,181,245"/>
+<area shape="rect" id="c3613" href="./MavenProjectsListWithRootPOMMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo" alt="" coords="79,113,318,138"/>
+<area shape="rect" id="node2" href="./MavenProjectsListWithRootPOMMojo.html" title="&lt;TABLE&gt;" alt="" coords="69,101,328,149"/>
+<area shape="rect" id="c3618" href="./RemoveProjectsAsModules.html" title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveProjectsAsModules" alt="" coords="215,209,395,234"/>
+<area shape="rect" id="node4" href="./RemoveProjectsAsModules.html" title="&lt;TABLE&gt;" alt="" coords="205,197,405,245"/>
+<area shape="rect" id="c3616" href="./MavenProjectsListMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" alt="" coords="121,17,276,42"/>
+<area shape="rect" id="node3" href="./MavenProjectsListMojo.html" title="&lt;TABLE&gt;" alt="" coords="111,5,287,53"/>
 </map>

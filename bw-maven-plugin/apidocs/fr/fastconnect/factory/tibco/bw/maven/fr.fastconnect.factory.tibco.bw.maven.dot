@@ -5,31 +5,31 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
+	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
+	c211 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWArtifactMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBWArtifactMojo </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractBWArtifactMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.InitializeMojo
-	c0 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.InitializeMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InitializeMojo.html">
+	c212 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.InitializeMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InitializeMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InitializeMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./InitializeMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./InitializeMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c1 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWMojo.html">
+	c213 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractBWMojo </font></td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBWMojo </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./AbstractBWMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c2 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWArtifactMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractBWArtifactMojo </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="./AbstractBWArtifactMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	//fr.fastconnect.factory.tibco.bw.maven.InitializeMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c1:p -> c0:p [dir=back,arrowtail=empty];
+		</table>>, URL="./AbstractBWMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c1:p -> c2:p [dir=back,arrowtail=empty];
+	c213:p -> c211:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.InitializeMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
+	c213:p -> c212:p [dir=back,arrowtail=empty];
 }
 

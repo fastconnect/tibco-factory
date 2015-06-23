@@ -5,23 +5,23 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.deployment.ExtractXMLFromDomainMojo
-	c2216 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.ExtractXMLFromDomainMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ExtractXMLFromDomainMojo.html">
+	c2366 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.ExtractXMLFromDomainMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ExtractXMLFromDomainMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ExtractXMLFromDomainMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ExtractXMLFromDomainMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./ExtractXMLFromDomainMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo
-	c2219 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWDeployMojo.html">
+	c2368 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWDeployMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AbstractBWDeployMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./AbstractBWDeployMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./AbstractBWDeployMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.deployment.ExtractXMLFromDomainMojo extends fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo
-	c2219:p -> c2216:p [dir=back,arrowtail=empty];
+	c2368:p -> c2366:p [dir=back,arrowtail=empty];
 }
 

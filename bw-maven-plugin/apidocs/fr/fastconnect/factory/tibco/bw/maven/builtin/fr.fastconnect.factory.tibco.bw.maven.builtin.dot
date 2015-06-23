@@ -5,87 +5,93 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWTestDependenciesMojo
-	c62 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWTestDependenciesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResolveBWTestDependenciesMojo.html">
+	// fr.fastconnect.factory.tibco.bw.maven.builtin.HelpMojo
+	c408 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.HelpMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./HelpMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ResolveBWTestDependenciesMojo </td></tr>
+<tr><td align="center" balign="center"> HelpMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ResolveBWTestDependenciesMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWDependenciesMojo
-	c63 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWDependenciesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResolveBWDependenciesMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ResolveBWDependenciesMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ResolveBWDependenciesMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.builtin.ITSetupTestsMojo
-	c64 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.ITSetupTestsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ITSetupTestsMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ITSetupTestsMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ITSetupTestsMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.builtin.ITRunTestsMojo
-	c65 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.ITRunTestsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ITRunTestsMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ITRunTestsMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ITRunTestsMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.builtin.ITInstallTestsMojo
-	c66 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.ITInstallTestsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ITInstallTestsMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> ITInstallTestsMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="./ITInstallTestsMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo
-	c67 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CopyBWTestSourcesMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> CopyBWTestSourcesMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="./CopyBWTestSourcesMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./HelpMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestDependenciesMojo
-	c68 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestDependenciesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CopyBWTestDependenciesMojo.html">
+	c409 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestDependenciesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CopyBWTestDependenciesMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CopyBWTestDependenciesMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./CopyBWTestDependenciesMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./CopyBWTestDependenciesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWTestDependenciesMojo
+	c410 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWTestDependenciesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResolveBWTestDependenciesMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ResolveBWTestDependenciesMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ResolveBWTestDependenciesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<CustomResource extends org.apache.maven.model.Resource>
+	c411 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractWrapperForBuiltinMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractWrapperForBuiltinMojo&lt;CustomResource extends Resource&gt; </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractWrapperForBuiltinMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.builtin.ITInstallTestsMojo
+	c412 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.ITInstallTestsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ITInstallTestsMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ITInstallTestsMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ITInstallTestsMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWSourcesMojo
-	c69 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWSourcesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CopyBWSourcesMojo.html">
+	c413 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWSourcesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CopyBWSourcesMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CopyBWSourcesMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./CopyBWSourcesMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./CopyBWSourcesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWDependenciesMojo
+	c414 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWDependenciesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ResolveBWDependenciesMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ResolveBWDependenciesMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ResolveBWDependenciesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWDependenciesMojo
-	c70 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWDependenciesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CopyBWDependenciesMojo.html">
+	c415 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWDependenciesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CopyBWDependenciesMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CopyBWDependenciesMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./CopyBWDependenciesMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<CustomResource extends org.apache.maven.model.Resource>
-	c71 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractWrapperForBuiltinMojo.html">
+		</table>>, URL="./CopyBWDependenciesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.builtin.ITSetupTestsMojo
+	c416 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.ITSetupTestsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ITSetupTestsMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractWrapperForBuiltinMojo&lt;CustomResource extends Resource&gt; </font></td></tr>
+<tr><td align="center" balign="center"> ITSetupTestsMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./AbstractWrapperForBuiltinMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	//fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWTestDependenciesMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
-	c71:p -> c62:p [dir=back,arrowtail=empty];
-	//fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWDependenciesMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
-	c71:p -> c63:p [dir=back,arrowtail=empty];
-	//fr.fastconnect.factory.tibco.bw.maven.builtin.ITSetupTestsMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
-	c71:p -> c64:p [dir=back,arrowtail=empty];
-	//fr.fastconnect.factory.tibco.bw.maven.builtin.ITRunTestsMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
-	c71:p -> c65:p [dir=back,arrowtail=empty];
-	//fr.fastconnect.factory.tibco.bw.maven.builtin.ITInstallTestsMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
-	c71:p -> c66:p [dir=back,arrowtail=empty];
-	//fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
-	c71:p -> c67:p [dir=back,arrowtail=empty];
+		</table>>, URL="./ITSetupTestsMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.builtin.ITRunTestsMojo
+	c417 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.ITRunTestsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ITRunTestsMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> ITRunTestsMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="./ITRunTestsMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo
+	c418 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./CopyBWTestSourcesMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> CopyBWTestSourcesMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="./CopyBWTestSourcesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestDependenciesMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
-	c71:p -> c68:p [dir=back,arrowtail=empty];
+	c411:p -> c409:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWTestDependenciesMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
+	c411:p -> c410:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.builtin.ITInstallTestsMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
+	c411:p -> c412:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWSourcesMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
-	c71:p -> c69:p [dir=back,arrowtail=empty];
+	c411:p -> c413:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.builtin.ResolveBWDependenciesMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
+	c411:p -> c414:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWDependenciesMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
-	c71:p -> c70:p [dir=back,arrowtail=empty];
+	c411:p -> c415:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.builtin.ITSetupTestsMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
+	c411:p -> c416:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.builtin.ITRunTestsMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
+	c411:p -> c417:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
+	c411:p -> c418:p [dir=back,arrowtail=empty];
 }
 
