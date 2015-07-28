@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c1745 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../AbstractBWArtifactMojo.html">
+	c1838 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../AbstractBWArtifactMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBWArtifactMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../AbstractBWArtifactMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo
-	c1774 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CompileProjlibMojo.html">
+	c1867 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CompileProjlibMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CompileProjlibMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CompileProjlibMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c1745:p -> c1774:p [dir=back,arrowtail=empty];
+	c1838:p -> c1867:p [dir=back,arrowtail=empty];
 }
 

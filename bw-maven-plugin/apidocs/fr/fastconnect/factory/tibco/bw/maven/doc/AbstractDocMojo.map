@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="c936" href="./GenerateAPTDocMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.doc.GenerateAPTDocMojo" alt="" coords="16,209,165,234"/>
+<area shape="rect" id="c952" href="./GenerateAPTDocMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.doc.GenerateAPTDocMojo" alt="" coords="16,209,165,234"/>
 <area shape="rect" id="node1" href="./GenerateAPTDocMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,176,245"/>
-<area shape="rect" id="c937" href="./AbstractDocMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo" alt="" coords="127,113,249,138"/>
+<area shape="rect" id="c953" href="./AbstractDocMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo" alt="" coords="127,113,249,138"/>
 <area shape="rect" id="node2" href="./AbstractDocMojo.html" title="&lt;TABLE&gt;" alt="" coords="117,101,259,149"/>
-<area shape="rect" id="c938" href="./GenerateXMLDocMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.doc.GenerateXMLDocMojo" alt="" coords="211,209,360,234"/>
+<area shape="rect" id="c954" href="./GenerateXMLDocMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.doc.GenerateXMLDocMojo" alt="" coords="211,209,360,234"/>
 <area shape="rect" id="node3" href="./GenerateXMLDocMojo.html" title="&lt;TABLE&gt;" alt="" coords="200,197,371,245"/>
-<area shape="rect" id="c950" href="../AbstractBWMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" alt="" coords="128,17,248,42"/>
-<area shape="rect" id="node4" href="../AbstractBWMojo.html" title="&lt;TABLE&gt;" alt="" coords="117,5,259,53"/>
+<area shape="rect" id="c967" href="../AbstractBWMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" alt="" coords="129,17,247,42"/>
+<area shape="rect" id="node4" href="../AbstractBWMojo.html" title="&lt;TABLE&gt;" alt="" coords="119,5,257,53"/>
 </map>

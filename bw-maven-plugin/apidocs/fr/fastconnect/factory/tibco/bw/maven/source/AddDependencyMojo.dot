@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.source.AddDependencyMojo
-	c1299 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.AddDependencyMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AddDependencyMojo.html">
+	c1321 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.AddDependencyMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AddDependencyMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AddDependencyMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AddDependencyMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo
-	c1303 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractDependencyMojo.html">
+	c1325 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractDependencyMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AbstractDependencyMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractDependencyMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.source.AddDependencyMojo extends fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo
-	c1303:p -> c1299:p [dir=back,arrowtail=empty];
+	c1325:p -> c1321:p [dir=back,arrowtail=empty];
 }
 

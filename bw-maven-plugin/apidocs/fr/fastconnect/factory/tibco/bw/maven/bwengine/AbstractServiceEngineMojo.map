@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="c1195" href="../AbstractBWMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" alt="" coords="47,17,167,42"/>
-<area shape="rect" id="node1" href="../AbstractBWMojo.html" title="&lt;TABLE&gt;" alt="" coords="36,5,177,53"/>
-<area shape="rect" id="c1197" href="./AbstractServiceEngineMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" alt="" coords="16,113,197,138"/>
+<area shape="rect" id="c1216" href="../AbstractBWMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" alt="" coords="47,17,166,42"/>
+<area shape="rect" id="node1" href="../AbstractBWMojo.html" title="&lt;TABLE&gt;" alt="" coords="37,5,176,53"/>
+<area shape="rect" id="c1218" href="./AbstractServiceEngineMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" alt="" coords="16,113,197,138"/>
 <area shape="rect" id="node2" href="./AbstractServiceEngineMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,101,208,149"/>
-<area shape="rect" id="c1223" href="../tester/FCUnitTestsMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.tester.FCUnitTestsMojo" alt="" coords="47,209,167,234"/>
+<area shape="rect" id="c1244" href="../tester/FCUnitTestsMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.tester.FCUnitTestsMojo" alt="" coords="47,209,167,234"/>
 <area shape="rect" id="node3" href="../tester/FCUnitTestsMojo.html" title="&lt;TABLE&gt;" alt="" coords="36,197,177,245"/>
 </map>

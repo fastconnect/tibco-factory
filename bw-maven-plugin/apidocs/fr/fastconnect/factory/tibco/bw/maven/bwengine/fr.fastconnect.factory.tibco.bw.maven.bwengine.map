@@ -1,8 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="c275" href="./ServiceAgentInEngine.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.ServiceAgentInEngine" alt="" coords="16,19,341,45"/>
+<area shape="rect" id="c280" href="./ServiceAgentInEngine.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.ServiceAgentInEngine" alt="" coords="16,19,341,45"/>
 <area shape="rect" id="node1" href="./ServiceAgentInEngine.html" title="&lt;TABLE&gt;" alt="" coords="5,8,352,56"/>
-<area shape="rect" id="c276" href="./AbstractServiceEngineMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" alt="" coords="387,19,568,45"/>
+<area shape="rect" id="c281" href="./AbstractServiceEngineMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" alt="" coords="387,19,568,45"/>
 <area shape="rect" id="node2" href="./AbstractServiceEngineMojo.html" title="&lt;TABLE&gt;" alt="" coords="376,8,579,56"/>
-<area shape="rect" id="c277" href="./BWService.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.BWService" alt="" coords="613,11,699,53"/>
+<area shape="rect" id="c282" href="./BWService.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.BWService" alt="" coords="613,11,699,53"/>
 <area shape="rect" id="node3" href="./BWService.html" title="&lt;TABLE&gt;" alt="" coords="603,6,709,58"/>
 </map>

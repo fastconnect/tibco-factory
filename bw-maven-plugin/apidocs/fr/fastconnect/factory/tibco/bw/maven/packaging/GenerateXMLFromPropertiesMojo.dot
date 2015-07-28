@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo
-	c2834 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GenerateXMLFromPropertiesMojo.html">
+	c2944 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GenerateXMLFromPropertiesMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GenerateXMLFromPropertiesMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GenerateXMLFromPropertiesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c2841 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPackagingMojo.html">
+	c2951 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPackagingMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractPackagingMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPackagingMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c2841:p -> c2834:p [dir=back,arrowtail=empty];
+	c2951:p -> c2944:p [dir=back,arrowtail=empty];
 }
 

@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c4369 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../AbstractBWArtifactMojo.html">
+	c4505 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../AbstractBWArtifactMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBWArtifactMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="../AbstractBWArtifactMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo
-	c4394 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UpdateAliasesLibsMojo.html">
+	c4530 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./UpdateAliasesLibsMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UpdateAliasesLibsMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./UpdateAliasesLibsMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c4369:p -> c4394:p [dir=back,arrowtail=empty];
+	c4505:p -> c4530:p [dir=back,arrowtail=empty];
 }
 
