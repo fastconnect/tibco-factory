@@ -613,6 +613,7 @@
 					<executions>
 						<execution>
 							<id>attach-descriptor</id>
+							<inherited>false</inherited>
 							<goals>
 								<goal>attach-descriptor</goal>
 							</goals>
@@ -716,6 +717,10 @@
 								<requireProperty>
 									<property>tibco.ems.version</property>
 									<message><![CDATA[You must have a tibco.ems.version property. Check your settings.xml!]]></message>
+								</requireProperty>
+								<requireProperty>
+									<property>tibco.hawk.version</property>
+									<message><![CDATA[You must have a tibco.hawk.version property. Check your settings.xml!]]></message>
 								</requireProperty>
 								<requireProperty>
 									<property>tibco.tra.version</property>
