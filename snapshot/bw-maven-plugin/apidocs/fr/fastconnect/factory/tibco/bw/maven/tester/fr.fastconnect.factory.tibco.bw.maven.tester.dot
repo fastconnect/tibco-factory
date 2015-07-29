@@ -5,21 +5,21 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.tester.FCUnitTestsMojo
-	c588 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.tester.FCUnitTestsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FCUnitTestsMojo.html">
+	c546 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.tester.FCUnitTestsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FCUnitTestsMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FCUnitTestsMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./FCUnitTestsMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./FCUnitTestsMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.tester.FCUnitService
-	c589 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.tester.FCUnitService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FCUnitService.html">
+	c547 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.tester.FCUnitService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./FCUnitService.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> FCUnitService </td></tr>
 		</table></td></tr>
-		</table>>, URL="./FCUnitService.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./FCUnitService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

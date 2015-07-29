@@ -5,71 +5,71 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c951 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../AbstractBWArtifactMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractBWArtifactMojo </font></td></tr>
-		</table></td></tr>
-		</table>>, URL="../AbstractBWArtifactMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo
-	c976 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../deployment/AbstractBWDeployMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AbstractBWDeployMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="../deployment/AbstractBWDeployMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo
-	c980 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergePropertiesMojo.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> MergePropertiesMojo </td></tr>
-		</table></td></tr>
-		</table>>, URL="./MergePropertiesMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo
-	c981 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GenerateXMLFromPropertiesMojo.html">
+	c1001 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GenerateXMLFromPropertiesMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GenerateXMLFromPropertiesMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./GenerateXMLFromPropertiesMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePropertiesFromXMLMojo
-	c982 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePropertiesFromXMLMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GeneratePropertiesFromXMLMojo.html">
+		</table>>, URL="./GenerateXMLFromPropertiesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo
+	c1002 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MergePropertiesMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GeneratePropertiesFromXMLMojo </td></tr>
+<tr><td align="center" balign="center"> MergePropertiesMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./GeneratePropertiesFromXMLMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM
-	c983 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GeneratePOM.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> GeneratePOM </td></tr>
-		</table></td></tr>
-		</table>>, URL="./GeneratePOM.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./MergePropertiesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo
-	c984 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExtractXMLFromEARMojo.html">
+	c1003 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ExtractXMLFromEARMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ExtractXMLFromEARMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./ExtractXMLFromEARMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c988 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPackagingMojo.html">
+		</table>>, URL="./ExtractXMLFromEARMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM
+	c1004 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GeneratePOM.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractPackagingMojo </font></td></tr>
+<tr><td align="center" balign="center"> GeneratePOM </td></tr>
 		</table></td></tr>
-		</table>>, URL="./AbstractPackagingMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	//fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c988:p -> c976:p [dir=back,arrowtail=empty];
-	//fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c988:p -> c980:p [dir=back,arrowtail=empty];
+		</table>>, URL="./GeneratePOM.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePropertiesFromXMLMojo
+	c1007 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePropertiesFromXMLMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GeneratePropertiesFromXMLMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> GeneratePropertiesFromXMLMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="./GeneratePropertiesFromXMLMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
+	c1008 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractPackagingMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractPackagingMojo </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="./AbstractPackagingMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
+	c1011 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../AbstractBWArtifactMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBWArtifactMojo </font></td></tr>
+		</table></td></tr>
+		</table>>, URL="../AbstractBWArtifactMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo
+	c1024 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../deployment/AbstractBWDeployMojo.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> AbstractBWDeployMojo </td></tr>
+		</table></td></tr>
+		</table>>, URL="../deployment/AbstractBWDeployMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c988:p -> c981:p [dir=back,arrowtail=empty];
-	//fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePropertiesFromXMLMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c988:p -> c982:p [dir=back,arrowtail=empty];
-	//fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c988:p -> c983:p [dir=back,arrowtail=empty];
+	c1008:p -> c1001:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
+	c1008:p -> c1002:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c988:p -> c984:p [dir=back,arrowtail=empty];
+	c1008:p -> c1003:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
+	c1008:p -> c1004:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePropertiesFromXMLMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
+	c1008:p -> c1007:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c951:p -> c988:p [dir=back,arrowtail=empty];
+	c1011:p -> c1008:p [dir=back,arrowtail=empty];
+	//fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
+	c1008:p -> c1024:p [dir=back,arrowtail=empty];
 }
 

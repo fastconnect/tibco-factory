@@ -5,21 +5,28 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
-	// fr.fastconnect.factory.tibco.bw.maven.bwengine.ServiceAgentInEngine<Service extends javax.xml.rpc.Service, PortType extends java.rmi.Remote>
-	c131 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.bwengine.ServiceAgentInEngine" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServiceAgentInEngine.html">
+	// fr.fastconnect.factory.tibco.bw.maven.bwengine.ServiceAgentInEngine<Service extends fr.fastconnect.factory.tibco.bw.maven.bwengine.BWService>
+	c276 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.bwengine.ServiceAgentInEngine" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./ServiceAgentInEngine.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> ServiceAgentInEngine&lt;Service extends Service, PortType extends Remote&gt; </font></td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> ServiceAgentInEngine&lt;Service extends BWService&gt; </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./ServiceAgentInEngine.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./ServiceAgentInEngine.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo
-	c132 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractServiceEngineMojo.html">
+	c277 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractServiceEngineMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractServiceEngineMojo </font></td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractServiceEngineMojo </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="./AbstractServiceEngineMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./AbstractServiceEngineMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.maven.bwengine.BWService
+	c278 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.bwengine.BWService" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BWService.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> BWService </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BWService.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 

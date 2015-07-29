@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./StopEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.StopEARMojo" alt="" coords="45,113,147,138"/>
-<area shape="rect" id="node1" href="./StopEARMojo.html" title="&lt;TABLE&gt;" alt="" coords="34,101,158,149"/>
-<area shape="rect" id="node2_1" href="./AbstractBWDeployMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" alt="" coords="16,17,176,42"/>
-<area shape="rect" id="node2" href="./AbstractBWDeployMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,5,187,53"/>
+<area shape="rect" id="c4258" href="./StopEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.StopEARMojo" alt="" coords="43,113,146,138"/>
+<area shape="rect" id="node1" href="./StopEARMojo.html" title="&lt;TABLE&gt;" alt="" coords="33,101,156,149"/>
+<area shape="rect" id="c4262" href="./AbstractBWDeployMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" alt="" coords="15,17,174,42"/>
+<area shape="rect" id="node2" href="./AbstractBWDeployMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,5,184,53"/>
 </map>

@@ -5,23 +5,23 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c2902 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../AbstractBWArtifactMojo.html">
+	c3151 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../AbstractBWArtifactMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> AbstractBWArtifactMojo </font></td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBWArtifactMojo </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="../AbstractBWArtifactMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="../AbstractBWArtifactMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo
-	c2916 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IncludeDependenciesInEARMojo.html">
+	c3178 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./IncludeDependenciesInEARMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IncludeDependenciesInEARMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./IncludeDependenciesInEARMojo.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./IncludeDependenciesInEARMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c2902:p -> c2916:p [dir=back,arrowtail=empty];
+	c3151:p -> c3178:p [dir=back,arrowtail=empty];
 }
 
