@@ -243,20 +243,11 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-site-plugin</artifactId>
+						<inherited>false</inherited>
 						<configuration>
 							<skipDeploy>false</skipDeploy>
 						</configuration>
 					</plugin>
-					<!--
-					<plugin>
-						<groupId>com.github.github</groupId>
-						<artifactId>site-maven-plugin</artifactId>
-						<inherited>false</inherited>
-						<configuration>
-							<skip>false</skip>
-						</configuration>
-					</plugin>
-					-->
 				</plugins>
 			</build>
 		</profile>
