@@ -55,7 +55,7 @@
 		<reflowSkin>
 			<localResources>true</localResources>
 
-			<absoluteResourceURL>${repositorySiteURL}/</absoluteResourceURL>
+			<absoluteResourceURL>${rootSiteDisplayURL}/</absoluteResourceURL>
 			<protocolRelativeURLs>true</protocolRelativeURLs>
 
 			<theme>site</theme>
@@ -74,7 +74,7 @@
 			<brand>
 				<name>
 		          <![CDATA[
-		          <style>.navbar .brand { padding: 5px 20px;}</style><a class="brand" href="${repositorySiteURL}/index.html"><span class="color-highlight">FC</span> TIBCO Factory</a>
+		          <style>.navbar .brand { padding: 5px 20px;}</style><a class="brand" href="${rootSiteDisplayURL}/index.html"><span class="color-highlight">FC</span> TIBCO Factory</a>
 		          ]]>
 				</name>
 			</brand>
