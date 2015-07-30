@@ -149,7 +149,7 @@
 			</properties>
 			<distributionManagement>
 				<site>
-					<id>repo.site.fastconnect.org</id>
+					<id>fc.github</id>
 					<url>gitsite:${repositorySiteURL}/${github.site.path}</url>
 				</site>
 			</distributionManagement>
