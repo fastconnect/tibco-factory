@@ -111,61 +111,51 @@
 
 	<div class="main-body">
 	<div class="row">
-		<div class="span12">
+		<div class="span8">
 			<div class="body-content">
 				<div class="page-header">
  <h1>Installation</h1>
-</div>
+</div> 
+<p>Three steps are required to install a plugin of the <i><span class="color-highlight">FC</span> TIBCO Factory</i>:</p> 
+<ul> 
+ <li> <p>ensure that your system meets the required prerequisites listed on this page.</p></li> 
+ <li> <p>setup a basic <a href="./configuration.html">configuration</a> for your projects and environment. All plugins of the <i><span class="color-highlight">FC</span> TIBCO Factory</i> share this common configuration.</p></li> 
+ <li> <p>installation is then performed by creating (or updating) POM files for the TIBCO projects. This process is called mavenization.</p></li> 
+</ul>
+			</div>
+		</div>
+		<div class="span4">
+			<div class="well sidebar">
+	<h2 id="Prerequisites">Prerequisites</h2>
+<ul> 
+ <li>Internet access (at least Maven central)</li> 
+ <li><a href="./settings-xml.html">Maven</a> 3.1+ installed</li> 
+ <li>JDK 1.6+ installed</li> 
+ <li>a valid TIBCO installation 
+  <ul> 
+   <li>TRA 5.7+</li> 
+   <li>BW 5.9+</li> 
+  </ul></li> 
+</ul>
 			</div>
 		</div>
 	</div>
-	<div class="row columns columns2">
-		<div class="span6">
-			<h1>Reminders about Maven</h1>
-<p>All plugins of the <i><span class="color-highlight">FC</span> TIBCO Factory</i> are provided as standard Maven plugins. It means that the installation procedure consists of having a Maven repository with the plugins deployed.</p>
-<p>There are two ways to install FastConnect plugins:</p>
-<ul> 
- <li>either connect directly to the <a class="externalLink" href="https://fastconnect.org/maven/index.html">FastConnect’s repositories</a></li> 
- <li>or to deploy from sources to a private repository</li> 
-</ul>
-		</div>
-		<div class="span6">
-			<h1>Commercial contact</h1>
-<p>To purchase the <i><span class="color-highlight">FC</span> TIBCO Factory</i>, please contact:</p>
-<div> 
- <pre>sales@fastconnect.fr</pre> 
-</div>
-<p>It is the standard way to get credentials to the FastConnect repositories or to get access to the plugins’ sources to deploy them on private repositories.</p>
-		</div>
-	</div>
-	<div class="row">
-	</div>
-	<div class="row columns columns2">
-		<div class="span6">
-			<h1>FastConnect repositories</h1>
-<p>The simplest way to install a plugin of the <i><span class="color-highlight">FC</span> TIBCO Factory</i> is to reach the FastConnect repositories by adding the <a href="fc-profile.html">FastConnect profile</a> to the <a href="maven-settings.html">Maven <i>settings.xml</i> file</a> of the target environment.</p>
-<p>To test the installation, this command can be launched and should result in a Maven “BUILD SUCCESS”:</p>
-<div class="source"> 
- <div class="source"> 
-  <pre>mvn dependency:copy \
-    -DoutputDirectory=. \
-    -Dartifact=fr.fastconnect.factory.tibco:fc-tibco-factory:2.3.3-SNAPSHOT:pom
-</pre> 
- </div> 
+	<div class="row columns columns3">
+		<div class="span4">
+			<h3 id="Maven_central">Maven central</h3>
+<p>All plugins of the <i><span class="color-highlight">FC</span> TIBCO Factory</i> are provided as standard Maven plugins, all available on the <a class="externalLink" href="http://mvnrepository.com/search?q=fastconnect">Maven central</a> repository.</p>
+<div class="section">   
 </div>
 		</div>
-		<div class="span6">
-			<h1>Private repositories</h1>
-<p>If it’s not possible to use <a class="externalLink" href="https://fastconnect.org/maven/index.html">FastConnect’s repositories</a>, private repositories can be used to deploy plugins. <a class="externalLink" href="http://books.sonatype.com/nexus-book/reference/index.html">Sonatype Nexus OSS</a> is a good standard and open-source software which can be used. It is not discussed here how to install and configure such a tool.</p>
-<p>However, it is considered that the private repositories have the same structure of <a class="externalLink" href="https://fastconnect.org/maven/index.html">FastConnect’s repositories</a> defined in the <a href="fc-profile.html">FastConnect profile</a>.</p>
-<p>The command to deploy a plugin, once its source code is retrieved, is:</p>
-<div class="source"> 
- <div class="source"> 
-  <pre>mvn clean deploy site-deploy 
-</pre> 
- </div> 
+		<div class="span4">
+			<h3 id="Troubleshooting">Troubleshooting</h3>
+<p>Read FAQ.</p>
+<div class="section">   
 </div>
-<p>This command must be launched in the same folder as the <i>pom.xml</i> file of the plugin to deploy (<i><span class="color-highlight">FC</span> TIBCO Factory</i> must be installed first) and should result in a Maven “BUILD SUCCESS”.</p>
+		</div>
+		<div class="span4">
+			<h3 id="Consulting_contact">Consulting contact</h3>
+<p>If you need some consulting support, you can <a class="externalLink" href="mailto:contact@fastconnect.fr">contact FastConnect</a>.</p>
 		</div>
 	</div>
 	<div class="row">
