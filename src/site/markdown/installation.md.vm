@@ -37,7 +37,7 @@ TIBCO projects. This process is called mavenization.
 $h2 Prerequisites
 
 * Internet access (at least Maven central)
-* [Maven](./settings-xml.html) 3.1+ installed
+* [Maven](https://maven.apache.org/download.cgi) 3.1+ installed
 * JDK 1.6+ installed
 * a valid TIBCO installation
 	* TRA 5.7+
@@ -52,7 +52,7 @@ plugins, all available on the
 
 $h3 Troubleshooting
 
-Read FAQ.
+Read [FAQ](./faq.html).
 
 $h3 Consulting contact
 

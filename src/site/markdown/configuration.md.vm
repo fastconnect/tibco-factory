@@ -23,22 +23,19 @@
 
 $h1 Configuration
 
-The configuration of the ${factoryNameHighlight} is divided in two parts as
-any other Maven plugin:
+The configuration (after [installation](./installation.html) step) of the
+${factoryNameHighlight} plugins is divided in two parts as any other Maven
+plugin:
 
-* environment-dependent settings, which will basically be stored in the
+* <u>environment-dependent settings</u>, which will basically be stored in the
 [Maven 'settings.xml' file](https://maven.apache.org/settings.html).
 These settings are specific for each environment where the ${factoryName} is
 installed.
 
-* project-dependent settings, which will be stored in the 
+* <u>project-dependent settings</u>, which will be stored in the
 [POM](https://maven.apache.org/pom.html) of the projects.
-These settings define how to build the projects.
-
-For these both kinds, settings can be:
- 
-* profile-specific, meaning that only settings in active profiles will be used
-during builds.
+These settings define how to build the projects (<i>plugins</i> to use,
+<i>goals</i> to perform, <i>dependencies</i> to include, ...).
 
 ---
 
@@ -48,9 +45,6 @@ Here are some ready-to-use configuration for the ${factoryNameHighlight}:
 
 * [settings.xml](./settings-xml.html), a default
 [Maven settings.xml](https://maven.apache.org/settings.html) file
-* [FastConnect profile](./fc-profile.html), a profile to add in Maven
-'settings.xml' file to reach
-[FastConnect' repositories](https://fastconnect.org/maven/index.html)
 
 ---
 
@@ -66,10 +60,10 @@ For standard Maven projects, there is a
 [super POM](http://maven.apache.org/ref/3.1.1/maven-model-builder/super-pom.html)
 which defines default properties.
 
-In ${factoryNameHighlight} there is a need for a custom super POM with custom
-properties called the <b>root POM</b>. The latter can either be created by
-inheritance from the ${factoryNameHighlight} super POM or defined in extension
-with all required properties by using a Maven archetype.
+In ${factoryNameHighlight} there is a <b>need for a <u>custom super POM</u></b>
+with custom properties called the <b>root POM</b>. The latter can either be
+created by inheritance from the ${factoryNameHighlight} super POM or created
+from scratch with all required properties by using a Maven archetype.
 
 ---
 
