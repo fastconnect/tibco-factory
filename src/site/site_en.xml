@@ -110,8 +110,8 @@
 		        <installation>
 					<sections>
 						<body />
-						<columns>2</columns>
-						<columns>2</columns>
+						<sidebar />
+						<columns>3</columns>
 					</sections>
 		        </installation>
 		        <configuration>

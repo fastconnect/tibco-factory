@@ -655,11 +655,14 @@
 							<exclude>**/.folder</exclude>
 							<exclude>**/vcrepo.dat</exclude>
 							<exclude>**/*.aeschema</exclude>
+							<exclude>src/site/resources/css/*</exclude>
+							<exclude>src/site/resources/js/*</exclude>
 						</excludes>
 						<header>src/main/resources/apache2_header.txt</header>
 						<mapping>
 							<aliaslib>XML_STYLE</aliaslib>
 							<customProcess>XML_STYLE</customProcess>
+							<fml.vm>XML_STYLE</fml.vm>
 							<javaxpath>XML_STYLE</javaxpath>
 							<jobsharedvariable>XML_STYLE</jobsharedvariable>
 							<libbuilder>XML_STYLE</libbuilder>
