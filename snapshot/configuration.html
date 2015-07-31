@@ -67,10 +67,10 @@
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li ><a href="fc.html" title="FastConnect">FastConnect</a></li>
-									<li ><a href="contact.html" title="Contact">Contact</a></li>
+									<li ><a href="https://github.com/fastconnect?query=tibco" title="Github repositories" class="externalLink">Github repositories</a></li>
+									<li ><a href="fc.html" title="About FastConnect">About FastConnect</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -116,14 +116,10 @@
 				<div class="page-header">
  <h1>Configuration</h1>
 </div> 
-<p>The configuration of the <i><span class="color-highlight">FC</span> TIBCO Factory</i> is divided in two parts as any other Maven plugin:</p> 
+<p>The configuration (after <a href="./installation.html">installation</a> step) of the <i><span class="color-highlight">FC</span> TIBCO Factory</i> plugins is divided in two parts as any other Maven plugin:</p> 
 <ul> 
- <li> <p>environment-dependent settings, which will basically be stored in the <a class="externalLink" href="https://maven.apache.org/settings.html">Maven ‘settings.xml’ file</a>. These settings are specific for each environment where the FC TIBCO Factory is installed.</p></li> 
- <li> <p>project-dependent settings, which will be stored in the <a class="externalLink" href="https://maven.apache.org/pom.html">POM</a> of the projects. These settings define how to build the projects.</p></li> 
-</ul> 
-<p>For these both kinds, settings can be:</p> 
-<ul> 
- <li>profile-specific, meaning that only settings in active profiles will be used during builds.</li> 
+ <li> <p><u>environment-dependent settings</u>, which will basically be stored in the <a class="externalLink" href="https://maven.apache.org/settings.html">Maven ‘settings.xml’ file</a>. These settings are specific for each environment where the FC TIBCO Factory is installed.</p></li> 
+ <li> <p><u>project-dependent settings</u>, which will be stored in the <a class="externalLink" href="https://maven.apache.org/pom.html">POM</a> of the projects. These settings define how to build the projects (<i>plugins</i> to use, <i>goals</i> to perform, <i>dependencies</i> to include, …).</p></li> 
 </ul>
 			</div>
 		</div>
@@ -133,7 +129,6 @@
 <p>Here are some ready-to-use configuration for the <i><span class="color-highlight">FC</span> TIBCO Factory</i>:</p>
 <ul> 
  <li><a href="./settings-xml.html">settings.xml</a>, a default <a class="externalLink" href="https://maven.apache.org/settings.html">Maven settings.xml</a> file</li> 
- <li><a href="./fc-profile.html">FastConnect profile</a>, a profile to add in Maven ‘settings.xml’ file to reach <a class="externalLink" href="https://fastconnect.org/maven/index.html">FastConnect’ repositories</a></li> 
 </ul>
 			</div>
 		</div>
@@ -150,7 +145,7 @@
 		<div class="span12">
 			<h3 id="Project-dependent_settings_root_POM">Project-dependent settings (root POM)</h3>
 <p>For standard Maven projects, there is a <a class="externalLink" href="http://maven.apache.org/ref/3.1.1/maven-model-builder/super-pom.html">super POM</a> which defines default properties.</p>
-<p>In <i><span class="color-highlight">FC</span> TIBCO Factory</i> there is a need for a custom super POM with custom properties called the <b>root POM</b>. The latter can either be created by inheritance from the <i><span class="color-highlight">FC</span> TIBCO Factory</i> super POM or defined in extension with all required properties by using a Maven archetype.</p>
+<p>In <i><span class="color-highlight">FC</span> TIBCO Factory</i> there is a <b>need for a <u>custom super POM</u></b> with custom properties called the <b>root POM</b>. The latter can either be created by inheritance from the <i><span class="color-highlight">FC</span> TIBCO Factory</i> super POM or created from scratch with all required properties by using a Maven archetype.</p>
 		</div>
 	</div>
 	<div class="row">
@@ -274,13 +269,6 @@
 				</div>
 				<div class="span3 bottom-nav">
 					<ul class="nav nav-list">
-						<li class="nav-header">About</li>
-						<li >
-							<a href="fc.html" title="FastConnect">FastConnect</a>
-						</li>
-						<li >
-							<a href="contact.html" title="Contact">Contact</a>
-						</li>
 					</ul>
 				</div>
 				<div class="span3 bottom-description">

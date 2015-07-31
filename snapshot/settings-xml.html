@@ -67,10 +67,10 @@
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
 								<ul class="dropdown-menu">
-									<li ><a href="fc.html" title="FastConnect">FastConnect</a></li>
-									<li ><a href="contact.html" title="Contact">Contact</a></li>
+									<li ><a href="https://github.com/fastconnect?query=tibco" title="Github repositories" class="externalLink">Github repositories</a></li>
+									<li ><a href="fc.html" title="About FastConnect">About FastConnect</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -144,116 +144,6 @@
 		&lt;/profile&gt;
 
 		&lt;profile&gt;
-			&lt;id&gt;fc&lt;/id&gt;
-			&lt;activation&gt;
-				&lt;activeByDefault&gt;true&lt;/activeByDefault&gt;
-			&lt;/activation&gt;
-			&lt;properties&gt;
-				&lt;settingsRepositoryReleaseURL&gt;
-					https://fastconnect.org/maven/content/repositories/fastconnect
-				&lt;/settingsRepositoryReleaseURL&gt;
-				&lt;settingsRepositorySnapshotURL&gt;
-					https://fastconnect.org/maven/content/repositories/fastconnect-snapshot
-				&lt;/settingsRepositorySnapshotURL&gt;
-				&lt;settingsRepositorySiteProtocol&gt;
-					dav
-				&lt;/settingsRepositorySiteProtocol&gt;
-				&lt;settingsRepositorySiteURL&gt;
-					https://fastconnect.org/maven/content/sites/documentation
-				&lt;/settingsRepositorySiteURL&gt;
-				&lt;settingsRepositoryPublicSiteProtocol&gt;
-					dav
-				&lt;/settingsRepositoryPublicSiteProtocol&gt;
-				&lt;settingsRepositoryPublicSiteURL&gt;
-					https://fastconnect.org/maven/content/sites/public/documentation
-				&lt;/settingsRepositoryPublicSiteURL&gt;
-			&lt;/properties&gt;
-			&lt;pluginRepositories&gt;
-				&lt;pluginRepository&gt;
-					&lt;id&gt;repo.internal.fastconnect.org&lt;/id&gt;
-					&lt;url&gt;
-						https://fastconnect.org/maven/content/repositories/fastconnect
-					&lt;/url&gt;
-				&lt;/pluginRepository&gt;
-				&lt;pluginRepository&gt;
-					&lt;id&gt;repo.third-party.fastconnect.org&lt;/id&gt;
-					&lt;url&gt;
-						https://fastconnect.org/maven/content/repositories/third-party
-					&lt;/url&gt;
-				&lt;/pluginRepository&gt;
-			&lt;/pluginRepositories&gt;
-			&lt;repositories&gt;
-				&lt;repository&gt;
-					&lt;id&gt;repo.internal.fastconnect.org&lt;/id&gt;
-					&lt;url&gt;
-						https://fastconnect.org/maven/content/repositories/fastconnect
-					&lt;/url&gt;
-					&lt;releases&gt;
-						&lt;enabled&gt;true&lt;/enabled&gt;
-						&lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
-						&lt;checksumPolicy&gt;warn&lt;/checksumPolicy&gt;
-					&lt;/releases&gt;
-				&lt;/repository&gt;
-				&lt;repository&gt;
-					&lt;id&gt;repo.internal.snapshot.fastconnect.org&lt;/id&gt;
-					&lt;url&gt;
-						https://fastconnect.org/maven/content/repositories/fastconnect-snapshot
-					&lt;/url&gt;
-					&lt;snapshots&gt;
-						&lt;enabled&gt;true&lt;/enabled&gt;
-						&lt;updatePolicy&gt;daily&lt;/updatePolicy&gt;
-						&lt;checksumPolicy&gt;warn&lt;/checksumPolicy&gt;
-					&lt;/snapshots&gt;
-				&lt;/repository&gt;
-				&lt;repository&gt;
-					&lt;id&gt;repo.opensource.fastconnect.org&lt;/id&gt;
-					&lt;url&gt;
-						https://fastconnect.org/maven/content/repositories/opensource
-					&lt;/url&gt;
-					&lt;releases&gt;
-						&lt;enabled&gt;true&lt;/enabled&gt;
-						&lt;updatePolicy&gt;never&lt;/updatePolicy&gt;
-						&lt;checksumPolicy&gt;warn&lt;/checksumPolicy&gt;
-					&lt;/releases&gt;
-				&lt;/repository&gt;
-				&lt;repository&gt;
-					&lt;id&gt;repo.opensource.snapshot.fastconnect.org&lt;/id&gt;
-					&lt;url&gt;
-						https://fastconnect.org/maven/content/repositories/opensource-snapshot
-					&lt;/url&gt;
-					&lt;snapshots&gt;
-						&lt;enabled&gt;true&lt;/enabled&gt;
-						&lt;updatePolicy&gt;daily&lt;/updatePolicy&gt;
-						&lt;checksumPolicy&gt;warn&lt;/checksumPolicy&gt;
-					&lt;/snapshots&gt;
-				&lt;/repository&gt;
-				&lt;repository&gt;
-					&lt;id&gt;repo.third-party.fastconnect.org&lt;/id&gt;
-					&lt;url&gt;
-						https://fastconnect.org/maven/content/repositories/third-party
-					&lt;/url&gt;
-					&lt;releases&gt;
-						&lt;enabled&gt;true&lt;/enabled&gt;
-						&lt;updatePolicy&gt;always&lt;/updatePolicy&gt;
-						&lt;checksumPolicy&gt;warn&lt;/checksumPolicy&gt;
-					&lt;/releases&gt;
-				&lt;/repository&gt;
-				&lt;repository&gt;
-					&lt;id&gt;repo.site.fastconnect.org&lt;/id&gt;
-					&lt;url&gt;
-						https://fastconnect.org/maven/content/sites/documentation
-					&lt;/url&gt;
-				&lt;/repository&gt;
-				&lt;repository&gt;
-					&lt;id&gt;repo.public.site.fastconnect.org&lt;/id&gt;
-					&lt;url&gt;
-						https://fastconnect.org/maven/content/sites/public/documentation
-					&lt;/url&gt;
-				&lt;/repository&gt;
-			&lt;/repositories&gt;
-		&lt;/profile&gt;
-
-		&lt;profile&gt;
 			&lt;id&gt;client&lt;/id&gt;
 			&lt;activation&gt;
 				&lt;activeByDefault&gt;true&lt;/activeByDefault&gt;
@@ -271,44 +161,6 @@
 			&lt;/properties&gt;
 		&lt;/profile&gt;
 	&lt;/profiles&gt;
-
-	&lt;servers&gt;
-		&lt;server&gt;
-			&lt;id&gt;repo.internal.fastconnect.org&lt;/id&gt;
-			&lt;username&gt;username&lt;/username&gt;
-			&lt;password&gt;password&lt;/password&gt;
-		&lt;/server&gt;
-		&lt;server&gt;
-			&lt;id&gt;repo.internal.snapshot.fastconnect.org&lt;/id&gt;
-			&lt;username&gt;username&lt;/username&gt;
-			&lt;password&gt;password&lt;/password&gt;
-		&lt;/server&gt;
-		&lt;server&gt;
-			&lt;id&gt;repo.opensource.fastconnect.org&lt;/id&gt;
-			&lt;username&gt;username&lt;/username&gt;
-			&lt;password&gt;password&lt;/password&gt;
-		&lt;/server&gt;
-		&lt;server&gt;
-			&lt;id&gt;repo.opensource.snapshot.fastconnect.org&lt;/id&gt;
-			&lt;username&gt;username&lt;/username&gt;
-			&lt;password&gt;password&lt;/password&gt;
-		&lt;/server&gt;
-		&lt;server&gt;
-			&lt;id&gt;repo.third-party.fastconnect.org&lt;/id&gt;
-			&lt;username&gt;username&lt;/username&gt;
-			&lt;password&gt;password&lt;/password&gt;
-		&lt;/server&gt;
-		&lt;server&gt;
-			&lt;id&gt;repo.site.fastconnect.org&lt;/id&gt;
-			&lt;username&gt;username&lt;/username&gt;
-			&lt;password&gt;password&lt;/password&gt;
-		&lt;/server&gt;
-		&lt;server&gt;
-			&lt;id&gt;repo.public.site.fastconnect.org&lt;/id&gt;
-			&lt;username&gt;username&lt;/username&gt;
-			&lt;password&gt;password&lt;/password&gt;
-		&lt;/server&gt;
-	&lt;/servers&gt;
 
 &lt;/settings&gt;
 
@@ -366,13 +218,6 @@
 				</div>
 				<div class="span3 bottom-nav">
 					<ul class="nav nav-list">
-						<li class="nav-header">About</li>
-						<li >
-							<a href="fc.html" title="FastConnect">FastConnect</a>
-						</li>
-						<li >
-							<a href="contact.html" title="Contact">Contact</a>
-						</li>
 					</ul>
 				</div>
 				<div class="span3 bottom-description">
