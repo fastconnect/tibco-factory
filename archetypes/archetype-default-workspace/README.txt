@@ -2,7 +2,7 @@ ABSTRACT
 	This archetype creates the default workspace.
 
 COMMAND
-	mvn archetype:generate -DarchetypeGroupId=fr.fastconnect.factory.tibco.bw.maven \
+	mvn archetype:generate -DarchetypeGroupId=fr.fastconnect.factory.tibco \
 						   -DarchetypeArtifactId=archetype-default-workspace \
 						   -DgroupId=com.company.project \
 						   -DartifactId=project-root \

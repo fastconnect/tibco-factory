@@ -131,4 +131,23 @@
 		<fcunit.engine.port>9099</fcunit.engine.port>
 	</properties>
 
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>fr.fastconnect.factory.tibco.bw.maven</groupId>
+					<artifactId>bw-maven-plugin</artifactId>
+					<version>${bw.maven.plugin.version}</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>fr.fastconnect.factory.tibco.bw.maven</groupId>
+				<artifactId>bw-maven-plugin</artifactId>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>

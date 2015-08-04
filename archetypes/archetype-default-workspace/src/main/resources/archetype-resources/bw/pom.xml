@@ -78,10 +78,10 @@
 									<regexMessage>tibco.home may not be undefined nor empty.</regexMessage>
 								</requireProperty>
 								<requireProperty>
-									<property>executables.extention</property>
-									<message><![CDATA[You must have a executables.extention property. Check your settings.xml!]]></message>
+									<property>executables.extension</property>
+									<message><![CDATA[You must have a executables.extension property. Check your settings.xml!]]></message>
 									<regex>(\.exe)?$</regex>
-									<regexMessage>executables.extention must be empty or ".exe".</regexMessage>
+									<regexMessage>executables.extension must be empty or ".exe".</regexMessage>
 								</requireProperty>
 								<requireProperty>
 									<property>tibco.bw.version</property>

@@ -37,13 +37,12 @@
 	<properties>
 		<!-- here you can override the default TIBCO stack configuration and
 		     default project configuration found in 'fc-tibco-factory' -->
-		<bw.maven.plugin.version>2.1.6</bw.maven.plugin.version>
-		<code.review.plugin.version>2.0.0</code.review.plugin.version>
+		<bw.maven.plugin.version>${bw.maven.plugin.version}</bw.maven.plugin.version>
+		<code.review.plugin.version>${code.review.plugin.version}</code.review.plugin.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<short.name>APP</short.name>
-		<generate.pom.ignore.parent>com.bnpp.tec:tec-framework</generate.pom.ignore.parent>
 	</properties>
 
 	<modules>
