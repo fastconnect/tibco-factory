@@ -52,3 +52,12 @@ footer.well {
 .main-body {
 	min-height: 350px;
 }
+
+h3[id]:before,
+h4[id]:before,
+h5[id]:before,
+h6[id]:before {
+	background-color: red;
+	z-index: -1;
+	display: inline;
+}

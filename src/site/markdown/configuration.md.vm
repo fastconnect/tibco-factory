@@ -123,6 +123,6 @@ mvn archetype:generate -DarchetypeGroupId=fr.fastconnect.factory.tibco \
                        -DartifactId=project-root \
                        -Dversion=1.0.0 \
                        -DprojectName=ProjectName \
-                       -DbwMavenPluginVersion=${bwMavenPluginVersion}
+                       -DbwMavenPluginVersion=${bwMavenPluginVersion} \
                        [-DinteractiveMode=false] 
 ```

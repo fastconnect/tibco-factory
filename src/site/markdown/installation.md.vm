@@ -21,66 +21,40 @@
 
 $h1 Installation
 
----
+Three steps are required to install a plugin of the ${factoryNameHighlight}:
 
-$h1 Reminders about Maven
-All plugins of the ${factoryNameHighlight} are provided as standard Maven
-plugins. It means that the installation procedure consists of having a Maven
-repository with the plugins deployed.
+* ensure that your system meets the required prerequisites listed on this page.
 
-There are two ways to install FastConnect plugins:
-
-* either connect directly to the
-[FastConnect's repositories](https://fastconnect.org/maven/index.html)
-* or to deploy from sources to a private repository
-
-$h1 Commercial contact
-
-To purchase the ${factoryNameHighlight},
-please contact:
-
-<pre>sales@fastconnect.fr</pre>
-
-It is the standard way to get credentials to the FastConnect repositories or
-to get access to the plugins' sources to deploy them on private repositories.
-
----
-
-$h1 FastConnect repositories
-
-The simplest way to install a plugin of the ${factoryNameHighlight} is to
-reach the FastConnect repositories by adding the [FastConnect profile](fc-profile.html) to
-the [Maven <i>settings.xml</i> file](maven-settings.html) of the target
+* setup a basic [configuration](./configuration.html) for your projects and
 environment.
+All plugins of the ${factoryNameHighlight} share this common configuration.
 
-To test the installation, this command can be launched and should result in a
-Maven "BUILD SUCCESS":
+* installation is then performed by creating (or updating) POM files for the
+TIBCO projects. This process is called mavenization.
 
-```
-mvn dependency:copy \
-    -DoutputDirectory=. \
-    -Dartifact=${project.groupId}:${project.artifactId}:${project.version}:pom
-``` 
+---
 
-$h1 Private repositories
+$h2 Prerequisites
 
-If it's not possible to use
-[FastConnect's repositories](https://fastconnect.org/maven/index.html), private
-repositories can be used to deploy plugins.
-[Sonatype Nexus OSS](http://books.sonatype.com/nexus-book/reference/index.html)
-is a good standard and open-source software which can be used. It is not
-discussed here how to install and configure such a tool.
+* Internet access (at least Maven central)
+* [Maven](https://maven.apache.org/download.cgi) 3.1+ installed
+* JDK 1.6+ installed
+* a valid TIBCO installation
+	* TRA 5.7+
+	* BW 5.9+
+---
 
-However, it is considered that the private repositories have the same structure
-of [FastConnect's repositories](https://fastconnect.org/maven/index.html)
-defined in the [FastConnect profile](fc-profile.html).
+$h3 Maven central
 
-The command to deploy a plugin, once its source code is retrieved, is:
+All plugins of the ${factoryNameHighlight} are provided as standard Maven
+plugins, all available on the
+[Maven central](http://mvnrepository.com/search?q=fastconnect) repository.
 
-```
-mvn clean deploy site-deploy 
-```
+$h3 Troubleshooting
 
-This command must be launched in the same folder as the <i>pom.xml</i> file of 
-the plugin to deploy (${factoryNameHighlight} must be installed first) and
-should result in a Maven "BUILD SUCCESS".
+Read [FAQ](./faq.html).
+
+$h3 Consulting contact
+
+If you need some consulting support, you can
+[contact FastConnect](mailto:contact@fastconnect.fr).

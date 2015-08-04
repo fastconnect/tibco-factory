@@ -42,9 +42,9 @@
 			<item name="FCCodeReview" href="./code-review-plugin/index.html" />
 		</menu>
 
-		<menu name="About">
-			<item name="FastConnect" href="fc.html" />
-			<item name="Contact" href="contact.html" />
+		<menu name="More">
+			<item name="Github repositories" href="https://github.com/fastconnect?query=tibco" />
+			<item name="About FastConnect" href="fc.html" />
 		</menu>
 	</body>
 
@@ -110,8 +110,8 @@
 		        <installation>
 					<sections>
 						<body />
-						<columns>2</columns>
-						<columns>2</columns>
+						<sidebar />
+						<columns>3</columns>
 					</sections>
 		        </installation>
 		        <configuration>
