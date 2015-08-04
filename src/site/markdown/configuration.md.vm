@@ -105,8 +105,9 @@ Inheritance can be done by adding this snippet to any POM (making it the
 ```
 
 ${notaBene} the inheritance can be used with any
-[Maven packaging](https://maven.apache.org/pom.html#Maven_Coordinates) so it can
-be used to quickly set up a stand-alone project while the archetype method is
+[Maven packaging](https://maven.apache.org/pom.html#Maven_Coordinates)
+(including <i>pom</i>, <i>bw-ear</i>, <i>projlib</i>...) so it can be used to
+quickly set up a stand-alone project while the archetype method is
 more suited to bigger projects where custom behaviour is to be defined.
 
 $h5 &nbsp;
@@ -122,5 +123,6 @@ mvn archetype:generate -DarchetypeGroupId=fr.fastconnect.factory.tibco \
                        -DartifactId=project-root \
                        -Dversion=1.0.0 \
                        -DprojectName=ProjectName \
+                       -DbwMavenPluginVersion=${bwMavenPluginVersion}
                        [-DinteractiveMode=false] 
 ```
