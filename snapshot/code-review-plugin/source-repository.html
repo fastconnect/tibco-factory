@@ -141,8 +141,6 @@
 						<li class="toplevel"><a href="#Developer_access" title="Developer access">Developer access</a></li>
 						<li class="divider-vertical"></li>
 						<li class="toplevel"><a href="#Access_from_behind_a_firewall" title="Access from behind a firewall">Access from behind a firewall</a></li>
-						<li class="divider-vertical"></li>
-						<li class="toplevel"><a href="#Access_through_a_proxy" title="Access through a proxy">Access through a proxy</a></li>
 						</ul>
 					</div>
 				</div>
@@ -166,7 +164,7 @@
  <a name="Web_Access"></a> 
  <p>The following is a link to the online source repository.</p> 
  <div class="source"> 
-  <pre><a class="externalLink" href="https://github.com/fastconnect/tibco-factory/code-review-parent/code-review-plugin">https://github.com/fastconnect/tibco-factory/code-review-parent/code-review-plugin</a></pre> 
+  <pre><a class="externalLink" href="https://github.com/fastconnect/tibco-codereview">https://github.com/fastconnect/tibco-codereview</a></pre> 
  </div> 
 </div> 
 <div class="section"> 
@@ -174,41 +172,21 @@
  <a name="Anonymous_access"></a> 
  <p>The source can be checked out anonymously from GIT with this command (See <a class="externalLink" href="http://git-scm.com/docs/git-clone">http://git-scm.com/docs/git-clone</a>):</p> 
  <div class="source"> 
-  <pre>$ git clone git://github.com/fastconnect/tibco-factory.git/code-review-parent/code-review-plugin</pre> 
+  <pre>$ git clone git://github.com/fastconnect/tibco-codereview.git</pre> 
  </div> 
 </div> 
 <div class="section"> 
  <h2 id="Developer_access">Developer access</h2> 
  <a name="Developer_access"></a> 
- <p>Everyone can access the Subversion repository via HTTP, but Committers must checkout the Subversion repository via HTTPS.</p> 
+ <p>Only project developers can access the GIT tree via this method (See <a class="externalLink" href="http://git-scm.com/docs/git-clone">http://git-scm.com/docs/git-clone</a>).</p> 
  <div class="source"> 
-  <pre>$ svn checkout https://fastconnect.org/svn/FastConnect/rd/products/FCTIBCOFactory2/FCCodeReview/trunk/project/code-review-plugin/ code-review-plugin</pre> 
- </div> 
- <p>To commit changes to the repository, execute the following command to commit your changes (svn will prompt you for your password)</p> 
- <div class="source"> 
-  <pre>$ svn commit --username your-username -m &quot;A message&quot;</pre> 
+  <pre>$ git clone git@github.com:fastconnect/tibco-codereview.git</pre> 
  </div> 
 </div> 
 <div class="section"> 
  <h2 id="Access_from_behind_a_firewall">Access from behind a firewall</h2> 
  <a name="Access_from_behind_a_firewall"></a> 
- <p>For those users who are stuck behind a corporate firewall which is blocking HTTP access to the Subversion repository, you can try to access it via the developer connection:</p> 
- <div class="source"> 
-  <pre>$ svn checkout https://fastconnect.org/svn/FastConnect/rd/products/FCTIBCOFactory2/FCCodeReview/trunk/project/code-review-plugin/ code-review-plugin</pre> 
- </div> 
-</div> 
-<div class="section"> 
- <h2 id="Access_through_a_proxy">Access through a proxy</h2> 
- <a name="Access_through_a_proxy"></a> 
- <p>The Subversion client can go through a proxy, if you configure it to do so. First, edit your &quot;servers&quot; configuration file to indicate which proxy to use. The file's location depends on your operating system. On Linux or Unix it is located in the directory &quot;~/.subversion&quot;. On Windows it is in &quot;%APPDATA%\Subversion&quot;. (Try &quot;echo %APPDATA%&quot;, note this is a hidden directory.)</p> 
- <p>There are comments in the file explaining what to do. If you don't have that file, get the latest Subversion client and run any command; this will cause the configuration directory and template files to be created.</p> 
- <p>Example: Edit the 'servers' file and add something like:</p> 
- <div class="source"> 
-  <pre>[global]
-http-proxy-host = your.proxy.name
-http-proxy-port = 3128
-</pre> 
- </div> 
+ <p>Refer to the documentation of the SCM used for more information about access behind a firewall.</p> 
 </div>
 			</div>
 		</div>
