@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="c245" href="./PrepareCodeReviewLauncherMojo.ResolveDependenciesWithProjectMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo.ResolveDependenciesWithProjectMojo" alt="" coords="15,113,259,138"/>
+<area shape="rect" id="node1" href="./PrepareCodeReviewLauncherMojo.ResolveDependenciesWithProjectMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,101,269,149"/>
+<area shape="rect" id="c255" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/plugin/dependency/resolvers/ResolveDependenciesMojo.html" title="org.apache.maven.plugin.dependency.resolvers.ResolveDependenciesMojo" alt="" coords="49,17,225,42"/>
+<area shape="rect" id="node2" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/plugin/dependency/resolvers/ResolveDependenciesMojo.html" title="&lt;TABLE&gt;" alt="" coords="39,5,236,53"/>
+</map>
