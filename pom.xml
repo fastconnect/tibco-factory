@@ -129,13 +129,29 @@
 
 	<profiles>
 		<profile>
-			<id>site</id>
+			<id>site-local</id>
 			<activation>
 				<activeByDefault>false</activeByDefault>
 			</activation>
 			<properties>
-				<includeSource>true</includeSource>
-				<!-- <repositorySiteURL>${settingsRepositorySiteURL}/${factoryArtifactId}</repositorySiteURL> -->
+				<repositorySiteURL>${localRepositorySiteURL}/${local.site.suffix}</repositorySiteURL>
+				<repositorySiteDisplayURL>${localRepositorySiteDisplayURL}/${local.site.suffix}</repositorySiteDisplayURL>
+				<rootSiteDisplayURL>${localRootSiteDisplayURL}</rootSiteDisplayURL>
+				<local.site.suffix />
+			</properties>
+			<distributionManagement>
+				<site>
+					<id>fc.local</id>
+					<url>dav:${repositorySiteURL}</url>
+				</site>
+			</distributionManagement>
+		</profile>
+		<profile>
+			<id>site-github</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<properties>
 				<github.site.repositoryName>tibco-factory</github.site.repositoryName>
 				<github.site.repositoryOwner>fastconnect</github.site.repositoryOwner>
 				<github.site.path>${github.site.prefix}${github.site.suffix}</github.site.path>
@@ -145,7 +161,7 @@
 
 				<repositorySiteURL>git@github.com/fastconnect/tibco-factory.git</repositorySiteURL>
 				<repositorySiteDisplayURL>http://fastconnect.github.io/tibco-factory/${github.site.path}</repositorySiteDisplayURL>
-				<rootSiteDisplayURL>http://fastconnect.github.io/tibco-factory/${github.site.path}</rootSiteDisplayURL>
+				<rootSiteDisplayURL>http://fastconnect.github.io/tibco-factory/${github.site.path}</rootSiteDisplayURL>			
 			</properties>
 			<distributionManagement>
 				<site>
@@ -153,8 +169,58 @@
 					<url>gitsite:${repositorySiteURL}/${github.site.path}</url>
 				</site>
 			</distributionManagement>
+		</profile>
+		<profile>
+			<id>site</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<properties>
+				<includeSource>true</includeSource>
+			</properties>
 			<reporting>
+				<excludeDefaults>true</excludeDefaults>
+				<outputDirectory>${project.build.directory}/site</outputDirectory>
 				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-project-info-reports-plugin</artifactId>
+						<version>2.7</version>
+						<configuration>
+							<dependencyDetailsEnabled>true</dependencyDetailsEnabled>
+							<dependencyLocationsEnabled>true</dependencyLocationsEnabled>
+						</configuration>
+						<reportSets>
+							<reportSet>
+								<id>aggregate</id>
+								<inherited>true</inherited>
+								<reports>
+									<report>cim</report>
+									<report>dependencies</report>
+									<!-- <report>dependency-convergence</report> -->
+									<report>dependency-info</report>
+									<!-- <report>dependency-management</report> -->
+									<report>distribution-management</report>
+									<report>help</report>
+									<!-- <report>index</report> -->
+									<!-- <report>issue-tracking</report> -->
+									<report>license</report>
+									<report>mailing-list</report>
+									<report>modules</report>
+									<report>plugin-management</report>
+									<!-- <report>plugins</report> -->
+									<report>project-team</report>
+									<report>scm</report>
+									<!-- <report>summary</report> -->
+								</reports>
+							</reportSet>
+						</reportSets>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-plugin-plugin</artifactId>
+						<version>3.2</version>
+					</plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-javadoc-plugin</artifactId>
@@ -208,47 +274,58 @@
 				<pluginManagement>
 					<plugins>
 						<plugin>
-						    <!-- Deploy the web site -->
-						    <groupId>com.github.github</groupId>
-						    <artifactId>site-maven-plugin</artifactId>
-						    <version>0.12</version>
-				            <configuration>
-				                <server>fc.github</server> <!-- to be bound with a <server> in settings.xml -->
-	
-				                <message>Automatic updates of documentation</message>
-				                <path>${github.site.path}</path>
-				                <merge>true</merge>
-				               	<skip>${github.site.skip}</skip>
-				            </configuration>
-						    <executions>
-						        <execution>
-						            <goals>
-						                <goal>site</goal>
-						            </goals>
-						            <!-- select the Maven phase in which the plugin will be executed -->
-						            <phase>site-deploy</phase>
-						        </execution>
-						    </executions>
-						</plugin>
-						<plugin>
 							<groupId>org.apache.maven.plugins</groupId>
 							<artifactId>maven-site-plugin</artifactId>
-							<configuration>
-								<skipDeploy>true</skipDeploy>
-							</configuration>
+							<version>3.4</version>
+							<inherited>true</inherited>
+							<dependencies>
+								<dependency>
+									<groupId>org.apache.maven.doxia</groupId>
+									<artifactId>doxia-module-markdown</artifactId>
+									<version>1.6</version>
+								</dependency>
+								<dependency>
+									<groupId>lt.velykis.maven.skins</groupId>
+									<artifactId>reflow-velocity-tools</artifactId>
+									<version>1.1.1</version>
+								</dependency>
+								<!-- Reflow skin requires Velocity >= 1.7 -->
+								<dependency>
+									<groupId>org.apache.velocity</groupId>
+									<artifactId>velocity</artifactId>
+									<version>1.7</version>
+								</dependency>
+								<!-- add support for WebDAV -->
+								<dependency>
+									<groupId>org.apache.maven.wagon</groupId>
+									<artifactId>wagon-webdav-jackrabbit</artifactId>
+									<version>2.6</version>
+								</dependency>
+								<!-- force slf4j 1.6.x or it fails due to missing class StaticLoggerBinder -->
+								<dependency>
+									<groupId>org.slf4j</groupId>
+									<artifactId>slf4j-api</artifactId>
+									<version>1.6.1</version>
+								</dependency>
+								<!-- for UmlGraph inside Javadoc -->
+								<dependency>
+									<groupId>org.umlgraph</groupId>
+									<artifactId>umlgraph</artifactId>
+									<version>5.6.6</version>
+								</dependency>
+							</dependencies>
+							<executions>
+								<execution>
+									<id>attach-descriptor</id>
+									<inherited>false</inherited>
+									<goals>
+										<goal>attach-descriptor</goal>
+									</goals>
+								</execution>
+							</executions>
 						</plugin>
 					</plugins>
 				</pluginManagement>
-				<plugins>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-site-plugin</artifactId>
-						<inherited>false</inherited>
-						<configuration>
-							<skipDeploy>false</skipDeploy>
-						</configuration>
-					</plugin>
-				</plugins>
 			</build>
 		</profile>
 		<profile>
@@ -586,57 +663,6 @@
 						</tags>
 					</configuration>
 				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-site-plugin</artifactId>
-					<version>3.4</version>
-					<inherited>true</inherited>
-					<dependencies>
-						<dependency>
-							<groupId>org.apache.maven.doxia</groupId>
-							<artifactId>doxia-module-markdown</artifactId>
-							<version>1.6</version>
-						</dependency>
-						<dependency>
-							<groupId>lt.velykis.maven.skins</groupId>
-							<artifactId>reflow-velocity-tools</artifactId>
-							<version>1.1.1</version>
-						</dependency>
-						<!-- Reflow skin requires Velocity >= 1.7 -->
-						<dependency>
-							<groupId>org.apache.velocity</groupId>
-							<artifactId>velocity</artifactId>
-							<version>1.7</version>
-						</dependency>
-						<!-- add support for WebDAV -->
-						<dependency>
-							<groupId>org.apache.maven.wagon</groupId>
-							<artifactId>wagon-webdav-jackrabbit</artifactId>
-							<version>2.6</version>
-						</dependency>
-						<!-- force slf4j 1.6.x or it fails due to missing class StaticLoggerBinder -->
-						<dependency>
-							<groupId>org.slf4j</groupId>
-							<artifactId>slf4j-api</artifactId>
-							<version>1.6.1</version>
-						</dependency>
-						<!-- for UmlGraph inside Javadoc -->
-						<dependency>
-							<groupId>org.umlgraph</groupId>
-							<artifactId>umlgraph</artifactId>
-							<version>5.6.6</version>
-						</dependency>
-					</dependencies>
-					<executions>
-						<execution>
-							<id>attach-descriptor</id>
-							<inherited>false</inherited>
-							<goals>
-								<goal>attach-descriptor</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
 
 				<plugin>
 					<groupId>com.mycila</groupId>
@@ -772,52 +798,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
-	<reporting>
-		<excludeDefaults>true</excludeDefaults>
-		<outputDirectory>${project.build.directory}/site</outputDirectory>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-project-info-reports-plugin</artifactId>
-				<version>2.7</version>
-				<configuration>
-					<dependencyDetailsEnabled>true</dependencyDetailsEnabled>
-					<dependencyLocationsEnabled>true</dependencyLocationsEnabled>
-				</configuration>
-				<reportSets>
-					<reportSet>
-						<id>aggregate</id>
-						<inherited>true</inherited>
-						<reports>
-							<report>cim</report>
-							<report>dependencies</report>
-							<!-- <report>dependency-convergence</report> -->
-							<report>dependency-info</report>
-							<!-- <report>dependency-management</report> -->
-							<report>distribution-management</report>
-							<report>help</report>
-							<!-- <report>index</report> -->
-							<!-- <report>issue-tracking</report> -->
-							<report>license</report>
-							<report>mailing-list</report>
-							<report>modules</report>
-							<report>plugin-management</report>
-							<!-- <report>plugins</report> -->
-							<report>project-team</report>
-							<report>scm</report>
-							<!-- <report>summary</report> -->
-						</reports>
-					</reportSet>
-				</reportSets>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-plugin-plugin</artifactId>
-				<version>3.2</version>
-			</plugin>
-		</plugins>
-	</reporting>
 
 	<ciManagement>
 		<system>Jenkins</system>
