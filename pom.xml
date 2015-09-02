@@ -205,7 +205,7 @@
 									<!-- <report>index</report> -->
 									<report>issue-tracking</report>
 									<report>license</report>
-									<report>mailing-list</report>
+									<!-- <report>mailing-list</report> -->
 									<report>modules</report>
 									<report>plugin-management</report>
 									<!-- <report>plugins</report> -->
