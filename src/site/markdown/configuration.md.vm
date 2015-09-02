@@ -48,9 +48,6 @@ Here are some ready-to-use configuration for the ${factoryNameHighlight}:
 
 * [settings.xml](./settings-xml.html), a default
 [Maven settings.xml](https://maven.apache.org/settings.html) file
-* [FastConnect profile](./fc-profile.html), a profile to add in Maven
-'settings.xml' file to reach
-[FastConnect' repositories](https://fastconnect.org/maven/index.html)
 
 ---
 
@@ -68,8 +65,8 @@ which defines default properties.
 
 In ${factoryNameHighlight} there is a need for a custom super POM with custom
 properties called the <b>root POM</b>. The latter can either be created by
-inheritance from the ${factoryNameHighlight} super POM or defined in extension
-with all required properties by using a Maven archetype.
+inheritance from the ${factoryNameHighlight} super POM or defined
+<i>in extenso</i> with all required properties by using a Maven archetype.
 
 ---
 
@@ -79,7 +76,7 @@ $h4 By inheritance
 * This <b>root POM</b> doesn't have to be created (adding inheritance is enough)
 * The projects must inherit directly or indirectly from this <b>root POM</b>
 * All projects inherit from default behaviour of the
-${factoryNameHighlight} super POM
+${factoryNameHighlight} super POM (good for most cases)
 
 $h4 By archetype
 
@@ -87,7 +84,7 @@ $h4 By archetype
 * This <b>root POM</b> is created with a Maven archetype
 * The projects must inherit directly or indirectly from this <b>root POM</b>
 * All projects inherit only from the behaviour defined in this independent
-<b>root POM</b>
+<b>root POM</b> (full customization)
 
 ---
 
@@ -107,8 +104,8 @@ Inheritance can be done by adding this snippet to any POM (making it the
 ${notaBene} the inheritance can be used with any
 [Maven packaging](https://maven.apache.org/pom.html#Maven_Coordinates)
 (including <i>pom</i>, <i>bw-ear</i>, <i>projlib</i>...) so it can be used to
-quickly set up a stand-alone project while the archetype method is
-more suited to bigger projects where custom behaviour is to be defined.
+quickly set up a stand-alone project while the archetype method is more suited
+to bigger projects where custom additional behaviours are to be defined.
 
 $h5 &nbsp;
 

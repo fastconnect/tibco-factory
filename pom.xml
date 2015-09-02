@@ -161,7 +161,7 @@
 
 				<repositorySiteURL>git@github.com/fastconnect/tibco-factory.git</repositorySiteURL>
 				<repositorySiteDisplayURL>http://fastconnect.github.io/tibco-factory/${github.site.path}</repositorySiteDisplayURL>
-				<rootSiteDisplayURL>http://fastconnect.github.io/tibco-factory/${github.site.path}</rootSiteDisplayURL>			
+				<rootSiteDisplayURL>http://fastconnect.github.io/tibco-factory/${github.site.path}</rootSiteDisplayURL>
 			</properties>
 			<distributionManagement>
 				<site>
@@ -203,7 +203,7 @@
 									<report>distribution-management</report>
 									<report>help</report>
 									<!-- <report>index</report> -->
-									<!-- <report>issue-tracking</report> -->
+									<report>issue-tracking</report>
 									<report>license</report>
 									<report>mailing-list</report>
 									<report>modules</report>
