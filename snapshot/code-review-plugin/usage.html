@@ -132,9 +132,40 @@
 					</a>
 					<div class="nav-collapse collapse" id="toc-nav-collapse">
 						<ul id="toc" class="nav">
-						<li class="toplevel"><a href="#Usage" title="Usage">Usage</a></li>
-						<li class="toplevel"><a href="#Using_the_Code_Review_plugin_as_an_extension" title="Using the Code Review plugin as an extension">Using the Code Review plugin as an extension</a></li>
-						<li class="toplevel"><a href="#Using_the_Code_Review_plugin_with_another_extension_such_as_BWMaven" title="Using the Code Review plugin with another extension (such as BWMaven)">Using the Code Review plugin with another extension (such as BWMaven)</a></li>
+						<li class="toplevel"><a href="#usage" title="Usage">Usage</a></li>
+						<li class="dropdown">
+							<a href="#Simple_Code_Review" title="Simple Code Review" class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#">Simple Code Review <b class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<!-- Repeat the item, otherwise it is not clickable as the dropdown root -->
+								<li><a href="#Simple_Code_Review" title="Simple Code Review">Simple Code Review</a></li>
+								<li class="divider"></li>
+								<li><a href="#Adding_Code_Review_Dependencies" title="Adding Code Review Dependencies">Adding Code Review Dependencies</a></li>
+								<li><a href="#Launching_a_Code_Review" title="Launching a Code Review">Launching a Code Review</a></li>
+
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#Code_Review_in_Sonarqube" title="Code Review in Sonarqube" class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#">Code Review in Sonarqube <b class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<!-- Repeat the item, otherwise it is not clickable as the dropdown root -->
+								<li><a href="#Code_Review_in_Sonarqube" title="Code Review in Sonarqube">Code Review in Sonarqube</a></li>
+								<li class="divider"></li>
+								<li><a href="#Adding_the_plugin_in_Sonarqube" title="Adding the plugin in Sonarqube">Adding the plugin in Sonarqube</a></li>
+								<li><a href="#Launching_a_Code_Review_with_Sonar" title="Launching a Code Review (with Sonar)">Launching a Code Review (with Sonar)</a></li>
+
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#Code_Review_with_custom_rules" title="Code Review with custom rules" class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#">Code Review with custom rules <b class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<!-- Repeat the item, otherwise it is not clickable as the dropdown root -->
+								<li><a href="#Code_Review_with_custom_rules" title="Code Review with custom rules">Code Review with custom rules</a></li>
+								<li class="divider"></li>
+								<li><a href="#Creating_the_custom_rules" title="Creating the custom rules">Creating the custom rules</a></li>
+								<li><a href="#Updating_Sonarqube_configuration" title="Updating Sonarqube configuration">Updating Sonarqube configuration</a></li>
+
+							</ul>
+						</li>
 						</ul>
 					</div>
 				</div>
@@ -146,64 +177,172 @@
 	<div class="row">
 		<div class="span12">
 			<div class="body-content">
-<!--  --> 
-<!-- (C) Copyright 2011-2015 FastConnect SAS --> 
-<!-- (http://www.fastconnect.fr/) and others. --> 
-<!--  --> 
-<!-- Licensed under the Apache License, Version 2.0 (the "License"); --> 
-<!-- you may not use this file except in compliance with the License. --> 
-<!-- You may obtain a copy of the License at --> 
-<!--  --> 
-<!-- http://www.apache.org/licenses/LICENSE-2.0 --> 
-<!--  --> 
-<!-- Unless required by applicable law or agreed to in writing, software --> 
-<!-- distributed under the License is distributed on an "AS IS" BASIS, --> 
-<!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. --> 
-<!-- See the License for the specific language governing permissions and --> 
-<!-- limitations under the License. --> 
-<!--  --> 
-<div class="section"> 
- <div class="page-header">
-  <h2 id="Usage">Usage</h2>
- </div> 
- <p>We will give common use case to see how to use the plugin.</p> 
- <div class="section"> 
-  <h3 id="Using_the_Code_Review_plugin_as_an_extension">Using the Code Review plugin as an extension</h3> 
-  <p>To use the Code Review plugin directly in your projects, add these lines in the POM of a BusinessWorks project or in its parent POM:</p> 
-  <div> 
-   <pre>  &lt;plugin&gt;
-      &lt;groupId&gt;fr.fastconnect.factory.tibco.bw.codereview&lt;/groupId&gt;
-      &lt;artifactId&gt;code-review-plugin&lt;/artifactId&gt;
-      &lt;version&gt;${code.review.plugin.version}&lt;/version&gt;
-      &lt;extensions&gt;true&lt;/extensions&gt;
-  &lt;/plugin&gt;</pre> 
-  </div> 
- </div> 
- <div class="section"> 
-  <h3 id="Using_the_Code_Review_plugin_with_another_extension_such_as_BWMaven">Using the Code Review plugin with another extension (such as BWMaven)</h3> 
-  <p>When another plugin is defined as an extension (such as BWMaven), the lifecyles mappings of both will collide. To use the Code Review as a standard plugin, add these lines in the POM of a BusinessWorks project or in its parent POM:</p> 
-  <div> 
-   <pre>  &lt;plugin&gt;
-      &lt;groupId&gt;fr.fastconnect.factory.tibco.bw.codereview&lt;/groupId&gt;
-      &lt;artifactId&gt;code-review-plugin&lt;/artifactId&gt;
-      &lt;version&gt;${code.review.plugin.version}&lt;/version&gt;
-      &lt;executions&gt;
-          &lt;execution&gt;
-              &lt;id&gt;code-review&lt;/id&gt;
-              &lt;phase&gt;package&lt;/phase&gt;
-              &lt;goals&gt;
-                  &lt;goal&gt;copy-code-review-bw-project&lt;/goal&gt;
-                  &lt;goal&gt;copy-display-resources&lt;/goal&gt;
-                  &lt;goal&gt;code-review&lt;/goal&gt;
-              &lt;/goals&gt;
-          &lt;/execution&gt;
-      &lt;/executions&gt;
-  &lt;/plugin&gt;</pre> 
-  </div> 
- </div> 
-</div>
+				<div class="page-header">
+ <h1 id="usage">Usage</h1>
+</div> 
+<p><b>NB:</b> the TIBCO BusinessWorks projects to review are considered to be mavenized by <a href="../bw-maven-plugin/index.html">BWMaven</a>. They must have a <i>bw-ear</i> or <i>projlib</i> <a class="externalLink" href="https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#Packaging">Maven packaging</a>.</p>
 			</div>
 		</div>
+	</div>
+	<div class="row columns columns1">
+		<div class="span12">
+			<h2 id="Simple_Code_Review">Simple Code Review</h2>
+<p>A simple code review outputs in HTML format in <i>“target/review”</i> directory.</p>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+	<div class="row columns columns2">
+		<div class="span6">
+			<h3 id="Adding_Code_Review_Dependencies">Adding Code Review Dependencies</h3>
+<p>To enable the Code Review on a TIBCO BusinessWorks project, simply add this snippet in the POM of the project:</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>&lt;dependencies&gt;
+  &lt;dependency&gt;
+    &lt;groupId&gt;fr.fastconnect.factory.tibco.bw.codereview&lt;/groupId&gt;
+    &lt;artifactId&gt;code-review-resources&lt;/artifactId&gt;
+    &lt;version&gt;2.0.0-SNAPSHOT&lt;/version&gt;
+    &lt;type&gt;zip&lt;/type&gt;
+    &lt;classifier&gt;display&lt;/classifier&gt;
+    &lt;scope&gt;test&lt;/scope&gt;
+  &lt;/dependency&gt;
+  &lt;dependency&gt;
+    &lt;groupId&gt;fr.fastconnect.factory.tibco.bw.codereview&lt;/groupId&gt;
+    &lt;artifactId&gt;code-review-rules-basic&lt;/artifactId&gt;
+    &lt;version&gt;2.0.0-SNAPSHOT&lt;/version&gt;
+    &lt;type&gt;zip&lt;/type&gt;
+    &lt;classifier&gt;bw&lt;/classifier&gt;
+    &lt;scope&gt;test&lt;/scope&gt;
+  &lt;/dependency&gt;
+&lt;/dependencies&gt;
+</pre> 
+ </div> 
+</div>
+<p><b>NB:</b> these dependencies are added in the <i>test</i> scope which means they won’t be processed for compilation of EAR and Projlib nor be included in any final build. They are only used to perform the Code Reviews.</p>
+<div class="section">        
+</div>
+		</div>
+		<div class="span6">
+			<h3 id="Launching_a_Code_Review">Launching a Code Review</h3>
+<p>Then, launch this command:</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>mvn clean code-review:code-review
+</pre> 
+ </div> 
+</div>
+<p><br /><br /></p>
+<p>The <tt>code-review-resources</tt> artifact is used to copy display resources such as CSS or JavaScript files.</p>
+<p><br /><br /><br /><br /></p>
+<p>The <tt>code-review-rules-basic</tt> artifact contains the rules to execute in the review.</p>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+	<div class="row columns columns1">
+		<div class="span12">
+			<h2 id="Code_Review_in_Sonarqube">Code Review in Sonarqube</h2>
+<p>The Code Review results can be imported directly into <a class="externalLink" href="http://www.sonarqube.org/">Sonarqube</a>. The <i>5.1</i> version is known to be compatible and is the recommended version.</p>
+<p>The import is done by the Code Review Sonar plugin which is a standard Sonarqube plugin. This plugin will parse the XML output (make sure to <a href="./code-review-mojo.html#outputFormats">enable XML format</a>) and convert Code Review results into Sonarqube issues.</p>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+	<div class="row columns columns2">
+		<div class="span6">
+			<h3 id="Adding_the_plugin_in_Sonarqube">Adding the plugin in Sonarqube</h3>
+<p>First the Code Review Sonar plugin must be copied in the Sonarqube plugins directory:</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>mvn dependency:copy \
+-Dartifact=fr.fastconnect.factory.tibco.bw.codereview:code-review-sonar-plugin:2.0.0-SNAPSHOT:jar \
+-DoutputDirectory=$SONARQUBE_HOME/sonarqube/extensions/plugins
+</pre> 
+ </div> 
+</div>
+<div class="section">    
+</div>
+		</div>
+		<div class="span6">
+			<h3 id="Launching_a_Code_Review_with_Sonar">Launching a Code Review (with Sonar)</h3>
+<p>Then, launch this command:</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>mvn clean code-review:code-review sonar:sonar
+</pre> 
+ </div> 
+</div>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+	<div class="row columns columns1">
+		<div class="span12">
+			<h2 id="Code_Review_with_custom_rules">Code Review with custom rules</h2>
+<p>It is possible to use several set of rules including the built-in one and custom ones.</p>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+	<div class="row columns columns2">
+		<div class="span6">
+			<h3 id="Creating_the_custom_rules">Creating the custom rules</h3>
+<p>The custom rules project is a TIBCO BusinessWorks project created with a Maven archetype (<i>artifactId</i> will be automatically prefixed by mandatory <i>“code-review-”</i> prefix):</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>mvn archetype:generate
+    -DarchetypeGroupId=fr.fastconnect.factory.tibco.bw.codereview \
+    -DarchetypeArtifactId=archetype-new-rules \
+    -DgroupId=com.company.rules \
+    -DartifactId=rules-custom
+    -DcodeReviewVersion=2.0.0-SNAPSHOT
+</pre> 
+ </div> 
+</div>
+<p>This will create a TIBCO BusinessWorks Projlib project which can be edited to add custom rules following the provided model:</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>mvn bw:launch-designer
+</pre> 
+ </div> 
+</div>
+<p>When rules are ready, the project has to be installed or deployed:</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>mvn clean install
+</pre> 
+ </div> 
+</div>
+<p>Then, it can be added as a Code Review rules dependency:</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>  &lt;dependency&gt;
+    &lt;groupId&gt;com.company.rules&lt;/groupId&gt;
+    &lt;artifactId&gt;code-review-rules-custom&lt;/artifactId&gt;
+    &lt;version&gt;1.0.0&lt;/version&gt;
+    &lt;type&gt;zip&lt;/type&gt;
+    &lt;classifier&gt;bw&lt;/classifier&gt;
+    &lt;scope&gt;test&lt;/scope&gt;
+  &lt;/dependency&gt;
+</pre> 
+ </div> 
+</div>
+<div class="section">    
+</div>
+		</div>
+		<div class="span6">
+			<h3 id="Updating_Sonarqube_configuration">Updating Sonarqube configuration</h3>
+<p>When using custom rules along with Sonarqube, it is mandatory to update Sonarqube configuration.</p>
+<div class="source"> 
+ <div class="source"> 
+  <pre>mvn clean code-review:generate-sonar-rules
+</pre> 
+ </div> 
+</div>
+		</div>
+	</div>
+	<div class="row">
 	</div>
 	</div>
 
@@ -273,6 +412,8 @@
 	
 <script src="../js/highlight.min.js" type="text/javascript"></script>
 <script src="../js/custom.js" type="text/javascript"></script>
+<script type="text/javascript">$("h3[id='Adding_the_plugin_in_Sonarqube']").parent().removeClass("span6").addClass("span8");
+					$("h3[id='Launching_a_Code_Review_with_Sonar']").parent().removeClass("span6").addClass("span4");</script>
 	<script src="../js/reflow-skin.js"></script>
 
 	</body>

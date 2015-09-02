@@ -11,7 +11,6 @@
 		<title>Code Review plugin for TIBCO BusinessWorks</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="" />
-		<meta name="author" content="Mathieu Debove" />
 		<meta http-equiv="content-language" content="en" />
  
 		<link href="../css/bootstrap.min.css" rel="stylesheet" />
@@ -125,49 +124,50 @@
 	</header>
 
 	<div class="main-body">
-	<div id="carousel0" class="carousel slide">
-		<div class="carousel-inner">
-			<div class="item active">
-				<div class="carousel-caption">
-					<h2 id="Code_Review_Plugin_for_TIBCO_BusinessWorks_-_Maven_Plugin">Code Review Plugin for TIBCO BusinessWorks - Maven Plugin</h2>
-<p>Plugin introduction, description, and other relevant information.</p>
-<div class="section">    
-</div>
-				</div>
-			</div>
-			<div class="item ">
-				<div class="carousel-caption">
-					<h3 id="Goals_Overview">Goals Overview</h3>
-<p>Here are the most used goals of the plugin:</p>
+	<div class="row">
+		<div class="span12">
+			<div class="body-content">
+				<p><i><span class="color-highlight">FC</span>CodeReview</i> is an automatic tool to generate Code Reviews of TIBCO BusinessWorks projects.</p>
+<p>The rules applied to perform a Code Review can be:</p>
 <ul> 
- <li><a href="./code-review-mojo.html">code-review:code-review</a> is used launch a Code Review on a TIBCO BusinessWorks project.</li> 
+ <li>the built-in rules, written by FastConnect based on common good practices</li> 
+ <li>custom rules, which can be written within a simple TIBCO BusinessWorks project</li> 
 </ul>
-<div class="section">     
-</div>
-				</div>
-			</div>
-			<div class="item ">
-				<div class="carousel-caption">
-					<h3 id="Usage">Usage</h3>
-<p>General instructions on how to use the Maven Plugin for TIBCO BusinessWorks can be found on the <a href="./usage.html">usage page</a>. Some more specific use cases are described in the examples given below.</p>
-<p>In case you still have questions regarding the plugin's usage, please have a look at the <a href="./faq.html">FAQ</a> and feel free to contact the <a href="./mail-lists.html">user mailing list</a>. The posts to the mailing list are archived and could already contain the answer to your question as part of an older thread. Hence, it is also worth browsing/searching the <a href="./mail-lists.html">mail archive</a>.</p>
-<p>If you feel like the plugin is missing a feature or has a defect, you can fill a feature request or bug report in our <a href="./issue-tracking.html">issue tracker</a>. When creating a new issue, please provide a comprehensive description of your concern. Especially for fixing bugs it is crucial that the developers can reproduce your problem. For this reason, entire debug logs, POMs or most preferably little demo projects attached to the issue are very much appreciated. Of course, patches are welcome, too. Contributors can check out the project from our <a href="./source-repository.html">source repository</a> and will find supplementary information in the <a class="externalLink" href="http://maven.apache.org/guides/development/guide-helping.html">guide to helping with Maven</a>. </p>
-<div class="section">    
-</div>
-				</div>
-			</div>
-			<div class="item ">
-				<div class="carousel-caption">
-					<h3 id="Examples">Examples</h3>
-<p>To provide you with better understanding of some usages of the Code Review Plugin for TIBCO BusinessWorks, you can take a look into the following examples:</p>
-<ul> 
- <li><a href="./examples/simple-review.html">A simple review on a simple project</a></li> 
-</ul>
-				</div>
 			</div>
 		</div>
-		<a class="left carousel-control" href="#carousel0" data-slide="prev">&lsaquo;</a>
-		<a class="right carousel-control" href="#carousel0" data-slide="next">&rsaquo;</a>
+	</div>
+	<div class="row thumbnail-row">
+		<div class="span12">
+			<ul class="thumbnails">
+				<li class="span6">
+					<div class="thumbnail">
+						<div class="caption"><h2 id="Quick_starter_guide">Quick starter guide</h2>
+<p>To start using this plugin, read following pages:</p>
+<ul> 
+ <li><a class="externalLink" href="http://fastconnect.github.io/tibco-factory/snapshot/installation.html">Installation</a></li> 
+ <li><a class="externalLink" href="http://fastconnect.github.io/tibco-factory/snapshot/configuration.html">Configuration</a></li> 
+ <li><a href="./usage.html">Usage page</a></li> 
+</ul>
+<div class="section">   
+</div>
+</div>
+					</div>
+				</li>
+				<li class="span6">
+					<div class="thumbnail">
+						<div class="caption"><h2 id="Plugin_information">Plugin information</h2>
+<ul> 
+ <li><a href="./usage.html">Usage page</a></li> 
+ <li><a href="./faq.html">FAQ</a></li> 
+ <li><a href="./mail-lists.html">Mailing list</a></li> 
+ <li><a href="./issue-tracking.html">Issue tracker</a></li> 
+ <li><a href="./source-repository.html">Source repository</a></li> 
+</ul>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</div>
 	</div>
 
@@ -237,6 +237,8 @@
 	
 <script src="../js/highlight.min.js" type="text/javascript"></script>
 <script src="../js/custom.js" type="text/javascript"></script>
+<script type="text/javascript">$("h3[id='Adding_the_plugin_in_Sonarqube']").parent().removeClass("span6").addClass("span8");
+					$("h3[id='Launching_a_Code_Review_with_Sonar']").parent().removeClass("span6").addClass("span4");</script>
 	<script src="../js/reflow-skin.js"></script>
 
 	</body>
