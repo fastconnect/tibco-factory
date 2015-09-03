@@ -150,6 +150,7 @@
 			<h3 id="Project-dependent_settings_root_POM">Project-dependent settings (root POM)</h3>
 <p>For standard Maven projects, there is a <a class="externalLink" href="http://maven.apache.org/ref/3.1.1/maven-model-builder/super-pom.html">super POM</a> which defines default properties.</p>
 <p>In <i><span class="color-highlight">FC</span> TIBCO Factory</i> there is a need for a custom super POM with custom properties called the <b>root POM</b>. The latter can either be created by inheritance from the <i><span class="color-highlight">FC</span> TIBCO Factory</i> super POM or defined <i>in extenso</i> with all required properties by using a Maven archetype.</p>
+<p><b><i><span class="color-highlight">FC</span> TIBCO Factory</i> plugins can’t be used normally if no root POM is defined.</b></p>
 		</div>
 	</div>
 	<div class="row">
@@ -214,9 +215,10 @@
                        -DarchetypeVersion=2.3.3-SNAPSHOT \
                        -DgroupId=com.company.project \
                        -DartifactId=project-root \
-                       -Dversion=1.0.0 \
+                       -Dversion=1.0.0-SNAPSHOT \
                        -DprojectName=ProjectName \
                        -DbwMavenPluginVersion=2.3.2 \
+                       -DcodeReviewPluginVersion=2.0.0 \
                        [-DinteractiveMode=false] 
 </pre> 
  </div> 
