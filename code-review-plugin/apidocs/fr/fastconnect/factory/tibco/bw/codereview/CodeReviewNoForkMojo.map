@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="c83" href="./CodeReviewMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.CodeReviewMojo" alt="" coords="15,209,134,234"/>
+<area shape="rect" id="node1" href="./CodeReviewMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,144,245"/>
+<area shape="rect" id="c84" href="./ConvertRulesToSonarMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.ConvertRulesToSonarMojo" alt="" coords="178,209,350,234"/>
+<area shape="rect" id="node2" href="./ConvertRulesToSonarMojo.html" title="&lt;TABLE&gt;" alt="" coords="168,197,360,245"/>
+<area shape="rect" id="c85" href="./CodeReviewNoForkMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.CodeReviewNoForkMojo" alt="" coords="422,113,583,138"/>
+<area shape="rect" id="node3" href="./CodeReviewNoForkMojo.html" title="&lt;TABLE&gt;" alt="" coords="412,101,593,149"/>
+<area shape="rect" id="c86" href="./PrepareCodeReviewLauncherMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo" alt="" coords="394,209,611,234"/>
+<area shape="rect" id="node4" href="./PrepareCodeReviewLauncherMojo.html" title="&lt;TABLE&gt;" alt="" coords="384,197,621,245"/>
+<area shape="rect" id="c88" href="./pages/CodeReviewIndexMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.pages.CodeReviewIndexMojo" alt="" coords="656,209,805,234"/>
+<area shape="rect" id="node5" href="./pages/CodeReviewIndexMojo.html" title="&lt;TABLE&gt;" alt="" coords="645,197,816,245"/>
+<area shape="rect" id="c89" href="./pages/MenuPage.html" title="fr.fastconnect.factory.tibco.bw.codereview.pages.MenuPage" alt="" coords="851,209,933,234"/>
+<area shape="rect" id="node6" href="./pages/MenuPage.html" title="&lt;TABLE&gt;" alt="" coords="840,197,944,245"/>
+<area shape="rect" id="c96" href="http://java.sun.com/j2se/1.4.2/docs/api/fr/fastconnect/factory/tibco/bw/maven/bwengine/AbstractServiceEngineMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" alt="" coords="412,17,593,42"/>
+<area shape="rect" id="node9" href="http://java.sun.com/j2se/1.4.2/docs/api/fr/fastconnect/factory/tibco/bw/maven/bwengine/AbstractServiceEngineMojo.html" title="&lt;TABLE&gt;" alt="" coords="401,5,604,53"/>
+</map>

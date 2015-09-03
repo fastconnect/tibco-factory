@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="c0" href="./HelpMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.HelpMojo" alt="" coords="16,17,91,42"/>
+<area shape="rect" id="node1" href="./HelpMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,5,101,53"/>
+<area shape="rect" id="c1" href="./FCCodeReviewService.html" title="fr.fastconnect.factory.tibco.bw.codereview.FCCodeReviewService" alt="" coords="136,17,285,42"/>
+<area shape="rect" id="node2" href="./FCCodeReviewService.html" title="&lt;TABLE&gt;" alt="" coords="125,5,296,53"/>
+<area shape="rect" id="c2" href="./CodeReviewMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.CodeReviewMojo" alt="" coords="162,113,281,138"/>
+<area shape="rect" id="node3" href="./CodeReviewMojo.html" title="&lt;TABLE&gt;" alt="" coords="152,101,291,149"/>
+<area shape="rect" id="c3" href="./ConvertRulesToSonarMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.ConvertRulesToSonarMojo" alt="" coords="325,113,497,138"/>
+<area shape="rect" id="node4" href="./ConvertRulesToSonarMojo.html" title="&lt;TABLE&gt;" alt="" coords="315,101,507,149"/>
+<area shape="rect" id="c4" href="./CodeReviewNoForkMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.CodeReviewNoForkMojo" alt="" coords="330,17,491,42"/>
+<area shape="rect" id="node5" href="./CodeReviewNoForkMojo.html" title="&lt;TABLE&gt;" alt="" coords="320,5,501,53"/>
+<area shape="rect" id="c5" href="./PrepareCodeReviewLauncherMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo" alt="" coords="541,113,758,138"/>
+<area shape="rect" id="node6" href="./PrepareCodeReviewLauncherMojo.html" title="&lt;TABLE&gt;" alt="" coords="531,101,768,149"/>
+<area shape="rect" id="c6" href="./PrepareCodeReviewLauncherMojo.ResolveDependenciesWithProjectMojo.html" title="fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo.ResolveDependenciesWithProjectMojo" alt="" coords="535,17,779,42"/>
+<area shape="rect" id="node7" href="./PrepareCodeReviewLauncherMojo.ResolveDependenciesWithProjectMojo.html" title="&lt;TABLE&gt;" alt="" coords="525,5,789,53"/>
+</map>
