@@ -17,41 +17,7 @@
     limitations under the License.
 
 -->
-<faqs xmlns="http://maven.apache.org/FML/1.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/FML/1.0.1 http://maven.apache.org/xsd/fml-1.0.1.xsd" title="Frequently Asked Questions" toplink="false">
-
-	<part id="install">
-
-		<title>Installation</title>
-
-		<faq id="how-install">
-			<question>
-        How do I install the Maven Plugin for TIBCO BusinessWorks?
-			</question>
-			<answer>
-				<p>There are two possibilities to install the plugin:</p>
-				<ul>
-					<li>from the online FastConnect repository
-						<p>please contact your commercial supplier to get your credentials
-          	to retrieve the plugin from the FastConnect repository</p>
-					</li>
-					<li>from an offline archive
-						<p>if your platform requires to run Maven in offline-mode, you will
-          	use an offline archive with a mirror of the FastConnect repository
-						</p>
-					</li>
-				</ul>
-			</answer>
-		</faq>
-		<faq id="factory-on-private-repository">
-			<question>
-        Is it possible to deploy ${factoryNameHighlight} on my own Maven repository?
-			</question>
-			<answer>
-				<p>Yes.</p>
-			</answer>
-		</faq>
-
-	</part>
+<faqs xmlns="http://maven.apache.org/FML/1.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/FML/1.0.1 http://maven.apache.org/xsd/fml-1.0.1.xsd" title="Frequently Asked Questions" toplink="true">
 
 	<part id="configuration">
 		<title>Configuration</title>

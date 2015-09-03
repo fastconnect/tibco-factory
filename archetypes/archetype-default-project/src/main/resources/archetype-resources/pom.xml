@@ -129,6 +129,8 @@
 
 		<!-- FCUnit -->
 		<fcunit.engine.port>9099</fcunit.engine.port>
+
+		<short.name>APP</short.name>
 	</properties>
 
 	<build>

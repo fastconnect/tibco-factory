@@ -68,6 +68,9 @@ properties called the <b>root POM</b>. The latter can either be created by
 inheritance from the ${factoryNameHighlight} super POM or defined
 <i>in extenso</i> with all required properties by using a Maven archetype.
 
+<strong>${factoryNameHighlight} plugins can't be used normally if no root POM
+is defined.</strong>
+
 ---
 
 $h4 By inheritance
@@ -118,8 +121,9 @@ mvn archetype:generate -DarchetypeGroupId=fr.fastconnect.factory.tibco \
                        -DarchetypeVersion=${project.version} \
                        -DgroupId=com.company.project \
                        -DartifactId=project-root \
-                       -Dversion=1.0.0 \
+                       -Dversion=1.0.0-SNAPSHOT \
                        -DprojectName=ProjectName \
                        -DbwMavenPluginVersion=${bwMavenPluginVersion} \
+                       -DcodeReviewPluginVersion=${codeReviewPluginVersion} \
                        [-DinteractiveMode=false] 
 ```

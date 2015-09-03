@@ -14,5 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *#
+#set($h1 = '#')
+#set($h2 = '##')
+#set($h3 = '###')
+#set($h4 = '####')
+
+$h1 About FastConnect
+
 FastConnect is a french IT corporation specialized in distributed architectures,
 subsidiary of Atos company.
+
+* Home page : [www.fastconnect.fr](http://www.fastconnect.fr)
+* Contact : [contact@fastconnect.fr](mailto:contact@fastconnect.fr)
