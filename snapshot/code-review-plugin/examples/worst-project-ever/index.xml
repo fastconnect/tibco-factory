@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - WorstProjectEver project" timestamp="2015-09-10T16:10:53.404+02:00" duration="2.208" project-basedir="/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver" home-page="../../index.html">
+<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - WorstProjectEver project" timestamp="2015-09-10T18:14:04.837+02:00" duration="2.439" project-basedir="/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver" home-page="../../index.html" language="FR">
     <ns0:general disabled="false">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>GEN</ns1:category>
@@ -9,6 +9,7 @@
             <ns1:infos>
                 <ns1:name>Basic CodeReview</ns1:name>
                 <ns1:description>Basic CodeReview</ns1:description>
+                <ns1:descriptionHTML>Basic CodeReview</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:number-of-processes>6</ns0:number-of-processes>
@@ -111,41 +112,49 @@
             <ns1:category>GEN</ns1:category>
             <ns1:name>General</ns1:name>
             <ns1:description>General category</ns1:description>
+            <ns1:descriptionHTML>General category</ns1:descriptionHTML>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>REL</ns1:category>
             <ns1:name>Reliability</ns1:name>
             <ns1:description>Reliability category</ns1:description>
+            <ns1:descriptionHTML>Reliability category</ns1:descriptionHTML>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>EFF</ns1:category>
             <ns1:name>Efficiency</ns1:name>
             <ns1:description>Efficiency category</ns1:description>
+            <ns1:descriptionHTML>Efficiency category</ns1:descriptionHTML>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>MAI</ns1:category>
             <ns1:name>Maintainability</ns1:name>
             <ns1:description>Maintainability category</ns1:description>
+            <ns1:descriptionHTML>Maintainability category</ns1:descriptionHTML>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>POR</ns1:category>
             <ns1:name>Portability</ns1:name>
             <ns1:description>Portability category</ns1:description>
+            <ns1:descriptionHTML>Portability category</ns1:descriptionHTML>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>ERR</ns1:category>
             <ns1:name>Errors</ns1:name>
             <ns1:description>Errors category</ns1:description>
+            <ns1:descriptionHTML>Errors category</ns1:descriptionHTML>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>CONF</ns1:category>
             <ns1:name>Configuration</ns1:name>
             <ns1:description>Configuration category</ns1:description>
+            <ns1:descriptionHTML>Errors category</ns1:descriptionHTML>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>FILES</ns1:category>
             <ns1:name>Files</ns1:name>
             <ns1:description>Files category</ns1:description>
+            <ns1:descriptionHTML>Errors category</ns1:descriptionHTML>
         </ns1:category>
     </ns0:categories>
     <ns0:rule disabled="false" grade="100">
@@ -157,6 +166,7 @@
             <ns1:infos>
                 <ns1:name>Nested loop</ns1:name>
                 <ns1:description>Nested loop</ns1:description>
+                <ns1:descriptionHTML>Nested loop</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:param>
@@ -173,6 +183,7 @@
             <ns1:infos>
                 <ns1:name>Critical Section on JobSharedVariable</ns1:name>
                 <ns1:description>Performance issue</ns1:description>
+                <ns1:descriptionHTML>Performance issue</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -185,6 +196,7 @@
             <ns1:infos>
                 <ns1:name>Critical Section on single SharedVariable</ns1:name>
                 <ns1:description>Critical Section on single SharedVariable</ns1:description>
+                <ns1:descriptionHTML>Critical Section on single SharedVariable</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -197,6 +209,7 @@
             <ns1:infos>
                 <ns1:name>Get JMS Queue Message Uses</ns1:name>
                 <ns1:description>Get JMS Queue Message Uses</ns1:description>
+                <ns1:descriptionHTML>Get JMS Queue Message Uses</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -209,6 +222,7 @@
             <ns1:infos>
                 <ns1:name>JMS Selector</ns1:name>
                 <ns1:description>JMS Selector</ns1:description>
+                <ns1:descriptionHTML>JMS Selector</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -221,6 +235,7 @@
             <ns1:infos>
                 <ns1:name>JMS Synchronous activities</ns1:name>
                 <ns1:description>JMS Synchronous activities</ns1:description>
+                <ns1:descriptionHTML>JMS Synchronous activities</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -233,6 +248,7 @@
             <ns1:infos>
                 <ns1:name>GVs in connections configuration</ns1:name>
                 <ns1:description>GVs in connections configuration</ns1:description>
+                <ns1:descriptionHTML>GVs in connections configuration</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:result>
@@ -258,6 +274,8 @@
             <ns1:infos>
                 <ns1:name>Default targetNameSpace in schema definition</ns1:name>
                 <ns1:description>The targetNameSpace of the XML Schema Definition (XSD) starts with 'http://www.tibco.com'. It is most likely the default value set by the Designer. A good targetNameSpace should be customized with a mnemonic name such as 'http://company.com/category/feature.xsd'.</ns1:description>
+                <ns1:descriptionHTML>The &lt;strong&gt;targetNameSpace&lt;/strong&gt; of the &lt;abbr title="XML Schema Definition"&gt;XSD&lt;/abbr&gt; starts with &lt;i&gt;http://www.tibco.com&lt;/i&gt;&lt;br /&gt;It is most likely the default value set by the Designer.</ns1:descriptionHTML>
+                <ns1:correctionHTML>A good &lt;strong&gt;targetNameSpace&lt;/strong&gt; should be customized with a mnemonic name such as &lt;i&gt;http://company.com/category/feature.xsd&lt;/i&gt;.</ns1:correctionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:result>
@@ -279,6 +297,7 @@
             <ns1:infos>
                 <ns1:name>Namespace Collisions</ns1:name>
                 <ns1:description>Namespace Collisions</ns1:description>
+                <ns1:descriptionHTML>Namespace Collisions</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:result>
@@ -300,6 +319,7 @@
             <ns1:infos>
                 <ns1:name>Collect Transition Colors</ns1:name>
                 <ns1:description>Collect Transition Colors</ns1:description>
+                <ns1:descriptionHTML>Collect Transition Colors</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -312,6 +332,7 @@
             <ns1:infos>
                 <ns1:name>Dynamic Process Calls</ns1:name>
                 <ns1:description>Dynamic Process Calls</ns1:description>
+                <ns1:descriptionHTML>Dynamic Process Calls</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -324,6 +345,7 @@
             <ns1:infos>
                 <ns1:name>Process Call Depth</ns1:name>
                 <ns1:description>Process Call Depth</ns1:description>
+                <ns1:descriptionHTML>Process Call Depth</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:param>
@@ -340,6 +362,7 @@
             <ns1:infos>
                 <ns1:name>Java XPath</ns1:name>
                 <ns1:description>Java XPath</ns1:description>
+                <ns1:descriptionHTML>Java XPath</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -352,6 +375,7 @@
             <ns1:infos>
                 <ns1:name>Projlib Import</ns1:name>
                 <ns1:description>Projlib Import</ns1:description>
+                <ns1:descriptionHTML>Projlib Import</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -364,6 +388,7 @@
             <ns1:infos>
                 <ns1:name>Complex Input</ns1:name>
                 <ns1:description>Complex Input</ns1:description>
+                <ns1:descriptionHTML>Complex Input</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:param>
@@ -380,6 +405,7 @@
             <ns1:infos>
                 <ns1:name>Number of activity by process</ns1:name>
                 <ns1:description>Number of activity by process</ns1:description>
+                <ns1:descriptionHTML>Number of activity by process</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:param>
@@ -396,6 +422,7 @@
             <ns1:infos>
                 <ns1:name>Uncommented processes</ns1:name>
                 <ns1:description>Uncommented processes</ns1:description>
+                <ns1:descriptionHTML>Uncommented processes</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:result>
@@ -438,6 +465,7 @@
             <ns1:infos>
                 <ns1:name>Oversized Processes</ns1:name>
                 <ns1:description>Oversized Processes</ns1:description>
+                <ns1:descriptionHTML>Oversized Processes</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:param>
@@ -458,6 +486,7 @@
             <ns1:infos>
                 <ns1:name>Unlabelled Transitions</ns1:name>
                 <ns1:description>Unlabelled Transitions</ns1:description>
+                <ns1:descriptionHTML>Unlabelled Transitions</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -470,6 +499,7 @@
             <ns1:infos>
                 <ns1:name>Starter Process with output</ns1:name>
                 <ns1:description>Starter Process with output</ns1:description>
+                <ns1:descriptionHTML>Starter Process with output</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -482,6 +512,7 @@
             <ns1:infos>
                 <ns1:name>External Command Uses</ns1:name>
                 <ns1:description>External Command Uses</ns1:description>
+                <ns1:descriptionHTML>External Command Uses</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -494,6 +525,7 @@
             <ns1:infos>
                 <ns1:name>Java Activities Uses</ns1:name>
                 <ns1:description>Java Activities Uses</ns1:description>
+                <ns1:descriptionHTML>Java Activities Uses</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -506,6 +538,7 @@
             <ns1:infos>
                 <ns1:name>Recursive Calls</ns1:name>
                 <ns1:description>Recursive Calls</ns1:description>
+                <ns1:descriptionHTML>Recursive Calls</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -518,6 +551,7 @@
             <ns1:infos>
                 <ns1:name>Nested Transactions</ns1:name>
                 <ns1:description>Nested Transactions</ns1:description>
+                <ns1:descriptionHTML>Nested Transactions</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:result>
@@ -564,6 +598,7 @@
             <ns1:infos>
                 <ns1:name>JDBC SQLDirect Uses</ns1:name>
                 <ns1:description>JDBC SQLDirect Uses</ns1:description>
+                <ns1:descriptionHTML>JDBC SQLDirect Uses</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:result>
@@ -585,6 +620,7 @@
             <ns1:infos>
                 <ns1:name>Unknown JMS Properties</ns1:name>
                 <ns1:description>Unknown JMS Properties</ns1:description>
+                <ns1:descriptionHTML>Unknown JMS Properties</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
@@ -597,6 +633,7 @@
             <ns1:infos>
                 <ns1:name>No out Transition</ns1:name>
                 <ns1:description>No out Transition</ns1:description>
+                <ns1:descriptionHTML>No out Transition</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:result>
@@ -618,6 +655,7 @@
             <ns1:infos>
                 <ns1:name>No otherwise Transition</ns1:name>
                 <ns1:description>No otherwise Transition</ns1:description>
+                <ns1:descriptionHTML>No otherwise Transition</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
