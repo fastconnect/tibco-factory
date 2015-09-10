@@ -313,108 +313,114 @@
      <td>Allows to ignore any alias when building EAR or Projlib. This will mimic the &quot;Hide Library Resources&quot; behaviour of the TIBCO Designer.<br /><b>User property is</b>: <tt>bw.hide.library.resources</tt>.</td> 
     </tr> 
     <tr class="a"> 
+     <td><b><a href="#homePage">homePage</a></b></td> 
+     <td><tt>String</tt></td> 
+     <td><tt>-</tt></td> 
+     <td>Optional href link to use in HTML output on the top-left caption<br /><b>User property is</b>: <tt>codereview.homePage</tt>.</td> 
+    </tr> 
+    <tr class="b"> 
      <td><b><a href="#lang">lang</a></b></td> 
      <td><tt>String</tt></td> 
      <td><tt>-</tt></td> 
      <td>(no description)<br /><b>Default value is</b>: <tt>FR</tt>.<br /><b>User property is</b>: <tt>codereview.language</tt>.</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><b><a href="#loadProjlibs">loadProjlibs</a></b></td> 
      <td><tt>Boolean</tt></td> 
      <td><tt>-</tt></td> 
      <td>(no description)<br /><b>Default value is</b>: <tt>false</tt>.<br /><b>User property is</b>: <tt>codereview.loadProjlibs</tt>.</td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><b><a href="#outputDirectory">outputDirectory</a></b></td> 
      <td><tt>File</tt></td> 
      <td><tt>-</tt></td> 
      <td>Path to the output directory of the Code Review.<br /><b>Default value is</b>: <tt>${project.build.directory}/review</tt>.<br /><b>User property is</b>: <tt>project.review.directory</tt>.</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><b><a href="#outputFormats">outputFormats</a></b></td> 
      <td><tt>List</tt></td> 
      <td><tt>-</tt></td> 
      <td>(no description)<br /></td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><b><a href="#projectDirectory">projectDirectory</a></b></td> 
      <td><tt>File</tt></td> 
      <td><tt>-</tt></td> 
      <td>Path to the BusinessWorks project.<br /><b>User property is</b>: <tt>bw.project.location</tt>.</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><b><a href="#retryInterval">retryInterval</a></b></td> 
      <td><tt>int</tt></td> 
      <td><tt>-</tt></td> 
      <td>(no description)<br /><b>Default value is</b>: <tt>1</tt>.<br /><b>User property is</b>: <tt>codereview.retryInterval</tt>.</td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><b><a href="#skipReview">skipReview</a></b></td> 
      <td><tt>boolean</tt></td> 
      <td><tt>-</tt></td> 
      <td>(no description)<br /><b>Default value is</b>: <tt>false</tt>.<br /><b>User property is</b>: <tt>bw.review.skip</tt>.</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><b><a href="#tibcoAppManagePath">tibcoAppManagePath</a></b></td> 
      <td><tt>File</tt></td> 
      <td><tt>-</tt></td> 
      <td>Path to the TIBCO &quot;AppManage&quot; binary.<br /><b>User property is</b>: <tt>appmanage.path</tt>.</td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><b><a href="#tibcoAppManageTRAPath">tibcoAppManageTRAPath</a></b></td> 
      <td><tt>File</tt></td> 
      <td><tt>-</tt></td> 
      <td>Path to the TIBCO &quot;AppManage&quot; TRA configuration file.<br /><b>User property is</b>: <tt>appmanage.tra.path</tt>.</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><b><a href="#tibcoBuildEARTRAPath">tibcoBuildEARTRAPath</a></b></td> 
      <td><tt>File</tt></td> 
      <td><tt>-</tt></td> 
      <td>Path to the TIBCO &quot;buildear&quot; TRA configuration file.<br /><b>User property is</b>: <tt>buildear.tra.path</tt>.</td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><b><a href="#tibcoBuildEARUseDesignerTRA">tibcoBuildEARUseDesignerTRA</a></b></td> 
      <td><tt>boolean</tt></td> 
      <td><tt>-</tt></td> 
      <td>Sometimes a TRA can reference another TRA, for instance 'buildear.tra' will reference 'designer.tra'. This field specifies whether we will use the default referenced TRA or override with a provided TRA.<br /><b>User property is</b>: <tt>tra.buildear.uses.designer.tra.path</tt>.</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><b><a href="#tibcoBuildLibraryTRAPath">tibcoBuildLibraryTRAPath</a></b></td> 
      <td><tt>File</tt></td> 
      <td><tt>-</tt></td> 
      <td>Path to the TIBCO Designer &quot;buildlibrary&quot; TRA configuration file.<br /><b>User property is</b>: <tt>buildlibrary.tra.path</tt>.</td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><b><a href="#tibcoBuildLibraryUseDesignerTRA">tibcoBuildLibraryUseDesignerTRA</a></b></td> 
      <td><tt>boolean</tt></td> 
      <td><tt>-</tt></td> 
      <td>Sometimes a TRA can reference another TRA, for instance 'buildlibrary.tra' will reference 'designer.tra'. This field specifies whether we will use the default referenced TRA or override with a provided TRA.<br /><b>User property is</b>: <tt>tra.buildlibrary.uses.designer.tra.path</tt>.</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><b><a href="#tibcoDesignerPath">tibcoDesignerPath</a></b></td> 
      <td><tt>File</tt></td> 
      <td><tt>-</tt></td> 
      <td>Path to the TIBCO Designer binary.<br /><b>User property is</b>: <tt>designer.path</tt>.</td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><b><a href="#tibcoDesignerTRAPath">tibcoDesignerTRAPath</a></b></td> 
      <td><tt>File</tt></td> 
      <td><tt>-</tt></td> 
      <td>Path to the TIBCO Designer TRA configuration file.<br /><b>User property is</b>: <tt>designer.tra.path</tt>.</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><b><a href="#tibcoHome">tibcoHome</a></b></td> 
      <td><tt>File</tt></td> 
      <td><tt>-</tt></td> 
      <td>Path to the TIBCO home directory.<br /><b>User property is</b>: <tt>tibco.home</tt>.</td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><b><a href="#tibcoRvHomePath">tibcoRvHomePath</a></b></td> 
      <td><tt>File</tt></td> 
      <td><tt>-</tt></td> 
      <td>Path to the TIBCO RendezVous folder.<br /><b>User property is</b>: <tt>tibrv.home.path</tt>.</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><b><a href="#timeOut">timeOut</a></b></td> 
      <td><tt>int</tt></td> 
      <td><tt>-</tt></td> 
@@ -572,6 +578,16 @@
    <li><b>Type</b>: <tt>boolean</tt></li> 
    <li><b>Required</b>: <tt>No</tt></li> 
    <li><b>User Property</b>: <tt>bw.hide.library.resources</tt></li> 
+  </ul> 
+  <hr /> 
+  <p><b><a name="homePage">homePage</a>:</b></p> 
+  <div>
+    Optional href link to use in HTML output on the top-left caption 
+  </div> 
+  <ul> 
+   <li><b>Type</b>: <tt>java.lang.String</tt></li> 
+   <li><b>Required</b>: <tt>No</tt></li> 
+   <li><b>User Property</b>: <tt>codereview.homePage</tt></li> 
   </ul> 
   <hr /> 
   <p><b><a name="lang">lang</a>:</b></p> 
