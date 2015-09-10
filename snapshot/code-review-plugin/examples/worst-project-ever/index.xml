@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - WorstProjectEver project" timestamp="2015-09-10T13:53:01.242+02:00" duration="2.19" project-basedir="/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver">
+    <ns0:general disabled="false">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>GEN</ns1:category>
+            <ns1:key>GEN-001</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>0</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Basic CodeReview</ns1:name>
+                <ns1:description>Basic CodeReview</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:number-of-processes>6</ns0:number-of-processes>
+        <ns0:number-of-activities>6</ns0:number-of-activities>
+        <ns0:number-of-files>30</ns0:number-of-files>
+        <ns0:number-of-libs>0</ns0:number-of-libs>
+        <ns0:number-of-ears>1</ns0:number-of-ears>
+        <ns0:number-of-pars>1</ns0:number-of-pars>
+        <ns0:number-of-aars>0</ns0:number-of-aars>
+        <ns0:number-of-libbuilder>0</ns0:number-of-libbuilder>
+    </ns0:general>
+    <ns0:errors>
+        <ns0:error>
+            <ns0:error-name>ValidationException</ns0:error-name>
+            <ns0:rule>REL-001</ns0:rule>
+            <ns0:context/>
+        </ns0:error>
+    </ns0:errors>
+    <ns0:additional-data>
+        <ns0:config>
+            <ns0:entry>
+                <ns0:key>MaxActivityByProcess</ns0:key>
+                <ns0:value>15</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+                <ns0:key>MaxMappingLines</ns0:key>
+                <ns0:value>100</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+                <ns0:key>MaxNestedLoops</ns0:key>
+                <ns0:value>3</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+                <ns0:key>MaxProcessCallDepth</ns0:key>
+                <ns0:value>7</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+                <ns0:key>MaxProcessCallDepthForAnalysis</ns0:key>
+                <ns0:value>12</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+                <ns0:key>OversizedProcesses_Height</ns0:key>
+                <ns0:value>900</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+                <ns0:key>OversizedProcesses_Width</ns0:key>
+                <ns0:value>1100</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+                <ns0:key>TransitionConditionMinLength</ns0:key>
+                <ns0:value>10</ns0:value>
+            </ns0:entry>
+            <ns0:entry>
+                <ns0:key>TransitionLabelMinLength</ns0:key>
+                <ns0:value>1</ns0:value>
+            </ns0:entry>
+        </ns0:config>
+        <ns0:files>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/.designtimelibs</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/WorstProjectEver.archive</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/vcrepo.dat</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae.aeschema</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/corba.aeschema</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/java.aeschema</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/sql.aeschema</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae/baseDocument.aeschema</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-001/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-001/Recursive Call.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-003/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-003/JDBC SQL Direct.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/No Out Transition.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-006/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-006/No Otherwise Transition.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/JDBC Connection.sharedjdbc</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/defaultVars/defaultVars.substvar</ns0:file>
+        </ns0:files>
+    </ns0:additional-data>
+    <ns0:aggregated-grades>
+        <ns0:aggregated-grade category="GEN">90</ns0:aggregated-grade>
+        <ns0:aggregated-grade category="REL">93</ns0:aggregated-grade>
+        <ns0:aggregated-grade category="EFF">100</ns0:aggregated-grade>
+        <ns0:aggregated-grade category="MAI">91</ns0:aggregated-grade>
+        <ns0:aggregated-grade category="POR">100</ns0:aggregated-grade>
+    </ns0:aggregated-grades>
+    <ns0:categories>
+        <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>GEN</ns1:category>
+            <ns1:name>General</ns1:name>
+            <ns1:description>General category</ns1:description>
+        </ns1:category>
+        <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>REL</ns1:category>
+            <ns1:name>Reliability</ns1:name>
+            <ns1:description>Reliability category</ns1:description>
+        </ns1:category>
+        <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>EFF</ns1:category>
+            <ns1:name>Efficiency</ns1:name>
+            <ns1:description>Efficiency category</ns1:description>
+        </ns1:category>
+        <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:name>Maintainability</ns1:name>
+            <ns1:description>Maintainability category</ns1:description>
+        </ns1:category>
+        <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>POR</ns1:category>
+            <ns1:name>Portability</ns1:name>
+            <ns1:description>Portability category</ns1:description>
+        </ns1:category>
+        <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>ERR</ns1:category>
+            <ns1:name>Errors</ns1:name>
+            <ns1:description>Errors category</ns1:description>
+        </ns1:category>
+        <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>CONF</ns1:category>
+            <ns1:name>Configuration</ns1:name>
+            <ns1:description>Configuration category</ns1:description>
+        </ns1:category>
+        <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>FILES</ns1:category>
+            <ns1:name>Files</ns1:name>
+            <ns1:description>Files category</ns1:description>
+        </ns1:category>
+    </ns0:categories>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>EFF</ns1:category>
+            <ns1:key>EFF-001</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Nested loop</ns1:name>
+                <ns1:description>Nested loop</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:param>
+            <ns0:key>MaxNestedLoops</ns0:key>
+            <ns0:value>3</ns0:value>
+        </ns0:param>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>EFF</ns1:category>
+            <ns1:key>EFF-002</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Critical Section on JobSharedVariable</ns1:name>
+                <ns1:description>Performance issue</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>EFF</ns1:category>
+            <ns1:key>EFF-003</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Critical Section on single SharedVariable</ns1:name>
+                <ns1:description>Critical Section on single SharedVariable</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>EFF</ns1:category>
+            <ns1:key>EFF-004</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Get JMS Queue Message Uses</ns1:name>
+                <ns1:description>Get JMS Queue Message Uses</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>EFF</ns1:category>
+            <ns1:key>EFF-005</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>JMS Selector</ns1:name>
+                <ns1:description>JMS Selector</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>EFF</ns1:category>
+            <ns1:key>EFF-006</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>JMS Synchronous activities</ns1:name>
+                <ns1:description>JMS Synchronous activities</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="90">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>GEN</ns1:category>
+            <ns1:key>GEN-002</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>GVs in connections configuration</ns1:name>
+                <ns1:description>GVs in connections configuration</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Resources/JDBC Connection.sharedjdbc</ns0:resource>
+            <ns0:key>dir</ns0:key>
+            <ns0:value>/Resources/JDBC Connection.sharedjdbc</ns0:value>
+            <ns0:child>
+                <ns0:key>xpath</ns0:key>
+                <ns0:value>Driver</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>xpath</ns0:key>
+                <ns0:value>URL</ns0:value>
+            </ns0:child>
+        </ns0:result>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="90">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>GEN</ns1:category>
+            <ns1:key>GEN-003</ns1:key>
+            <ns1:severity>MINOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Default targetNameSpace in schema definition</ns1:name>
+                <ns1:description>The targetNameSpace of the XML Schema Definition (XSD) starts with 'http://www.tibco.com'. It is most likely the default value set by the Designer. A good targetNameSpace should be customized with a mnemonic name such as 'http://company.com/category/feature.xsd'.</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</ns0:resource>
+            <ns0:key>file</ns0:key>
+            <ns0:value>/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</ns0:value>
+            <ns0:child>
+                <ns0:key>namespace</ns0:key>
+                <ns0:value>http://www.tibco.com/schemas/WorstProjectEver/Issues/General/GEN-003/Schema.xsd</ns0:value>
+            </ns0:child>
+        </ns0:result>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="90">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>GEN</ns1:category>
+            <ns1:key>GEN-004</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Namespace Collisions</ns1:name>
+                <ns1:description>Namespace Collisions</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</ns0:resource>
+            <ns0:key>file</ns0:key>
+            <ns0:value>/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</ns0:value>
+            <ns0:child>
+                <ns0:key>namespace</ns0:key>
+                <ns0:value>http://www.tibco.com/schemas/WorstProjectEver/Issues/General/GEN-003/Schema.xsd</ns0:value>
+            </ns0:child>
+        </ns0:result>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-001</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Collect Transition Colors</ns1:name>
+                <ns1:description>Collect Transition Colors</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-002</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Dynamic Process Calls</ns1:name>
+                <ns1:description>Dynamic Process Calls</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-003</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Process Call Depth</ns1:name>
+                <ns1:description>Process Call Depth</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:param>
+            <ns0:key>MaxProcessCallDepth</ns0:key>
+            <ns0:value>7</ns0:value>
+        </ns0:param>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-004</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Java XPath</ns1:name>
+                <ns1:description>Java XPath</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-005</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>20</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Projlib Import</ns1:name>
+                <ns1:description>Projlib Import</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-006</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>20</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Complex Input</ns1:name>
+                <ns1:description>Complex Input</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:param>
+            <ns0:key>MaxMappingLines</ns0:key>
+            <ns0:value>100</ns0:value>
+        </ns0:param>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-007</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>20</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Number of activity by process</ns1:name>
+                <ns1:description>Number of activity by process</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:param>
+            <ns0:key>MaxActivityByProcess</ns0:key>
+            <ns0:value>15</ns0:value>
+        </ns0:param>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="0">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-008</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>20</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Uncommented processes</ns1:name>
+                <ns1:description>Uncommented processes</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-001/Recursive Call.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-001/Recursive Call.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-003/JDBC SQL Direct.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-003/JDBC SQL Direct.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-005/No Out Transition.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-005/No Out Transition.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-006/No Otherwise Transition.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-006/No Otherwise Transition.process</ns0:value>
+        </ns0:result>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-009</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Oversized Processes</ns1:name>
+                <ns1:description>Oversized Processes</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:param>
+            <ns0:key>OversizedProcesses_Height</ns0:key>
+            <ns0:value>900</ns0:value>
+        </ns0:param>
+        <ns0:param>
+            <ns0:key>OversizedProcesses_Width</ns0:key>
+            <ns0:value>1100</ns0:value>
+        </ns0:param>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-010</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>20</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Unlabelled Transitions</ns1:name>
+                <ns1:description>Unlabelled Transitions</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>MAI</ns1:category>
+            <ns1:key>MAI-011</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Starter Process with output</ns1:name>
+                <ns1:description>Starter Process with output</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>POR</ns1:category>
+            <ns1:key>POR-001</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>External Command Uses</ns1:name>
+                <ns1:description>External Command Uses</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>POR</ns1:category>
+            <ns1:key>POR-002</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Java Activities Uses</ns1:name>
+                <ns1:description>Java Activities Uses</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>REL</ns1:category>
+            <ns1:key>REL-001</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Recursive Calls</ns1:name>
+                <ns1:description>Recursive Calls</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="80">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>REL</ns1:category>
+            <ns1:key>REL-002</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Nested Transactions</ns1:name>
+                <ns1:description>Nested Transactions</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</ns0:resource>
+            <ns0:key>process1</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</ns0:value>
+            <ns0:child>
+                <ns0:key>transaction1</ns0:key>
+                <ns0:value>JDBC Transaction</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>process2</ns0:key>
+                <ns0:value>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>transaction2</ns0:key>
+                <ns0:value>JMS Transaction</ns0:value>
+            </ns0:child>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</ns0:resource>
+            <ns0:key>process1</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</ns0:value>
+            <ns0:child>
+                <ns0:key>transaction1</ns0:key>
+                <ns0:value>JDBC Transaction</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>process2</ns0:key>
+                <ns0:value>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>transaction2</ns0:key>
+                <ns0:value>JMS Transaction</ns0:value>
+            </ns0:child>
+        </ns0:result>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="90">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>REL</ns1:category>
+            <ns1:key>REL-003</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>JDBC SQLDirect Uses</ns1:name>
+                <ns1:description>JDBC SQLDirect Uses</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-003/JDBC SQL Direct.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-003/JDBC SQL Direct.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>SQL Direct</ns0:value>
+            </ns0:child>
+        </ns0:result>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>REL</ns1:category>
+            <ns1:key>REL-004</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>Unknown JMS Properties</ns1:name>
+                <ns1:description>Unknown JMS Properties</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="90">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>REL</ns1:category>
+            <ns1:key>REL-005</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>No out Transition</ns1:name>
+                <ns1:description>No out Transition</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-005/No Out Transition.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-005/No Out Transition.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>Some mapping</ns0:value>
+            </ns0:child>
+        </ns0:result>
+    </ns0:rule>
+    <ns0:rule disabled="false" grade="100">
+        <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+            <ns1:category>REL</ns1:category>
+            <ns1:key>REL-006</ns1:key>
+            <ns1:severity>MAJOR</ns1:severity>
+            <ns1:weight>10</ns1:weight>
+            <ns1:infos>
+                <ns1:name>No otherwise Transition</ns1:name>
+                <ns1:description>No otherwise Transition</ns1:description>
+            </ns1:infos>
+        </ns1:rule>
+    </ns0:rule>
+</ns0:review-result>

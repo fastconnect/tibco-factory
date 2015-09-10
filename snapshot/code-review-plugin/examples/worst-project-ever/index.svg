@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:res="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" width="5cm" version="1.1" height="5cm" viewBox="0 0 800 800">
+    <style type="text/css">
+        
+        svg {
+            fill: none;
+            stroke: #000;
+            stroke-opacity: 1;
+            stroke-width: 1pt;
+        }
+        
+        text {
+            fill: #000;
+            font-family: arial;
+            font-size: 30pt;
+            font-weight: bold;
+			stroke: none;
+            text-anchor: middle;
+        }
+        
+        circle {
+        	fill: #FFF;
+        	stroke: none;
+        }
+        
+        polygon.review { 
+        	stroke-width: 5pt;
+        	stroke: #216a8e;
+        	fill: #2f98cc;
+        }
+        
+        line.axis {
+            stroke-width: 2pt;
+        }
+        
+        line.gradiant {
+        	stroke: #333;
+            stroke-width: 1pt;
+        }
+        
+			</style>
+    <title>FCCodeReview</title>
+    <script>
+		    
+		    
+		    	function calculatePoint(value, angle) {
+					return "" + (Math.round(3* Math.sin(angle * Math.PI / 180) * value)) + "," + (0-Math.round(3*Math.cos(angle * Math.PI / 180) * value));
+		    	}
+		    	
+				function values(gen,rel,eff,mai,por) {
+					var reviewPoints = calculatePoint(gen, 0);
+					reviewPoints += " " + calculatePoint(rel, 72);
+					reviewPoints += " " + calculatePoint(eff, 144);
+					reviewPoints += " " + calculatePoint(mai, 216);
+					reviewPoints += " " + calculatePoint(por, 288);
+					var rev = document.getElementsByClassName("review")[0];
+					rev.setAttribute('points', reviewPoints);
+		        }
+			
+			</script>
+    <defs>
+        <g id="grid">
+            <line x2="10" y2="-60" class="gradiant" x1="-10" y1="-60"/>
+            <line x2="10" y2="-120" class="gradiant" x1="-10" y1="-120"/>
+            <line x2="10" y2="-180" class="gradiant" x1="-10" y1="-180"/>
+            <line x2="10" y2="-240" class="gradiant" x1="-10" y1="-240"/>
+            <line x2="10" y2="-300" class="gradiant" x1="-10" y1="-300"/>
+            <line y2="-300" class="axis" x1="0" y1="0"/>
+        </g>
+    </defs>
+    <g transform="translate(400 400)">
+        <circle cy="0" cx="0" r="400"/>
+        <polygon class="review" points="100,100 -100,100 100,-100, -100,-100"/>
+        <use xlink:href="#grid" transform="rotate(0)"/>
+        <use xlink:href="#grid" transform="rotate(-72)"/>
+        <use xlink:href="#grid" transform="rotate(-144)"/>
+        <use xlink:href="#grid" transform="rotate(-216)"/>
+        <use xlink:href="#grid" transform="rotate(-288)"/>
+        <g id="labels">
+            <text y="-320" x="0">GEN</text>
+            <text y="-110" x="320">REL</text>
+            <text y="280" x="220">EFF</text>
+            <text y="280" x="-220">MAI</text>
+            <text y="-110" x="-320">POR</text>
+        </g>
+    </g>
+    <script>
+        <![CDATA[
+        values(90,93,100,91,100);
+        ]]>
+        </script>
+</svg>

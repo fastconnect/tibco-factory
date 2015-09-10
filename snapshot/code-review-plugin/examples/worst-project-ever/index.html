@@ -1,0 +1,849 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:rr="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" xmlns="http://www.w3.org/1999/xhtml" xmlns:l="http://fastconnect.fr/Lang.xsd" xmlns:rc="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
+   <head>
+      <title>FC Code Review</title>
+      <meta charset="UTF-8"></meta>
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"></meta>
+      <link xmlns="" rel="stylesheet" title="CodeReviewCSS" type="text/css" media="screen" href="resources/code-review.css">
+      <link xmlns="" rel="stylesheet" title="CodeReviewCSS" type="text/css" media="screen" href="resources/docs.css">
+      <meta xmlns="" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link xmlns="" href="resources/bootstrap.min.css" rel="stylesheet">
+   </head>
+   <body xmlns="" data-spy="scroll" data-target="#top-nav" data-twttr-rendered="true">
+      <div class="container-fluid">
+         <div id="top-menu-tabs">
+            <div>
+               <ul class="nav nav-tabs" role="tablist">
+                  <li><a class="brand"><strong><span class="color-highlight">FC</span> Code Review</strong></a></li>
+                  <li role="presentation"><a href="#GEN" aria-controls="GEN" role="tab" data-toggle="tab">General <span class="badge">3 / 3</span></a></li>
+                  <li role="presentation"><a href="#REL" aria-controls="REL" role="tab" data-toggle="tab">Reliability <span class="badge">3 / 6</span></a></li>
+                  <li role="presentation"><a href="#EFF" aria-controls="EFF" role="tab" data-toggle="tab">Efficiency <span class="badge">0 / 6</span></a></li>
+                  <li role="presentation"><a href="#MAI" aria-controls="MAI" role="tab" data-toggle="tab">Maintainability <span class="badge">1 / 11</span></a></li>
+                  <li role="presentation"><a href="#POR" aria-controls="POR" role="tab" data-toggle="tab">Portability <span class="badge">0 / 2</span></a></li>
+                  <li role="presentation"><a href="#ERR" aria-controls="ERR" role="tab" data-toggle="tab">Errors </a></li>
+                  <li role="presentation"><a href="#CONF" aria-controls="CONF" role="tab" data-toggle="tab">Configuration </a></li>
+                  <li role="presentation"><a href="#FILES" aria-controls="FILES" role="tab" data-toggle="tab">Files </a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="tab-content">
+            <div role="tabpanel" class="tab-pane" id="GEN">
+               <h1>General</h1>
+               <p>General category</p>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_GEN-001" aria-controls="collapse_GEN-001">
+                  <div class="panel-heading"><span class="label label-default">GEN-001</span><h3 id="GEN-001">Basic CodeReview</h3>
+                  </div>
+                  <div class="collapse in" id="collapse_GEN-001">
+                     <div class="panel-body" id="GEN-001">
+                        <div>
+                           <p><i>Key: </i>GEN-001<br><i>Name: </i>Basic CodeReview<br><i>Description: </i>Basic CodeReview<br><i>Weight: </i>0<br></p>
+                           <hr>
+                           <p><i>Number of processes: </i>6<br><i>Number of activities: </i>6<br><i>Number of files: </i>30<br><i>Number of libraries (Projlibs): </i>0<br><i>Number of EARs: </i>1<br><i>Number of PARs: </i>1<br><i>Number of AARs: </i>0<br><i>Number of library builder: </i>0<br></p>
+                        </div>
+                        <div>
+                           <embed src="index.svg" style="float: right; margin-top: -290px;" width="400" height="400"></embed>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_GEN-002" aria-controls="collapse_GEN-002">
+                  <div class="panel-heading"><span class="label label-default">GEN-002</span><h3 id="GEN-002">GVs in connections configuration</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_GEN-002">
+                     <div class="panel-body" id="GEN-002">
+                        <div>
+                           <p><i>Key: </i>GEN-002<br><i>Name: </i>GVs in connections configuration<br><i>Description: </i>GVs in connections configuration<br><i>Weight: </i>10<br><i>Score: </i>100 - 10 * 1 = 90<br></p>
+                           <hr><span id="GEN-002">
+                              <p><i>Output: </i></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>dir</th>
+                                    <th>xpath</th>
+                                    <th>xpath</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Resources/JDBC Connection.sharedjdbc</td>
+                                    <td>Driver</td>
+                                    <td>URL</td>
+                                 </tr>
+                              </table></span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_GEN-003" aria-controls="collapse_GEN-003">
+                  <div class="panel-heading"><span class="label label-default">GEN-003</span><h3 id="GEN-003">Default targetNameSpace in schema definition</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_GEN-003">
+                     <div class="panel-body" id="GEN-003">
+                        <div>
+                           <p><i>Key: </i>GEN-003<br><i>Name: </i>Default targetNameSpace in schema definition<br><i>Description: </i>The targetNameSpace of the XML Schema Definition (XSD) starts with 'http://www.tibco.com'. It is most likely the default value
+                              set by the Designer. A good targetNameSpace should be customized with a mnemonic name such as 'http://company.com/category/feature.xsd'.<br><i>Weight: </i>10<br><i>Score: </i>100 - 10 * 1 = 90<br></p>
+                           <hr><span id="GEN-003">
+                              <p><i>Output: </i></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>file</th>
+                                    <th>namespace</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</td>
+                                    <td>http://www.tibco.com/schemas/WorstProjectEver/Issues/General/GEN-003/Schema.xsd</td>
+                                 </tr>
+                              </table></span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_GEN-004" aria-controls="collapse_GEN-004">
+                  <div class="panel-heading"><span class="label label-default">GEN-004</span><h3 id="GEN-004">Namespace Collisions</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_GEN-004">
+                     <div class="panel-body" id="GEN-004">
+                        <div>
+                           <p><i>Key: </i>GEN-004<br><i>Name: </i>Namespace Collisions<br><i>Description: </i>Namespace Collisions<br><i>Weight: </i>10<br><i>Score: </i>100 - 10 * 1 = 90<br></p>
+                           <hr><span id="GEN-004">
+                              <p><i>Output: </i></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>file</th>
+                                    <th>namespace</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</td>
+                                    <td>http://www.tibco.com/schemas/WorstProjectEver/Issues/General/GEN-003/Schema.xsd</td>
+                                 </tr>
+                              </table></span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="REL">
+               <h1>Reliability</h1>
+               <p>Reliability category</p>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_REL-001" aria-controls="collapse_REL-001">
+                  <div class="panel-heading"><span class="label label-default">REL-001</span><h3 id="REL-001">Recursive Calls</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_REL-001">
+                     <div class="panel-body" id="REL-001">
+                        <div>
+                           <p><i>Key: </i>REL-001<br><i>Name: </i>Recursive Calls<br><i>Description: </i>Recursive Calls<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_REL-002" aria-controls="collapse_REL-002">
+                  <div class="panel-heading"><span class="label label-default">REL-002</span><h3 id="REL-002">Nested Transactions</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 80%; min-width: 25px;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">80 %<span class="sr-only" style="display: none; visibility: hidden;">80 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_REL-002">
+                     <div class="panel-body" id="REL-002">
+                        <div>
+                           <p><i>Key: </i>REL-002<br><i>Name: </i>Nested Transactions<br><i>Description: </i>Nested Transactions<br><i>Weight: </i>10<br><i>Score: </i>100 - 10 * 2 = 80<br></p>
+                           <hr><span id="REL-002">
+                              <p><i>Output: </i></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process1</th>
+                                    <th>transaction1</th>
+                                    <th>process2</th>
+                                    <th>transaction2</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
+                                    <td>JDBC Transaction</td>
+                                    <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
+                                    <td>JMS Transaction</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</td>
+                                    <td>JDBC Transaction</td>
+                                    <td>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</td>
+                                    <td>JMS Transaction</td>
+                                 </tr>
+                              </table></span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_REL-003" aria-controls="collapse_REL-003">
+                  <div class="panel-heading"><span class="label label-default">REL-003</span><h3 id="REL-003">JDBC SQLDirect Uses</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_REL-003">
+                     <div class="panel-body" id="REL-003">
+                        <div>
+                           <p><i>Key: </i>REL-003<br><i>Name: </i>JDBC SQLDirect Uses<br><i>Description: </i>JDBC SQLDirect Uses<br><i>Weight: </i>10<br><i>Score: </i>100 - 10 * 1 = 90<br></p>
+                           <hr><span id="REL-003">
+                              <p><i>Output: </i></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>activity</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-003/JDBC SQL Direct.process</td>
+                                    <td>SQL Direct</td>
+                                 </tr>
+                              </table></span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_REL-004" aria-controls="collapse_REL-004">
+                  <div class="panel-heading"><span class="label label-default">REL-004</span><h3 id="REL-004">Unknown JMS Properties</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_REL-004">
+                     <div class="panel-body" id="REL-004">
+                        <div>
+                           <p><i>Key: </i>REL-004<br><i>Name: </i>Unknown JMS Properties<br><i>Description: </i>Unknown JMS Properties<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_REL-005" aria-controls="collapse_REL-005">
+                  <div class="panel-heading"><span class="label label-default">REL-005</span><h3 id="REL-005">No out Transition</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_REL-005">
+                     <div class="panel-body" id="REL-005">
+                        <div>
+                           <p><i>Key: </i>REL-005<br><i>Name: </i>No out Transition<br><i>Description: </i>No out Transition<br><i>Weight: </i>10<br><i>Score: </i>100 - 10 * 1 = 90<br></p>
+                           <hr><span id="REL-005">
+                              <p><i>Output: </i></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>activity</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-005/No Out Transition.process</td>
+                                    <td>Some mapping</td>
+                                 </tr>
+                              </table></span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_REL-006" aria-controls="collapse_REL-006">
+                  <div class="panel-heading"><span class="label label-default">REL-006</span><h3 id="REL-006">No otherwise Transition</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_REL-006">
+                     <div class="panel-body" id="REL-006">
+                        <div>
+                           <p><i>Key: </i>REL-006<br><i>Name: </i>No otherwise Transition<br><i>Description: </i>No otherwise Transition<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="EFF">
+               <h1>Efficiency</h1>
+               <p>Efficiency category</p>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-001" aria-controls="collapse_EFF-001">
+                  <div class="panel-heading"><span class="label label-default">EFF-001</span><h3 id="EFF-001">Nested loop</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_EFF-001">
+                     <div class="panel-body" id="EFF-001">
+                        <div>
+                           <p><i>Key: </i>EFF-001<br><i>Name: </i>Nested loop<br><i>Description: </i>Nested loop<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>Parameters used: </i></p>
+                           <table class="table table-striped">
+                              <tr>
+                                 <th>key</th>
+                                 <th>value</th>
+                              </tr>
+                              <tr>
+                                 <td>MaxNestedLoops</td>
+                                 <td>3</td>
+                              </tr>
+                           </table>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-002" aria-controls="collapse_EFF-002">
+                  <div class="panel-heading"><span class="label label-default">EFF-002</span><h3 id="EFF-002">Critical Section on JobSharedVariable</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_EFF-002">
+                     <div class="panel-body" id="EFF-002">
+                        <div>
+                           <p><i>Key: </i>EFF-002<br><i>Name: </i>Critical Section on JobSharedVariable<br><i>Description: </i>Performance issue<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-003" aria-controls="collapse_EFF-003">
+                  <div class="panel-heading"><span class="label label-default">EFF-003</span><h3 id="EFF-003">Critical Section on single SharedVariable</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_EFF-003">
+                     <div class="panel-body" id="EFF-003">
+                        <div>
+                           <p><i>Key: </i>EFF-003<br><i>Name: </i>Critical Section on single SharedVariable<br><i>Description: </i>Critical Section on single SharedVariable<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-004" aria-controls="collapse_EFF-004">
+                  <div class="panel-heading"><span class="label label-default">EFF-004</span><h3 id="EFF-004">Get JMS Queue Message Uses</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_EFF-004">
+                     <div class="panel-body" id="EFF-004">
+                        <div>
+                           <p><i>Key: </i>EFF-004<br><i>Name: </i>Get JMS Queue Message Uses<br><i>Description: </i>Get JMS Queue Message Uses<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-005" aria-controls="collapse_EFF-005">
+                  <div class="panel-heading"><span class="label label-default">EFF-005</span><h3 id="EFF-005">JMS Selector</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_EFF-005">
+                     <div class="panel-body" id="EFF-005">
+                        <div>
+                           <p><i>Key: </i>EFF-005<br><i>Name: </i>JMS Selector<br><i>Description: </i>JMS Selector<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-006" aria-controls="collapse_EFF-006">
+                  <div class="panel-heading"><span class="label label-default">EFF-006</span><h3 id="EFF-006">JMS Synchronous activities</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_EFF-006">
+                     <div class="panel-body" id="EFF-006">
+                        <div>
+                           <p><i>Key: </i>EFF-006<br><i>Name: </i>JMS Synchronous activities<br><i>Description: </i>JMS Synchronous activities<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="MAI">
+               <h1>Maintainability</h1>
+               <p>Maintainability category</p>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-001" aria-controls="collapse_MAI-001">
+                  <div class="panel-heading"><span class="label label-default">MAI-001</span><h3 id="MAI-001">Collect Transition Colors</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-001">
+                     <div class="panel-body" id="MAI-001">
+                        <div>
+                           <p><i>Key: </i>MAI-001<br><i>Name: </i>Collect Transition Colors<br><i>Description: </i>Collect Transition Colors<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-002" aria-controls="collapse_MAI-002">
+                  <div class="panel-heading"><span class="label label-default">MAI-002</span><h3 id="MAI-002">Dynamic Process Calls</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-002">
+                     <div class="panel-body" id="MAI-002">
+                        <div>
+                           <p><i>Key: </i>MAI-002<br><i>Name: </i>Dynamic Process Calls<br><i>Description: </i>Dynamic Process Calls<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-003" aria-controls="collapse_MAI-003">
+                  <div class="panel-heading"><span class="label label-default">MAI-003</span><h3 id="MAI-003">Process Call Depth</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-003">
+                     <div class="panel-body" id="MAI-003">
+                        <div>
+                           <p><i>Key: </i>MAI-003<br><i>Name: </i>Process Call Depth<br><i>Description: </i>Process Call Depth<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>Parameters used: </i></p>
+                           <table class="table table-striped">
+                              <tr>
+                                 <th>key</th>
+                                 <th>value</th>
+                              </tr>
+                              <tr>
+                                 <td>MaxProcessCallDepth</td>
+                                 <td>7</td>
+                              </tr>
+                           </table>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-004" aria-controls="collapse_MAI-004">
+                  <div class="panel-heading"><span class="label label-default">MAI-004</span><h3 id="MAI-004">Java XPath</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-004">
+                     <div class="panel-body" id="MAI-004">
+                        <div>
+                           <p><i>Key: </i>MAI-004<br><i>Name: </i>Java XPath<br><i>Description: </i>Java XPath<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-005" aria-controls="collapse_MAI-005">
+                  <div class="panel-heading"><span class="label label-default">MAI-005</span><h3 id="MAI-005">Projlib Import</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-005">
+                     <div class="panel-body" id="MAI-005">
+                        <div>
+                           <p><i>Key: </i>MAI-005<br><i>Name: </i>Projlib Import<br><i>Description: </i>Projlib Import<br><i>Weight: </i>20<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-006" aria-controls="collapse_MAI-006">
+                  <div class="panel-heading"><span class="label label-default">MAI-006</span><h3 id="MAI-006">Complex Input</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-006">
+                     <div class="panel-body" id="MAI-006">
+                        <div>
+                           <p><i>Key: </i>MAI-006<br><i>Name: </i>Complex Input<br><i>Description: </i>Complex Input<br><i>Weight: </i>20<br></p>
+                           <hr>
+                           <p><i>Parameters used: </i></p>
+                           <table class="table table-striped">
+                              <tr>
+                                 <th>key</th>
+                                 <th>value</th>
+                              </tr>
+                              <tr>
+                                 <td>MaxMappingLines</td>
+                                 <td>100</td>
+                              </tr>
+                           </table>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-007" aria-controls="collapse_MAI-007">
+                  <div class="panel-heading"><span class="label label-default">MAI-007</span><h3 id="MAI-007">Number of activity by process</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-007">
+                     <div class="panel-body" id="MAI-007">
+                        <div>
+                           <p><i>Key: </i>MAI-007<br><i>Name: </i>Number of activity by process<br><i>Description: </i>Number of activity by process<br><i>Weight: </i>20<br></p>
+                           <hr>
+                           <p><i>Parameters used: </i></p>
+                           <table class="table table-striped">
+                              <tr>
+                                 <th>key</th>
+                                 <th>value</th>
+                              </tr>
+                              <tr>
+                                 <td>MaxActivityByProcess</td>
+                                 <td>15</td>
+                              </tr>
+                           </table>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-008" aria-controls="collapse_MAI-008">
+                  <div class="panel-heading"><span class="label label-default">MAI-008</span><h3 id="MAI-008">Uncommented processes</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 0%; min-width: 25px;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-danger">0 %<span class="sr-only" style="display: none; visibility: hidden;">0 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-008">
+                     <div class="panel-body" id="MAI-008">
+                        <div>
+                           <p><i>Key: </i>MAI-008<br><i>Name: </i>Uncommented processes<br><i>Description: </i>Uncommented processes<br><i>Weight: </i>20<br><i>Score: </i>100 - 20 * 6 &lt;= 0<br></p>
+                           <hr><span id="MAI-008">
+                              <p><i>Output: </i></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-001/Recursive Call.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-003/JDBC SQL Direct.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-005/No Out Transition.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-006/No Otherwise Transition.process</td>
+                                 </tr>
+                              </table></span></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-009" aria-controls="collapse_MAI-009">
+                  <div class="panel-heading"><span class="label label-default">MAI-009</span><h3 id="MAI-009">Oversized Processes</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-009">
+                     <div class="panel-body" id="MAI-009">
+                        <div>
+                           <p><i>Key: </i>MAI-009<br><i>Name: </i>Oversized Processes<br><i>Description: </i>Oversized Processes<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>Parameters used: </i></p>
+                           <table class="table table-striped">
+                              <tr>
+                                 <th>key</th>
+                                 <th>value</th>
+                              </tr>
+                              <tr>
+                                 <td>OversizedProcesses_Height</td>
+                                 <td>900</td>
+                              </tr>
+                              <tr>
+                                 <td>OversizedProcesses_Width</td>
+                                 <td>1100</td>
+                              </tr>
+                           </table>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-010" aria-controls="collapse_MAI-010">
+                  <div class="panel-heading"><span class="label label-default">MAI-010</span><h3 id="MAI-010">Unlabelled Transitions</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-010">
+                     <div class="panel-body" id="MAI-010">
+                        <div>
+                           <p><i>Key: </i>MAI-010<br><i>Name: </i>Unlabelled Transitions<br><i>Description: </i>Unlabelled Transitions<br><i>Weight: </i>20<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-011" aria-controls="collapse_MAI-011">
+                  <div class="panel-heading"><span class="label label-default">MAI-011</span><h3 id="MAI-011">Starter Process with output</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_MAI-011">
+                     <div class="panel-body" id="MAI-011">
+                        <div>
+                           <p><i>Key: </i>MAI-011<br><i>Name: </i>Starter Process with output<br><i>Description: </i>Starter Process with output<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="POR">
+               <h1>Portability</h1>
+               <p>Portability category</p>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_POR-001" aria-controls="collapse_POR-001">
+                  <div class="panel-heading"><span class="label label-default">POR-001</span><h3 id="POR-001">External Command Uses</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_POR-001">
+                     <div class="panel-body" id="POR-001">
+                        <div>
+                           <p><i>Key: </i>POR-001<br><i>Name: </i>External Command Uses<br><i>Description: </i>External Command Uses<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_POR-002" aria-controls="collapse_POR-002">
+                  <div class="panel-heading"><span class="label label-default">POR-002</span><h3 id="POR-002">Java Activities Uses</h3>
+                     <div class="progress" style="width: 150px;">
+                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                     </div>
+                  </div>
+                  <div class="collapse" id="collapse_POR-002">
+                     <div class="panel-body" id="POR-002">
+                        <div>
+                           <p><i>Key: </i>POR-002<br><i>Name: </i>Java Activities Uses<br><i>Description: </i>Java Activities Uses<br><i>Weight: </i>10<br></p>
+                           <hr>
+                           <p><i>No issue detected.</i></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="ERR">
+               <h1>Errors</h1>
+               <p>Errors category</p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="CONF">
+               <h1>Configuration</h1>
+               <p>Configuration category</p>
+               <table class="table table-striped">
+                  <tr>
+                     <th>Key</th>
+                     <th>Value</th>
+                  </tr>
+                  <tr>
+                     <td>MaxActivityByProcess</td>
+                     <td>15</td>
+                  </tr>
+                  <tr>
+                     <td>MaxMappingLines</td>
+                     <td>100</td>
+                  </tr>
+                  <tr>
+                     <td>MaxNestedLoops</td>
+                     <td>3</td>
+                  </tr>
+                  <tr>
+                     <td>MaxProcessCallDepth</td>
+                     <td>7</td>
+                  </tr>
+                  <tr>
+                     <td>MaxProcessCallDepthForAnalysis</td>
+                     <td>12</td>
+                  </tr>
+                  <tr>
+                     <td>OversizedProcesses_Height</td>
+                     <td>900</td>
+                  </tr>
+                  <tr>
+                     <td>OversizedProcesses_Width</td>
+                     <td>1100</td>
+                  </tr>
+                  <tr>
+                     <td>TransitionConditionMinLength</td>
+                     <td>10</td>
+                  </tr>
+                  <tr>
+                     <td>TransitionLabelMinLength</td>
+                     <td>1</td>
+                  </tr>
+               </table>
+            </div>
+            <div id="FILES" role="tabpanel" class="tab-pane">
+               <h1>Files</h1>
+               <p>Files category</p>
+               <table class="table table-striped">
+                  <tr>
+                     <th>Files</th>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/.designtimelibs</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/WorstProjectEver.archive</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/vcrepo.dat</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae.aeschema</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/corba.aeschema</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/java.aeschema</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/sql.aeschema</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae/baseDocument.aeschema</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-001/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-001/Recursive
+                        Call.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/Nested
+                        Transaction JDBC in JMS.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/Nested
+                        Transaction JMS in JDBC.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-003/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-003/JDBC
+                        SQL Direct.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/No
+                        Out Transition.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-006/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-006/No
+                        Otherwise Transition.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/JDBC
+                        Connection.sharedjdbc
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/defaultVars/defaultVars.substvar</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <footer class="footer">
+         <p class="text-muted credit"><i>Project</i> :
+            				<strong>Code Review Plugin for TIBCO BusinessWorks - IT - WorstProjectEver project</strong>
+            				- <i>Review Date</i> :
+            				<strong>2015-09-10 13:53:01</strong>
+            				- <i>Review Duration</i> :
+            				<strong>2.19</strong>
+            				sec.
+            				<br><span class="color-highlight">FC</span> Code Review for TIBCO BusinessWorks - © 2013-2015  - <a href="http://www.fastconnect.fr/" target="_blank">FastConnect</a></p>
+      </footer><script type="text/javascript" src="resources/jquery.min.js">//</script><script type="text/javascript" src="resources/bootstrap.min.js">//</script><script type="text/javascript" src="resources/docs.js">//</script><script type="text/javascript">
+	        $(document).ready(function() {
+				$('body').scrollspy({ target: '.navbar-fixed-top' })
+	        });
+
+	        $('#top-menu-tabs li:eq(1) a').tab('show'); // Select first tab
+        </script></body>
+</html>
