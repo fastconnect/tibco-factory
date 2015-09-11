@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - WorstProjectEver project" timestamp="2015-09-11T01:08:48.748+02:00" duration="2.472" project-basedir="/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver" home-page="../../index.html" language="FR">
+<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - WorstProjectEver project" timestamp="2015-09-11T19:05:20.73+02:00" duration="7.128" project-basedir="/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver" home-page="../../index.html" language="FR">
     <ns0:general disabled="false">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>GEN</ns1:category>
@@ -12,9 +12,9 @@
                 <ns1:descriptionHTML>Basic CodeReview</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
-        <ns0:number-of-processes>6</ns0:number-of-processes>
-        <ns0:number-of-activities>6</ns0:number-of-activities>
-        <ns0:number-of-files>30</ns0:number-of-files>
+        <ns0:number-of-processes>31</ns0:number-of-processes>
+        <ns0:number-of-activities>44</ns0:number-of-activities>
+        <ns0:number-of-files>82</ns0:number-of-files>
         <ns0:number-of-libs>0</ns0:number-of-libs>
         <ns0:number-of-ears>1</ns0:number-of-ears>
         <ns0:number-of-pars>1</ns0:number-of-pars>
@@ -80,9 +80,53 @@
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae/.folder</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae/baseDocument.aeschema</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-001/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-001/Nested loops.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-002/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-003/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-004/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-004/Get JMS Queue Message.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-005/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-005/JMS Selector.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-006/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-006/JMS Synchronous activities.process</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/.folder</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/.folder</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-001/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-001/Transition with colors.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Called process.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Dynamic process call.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Interface.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 1.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 2.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 3.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 4.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 5.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 6.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 7.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-004/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-004/JavaCustomFunction.javaxpath</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-007/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-007/Too many activities.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-009/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-009/Oversized process.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/Unlabelled transitions.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-011/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-011/Starter Process with output.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-001/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-001/External Command.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/Java Code activity.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/Java Method activity.process</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/.folder</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-001/.folder</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-001/Recursive Call.process</ns0:file>
@@ -91,21 +135,29 @@
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-003/.folder</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-003/JDBC SQL Direct.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-004/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-004/JMS Application Properties.sharedjmsapp</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/No Out Transition from Start.process</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/No Out Transition.process</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-006/.folder</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-006/No Otherwise Transition.process</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/FTP Connection.sharedftp</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/JDBC Connection.sharedjdbc</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/JMS Connection.sharedjmscon</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/Job Shared Variable.jobsharedvariable</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/Shared Variable.sharedvariable</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/XSLT File.xslt</ns0:file>
             <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/defaultVars/defaultVars.substvar</ns0:file>
         </ns0:files>
     </ns0:additional-data>
     <ns0:aggregated-grades>
-        <ns0:aggregated-grade category="GEN">90</ns0:aggregated-grade>
-        <ns0:aggregated-grade category="REL">93</ns0:aggregated-grade>
-        <ns0:aggregated-grade category="EFF">100</ns0:aggregated-grade>
-        <ns0:aggregated-grade category="MAI">91</ns0:aggregated-grade>
-        <ns0:aggregated-grade category="POR">100</ns0:aggregated-grade>
+        <ns0:aggregated-grade category="GEN">87</ns0:aggregated-grade>
+        <ns0:aggregated-grade category="REL">92</ns0:aggregated-grade>
+        <ns0:aggregated-grade category="EFF">92</ns0:aggregated-grade>
+        <ns0:aggregated-grade category="MAI">82</ns0:aggregated-grade>
+        <ns0:aggregated-grade category="POR">75</ns0:aggregated-grade>
     </ns0:aggregated-grades>
     <ns0:categories>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
@@ -157,7 +209,7 @@
             <ns1:descriptionHTML>Errors category</ns1:descriptionHTML>
         </ns1:category>
     </ns0:categories>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="80">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>EFF</ns1:category>
             <ns1:key>EFF-001</ns1:key>
@@ -173,8 +225,34 @@
             <ns0:key>MaxNestedLoops</ns0:key>
             <ns0:value>3</ns0:value>
         </ns0:param>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-001/Nested loops.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Efficiency/EFF-001/Nested loops.process</ns0:value>
+            <ns0:child>
+                <ns0:key>process</ns0:key>
+                <ns0:value>/Issues/Efficiency/EFF-001/Nested loops.process</ns0:value>
+                <ns0:child>
+                    <ns0:key>process</ns0:key>
+                    <ns0:value>/Issues/Efficiency/EFF-001/Nested loops.process</ns0:value>
+                </ns0:child>
+                <ns0:child>
+                    <ns0:key>group</ns0:key>
+                    <ns0:value>Level 1</ns0:value>
+                </ns0:child>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>Level 2</ns0:key>
+                <ns0:value>Level 2</ns0:value>
+            </ns0:child>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-001/Nested loops.process</ns0:resource>
+            <ns0:key>group</ns0:key>
+            <ns0:value>Level 3</ns0:value>
+        </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>EFF</ns1:category>
             <ns1:key>EFF-002</ns1:key>
@@ -186,8 +264,17 @@
                 <ns1:descriptionHTML>Performance issue</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>SetVariable</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>EFF</ns1:category>
             <ns1:key>EFF-003</ns1:key>
@@ -199,6 +286,15 @@
                 <ns1:descriptionHTML>Critical Section on single SharedVariable</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>SetVariable</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
     <ns0:rule disabled="false" grade="100">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
@@ -213,7 +309,7 @@
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>EFF</ns1:category>
             <ns1:key>EFF-005</ns1:key>
@@ -225,6 +321,15 @@
                 <ns1:descriptionHTML>JMS Selector</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-005/JMS Selector.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Efficiency/EFF-005/JMS Selector.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>JMS Queue Receiver</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
     <ns0:rule disabled="false" grade="100">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
@@ -239,7 +344,7 @@
             </ns1:infos>
         </ns1:rule>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="90">
+    <ns0:rule disabled="false" grade="80">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>GEN</ns1:category>
             <ns1:key>GEN-002</ns1:key>
@@ -262,6 +367,15 @@
             <ns0:child>
                 <ns0:key>xpath</ns0:key>
                 <ns0:value>URL</ns0:value>
+            </ns0:child>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Resources/JMS Connection.sharedjmscon</ns0:resource>
+            <ns0:key>dir</ns0:key>
+            <ns0:value>/Resources/JMS Connection.sharedjmscon</ns0:value>
+            <ns0:child>
+                <ns0:key>xpath</ns0:key>
+                <ns0:value>JNDI URL</ns0:value>
             </ns0:child>
         </ns0:result>
     </ns0:rule>
@@ -310,7 +424,7 @@
             </ns0:child>
         </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>MAI</ns1:category>
             <ns1:key>MAI-001</ns1:key>
@@ -322,8 +436,21 @@
                 <ns1:descriptionHTML>Collect Transition Colors</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-001/Transition with colors.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-001/Transition with colors.process</ns0:value>
+            <ns0:child>
+                <ns0:key>type</ns0:key>
+                <ns0:value>xpath</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>color</ns0:key>
+                <ns0:value>#00FF00</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>MAI</ns1:category>
             <ns1:key>MAI-002</ns1:key>
@@ -335,8 +462,17 @@
                 <ns1:descriptionHTML>Dynamic Process Calls</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-002/Dynamic process call.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-002/Dynamic process call.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>Interface</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>MAI</ns1:category>
             <ns1:key>MAI-003</ns1:key>
@@ -352,8 +488,45 @@
             <ns0:key>MaxProcessCallDepth</ns0:key>
             <ns0:value>7</ns0:value>
         </ns0:param>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-003/Process Level 1.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-003/Process Level 1.process</ns0:value>
+            <ns0:child>
+                <ns0:key>process</ns0:key>
+                <ns0:value>/Issues/Maintainability/MAI-003/Process Level 1.process</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>process</ns0:key>
+                <ns0:value>/Issues/Maintainability/MAI-003/Process Level 2.process</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>process</ns0:key>
+                <ns0:value>/Issues/Maintainability/MAI-003/Process Level 3.process</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>process</ns0:key>
+                <ns0:value>/Issues/Maintainability/MAI-003/Process Level 4.process</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>process</ns0:key>
+                <ns0:value>/Issues/Maintainability/MAI-003/Process Level 5.process</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>process</ns0:key>
+                <ns0:value>/Issues/Maintainability/MAI-003/Process Level 6.process</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>process</ns0:key>
+                <ns0:value>/Issues/Maintainability/MAI-003/Process Level 7.process</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>process</ns0:key>
+                <ns0:value>Process Level 7</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>MAI</ns1:category>
             <ns1:key>MAI-004</ns1:key>
@@ -365,6 +538,11 @@
                 <ns1:descriptionHTML>Java XPath</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-004/JavaCustomFunction.javaxpath</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-004/JavaCustomFunction.javaxpath</ns0:value>
+        </ns0:result>
     </ns0:rule>
     <ns0:rule disabled="false" grade="100">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
@@ -396,7 +574,7 @@
             <ns0:value>100</ns0:value>
         </ns0:param>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="80">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>MAI</ns1:category>
             <ns1:key>MAI-007</ns1:key>
@@ -412,6 +590,15 @@
             <ns0:key>MaxActivityByProcess</ns0:key>
             <ns0:value>15</ns0:value>
         </ns0:param>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-007/Too many activities.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-007/Too many activities.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity-number</ns0:key>
+                <ns0:value>16</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
     <ns0:rule disabled="false" grade="0">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
@@ -425,6 +612,126 @@
                 <ns1:descriptionHTML>Uncommented processes</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-001/Nested loops.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Efficiency/EFF-001/Nested loops.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-004/Get JMS Queue Message.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Efficiency/EFF-004/Get JMS Queue Message.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-005/JMS Selector.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Efficiency/EFF-005/JMS Selector.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Efficiency/EFF-006/JMS Synchronous activities.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Efficiency/EFF-006/JMS Synchronous activities.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-001/Transition with colors.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-001/Transition with colors.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-002/Called process.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-002/Called process.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-002/Dynamic process call.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-002/Dynamic process call.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-002/Interface.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-002/Interface.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-003/Process Level 1.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-003/Process Level 1.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-003/Process Level 2.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-003/Process Level 2.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-003/Process Level 3.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-003/Process Level 3.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-003/Process Level 4.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-003/Process Level 4.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-003/Process Level 5.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-003/Process Level 5.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-003/Process Level 6.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-003/Process Level 6.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-003/Process Level 7.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-003/Process Level 7.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-007/Too many activities.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-007/Too many activities.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-009/Oversized process.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-009/Oversized process.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-010/Unlabelled transitions.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-010/Unlabelled transitions.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-011/Starter Process with output.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-011/Starter Process with output.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Portability/POR-001/External Command.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Portability/POR-001/External Command.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Portability/POR-002/Java Code activity.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Portability/POR-002/Java Code activity.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Portability/POR-002/Java Method activity.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Portability/POR-002/Java Method activity.process</ns0:value>
+        </ns0:result>
         <ns0:result>
             <ns0:resource>/Issues/Reliability/REL-001/Recursive Call.process</ns0:resource>
             <ns0:key>process</ns0:key>
@@ -446,6 +753,11 @@
             <ns0:value>/Issues/Reliability/REL-003/JDBC SQL Direct.process</ns0:value>
         </ns0:result>
         <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-005/No Out Transition from Start.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-005/No Out Transition from Start.process</ns0:value>
+        </ns0:result>
+        <ns0:result>
             <ns0:resource>/Issues/Reliability/REL-005/No Out Transition.process</ns0:resource>
             <ns0:key>process</ns0:key>
             <ns0:value>/Issues/Reliability/REL-005/No Out Transition.process</ns0:value>
@@ -456,7 +768,7 @@
             <ns0:value>/Issues/Reliability/REL-006/No Otherwise Transition.process</ns0:value>
         </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>MAI</ns1:category>
             <ns1:key>MAI-009</ns1:key>
@@ -476,8 +788,13 @@
             <ns0:key>OversizedProcesses_Width</ns0:key>
             <ns0:value>1100</ns0:value>
         </ns0:param>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-009/Oversized process.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-009/Oversized process.process</ns0:value>
+        </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="80">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>MAI</ns1:category>
             <ns1:key>MAI-010</ns1:key>
@@ -489,8 +806,25 @@
                 <ns1:descriptionHTML>Unlabelled Transitions</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/Unlabelled transitions.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-010/Unlabelled transitions.process</ns0:value>
+            <ns0:child>
+                <ns0:key>from</ns0:key>
+                <ns0:value>Start</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>to</ns0:key>
+                <ns0:value>Log</ns0:value>
+            </ns0:child>
+            <ns0:child>
+                <ns0:key>condition</ns0:key>
+                <ns0:value>$Start/root/logEnabled='true'</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>MAI</ns1:category>
             <ns1:key>MAI-011</ns1:key>
@@ -502,8 +836,17 @@
                 <ns1:descriptionHTML>Starter Process with output</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-011/Starter Process with output.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-011/Starter Process with output.process</ns0:value>
+            <ns0:child>
+                <ns0:key>starter</ns0:key>
+                <ns0:value>/Issues/Maintainability/MAI-011/Starter Process with output.process</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="80">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>POR</ns1:category>
             <ns1:key>POR-001</ns1:key>
@@ -515,8 +858,26 @@
                 <ns1:descriptionHTML>External Command Uses</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-007/Too many activities.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-007/Too many activities.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>External Command</ns0:value>
+            </ns0:child>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Portability/POR-001/External Command.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Portability/POR-001/External Command.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>External Command</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="70">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>POR</ns1:category>
             <ns1:key>POR-002</ns1:key>
@@ -528,6 +889,33 @@
                 <ns1:descriptionHTML>Java Activities Uses</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Maintainability/MAI-007/Too many activities.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Maintainability/MAI-007/Too many activities.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>Java Code</ns0:value>
+            </ns0:child>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Portability/POR-002/Java Code activity.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Portability/POR-002/Java Code activity.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>Java Code</ns0:value>
+            </ns0:child>
+        </ns0:result>
+        <ns0:result>
+            <ns0:resource>/Issues/Portability/POR-002/Java Method activity.process</ns0:resource>
+            <ns0:key>process</ns0:key>
+            <ns0:value>/Issues/Portability/POR-002/Java Method activity.process</ns0:value>
+            <ns0:child>
+                <ns0:key>activity</ns0:key>
+                <ns0:value>Java Method</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
     <ns0:rule disabled="false" grade="100">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
@@ -560,7 +948,7 @@
             <ns0:value>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</ns0:value>
             <ns0:child>
                 <ns0:key>transaction1</ns0:key>
-                <ns0:value>JDBC Transaction</ns0:value>
+                <ns0:value>JMS Transaction</ns0:value>
             </ns0:child>
             <ns0:child>
                 <ns0:key>process2</ns0:key>
@@ -568,7 +956,7 @@
             </ns0:child>
             <ns0:child>
                 <ns0:key>transaction2</ns0:key>
-                <ns0:value>JMS Transaction</ns0:value>
+                <ns0:value>JDBC Transaction</ns0:value>
             </ns0:child>
         </ns0:result>
         <ns0:result>
@@ -611,7 +999,7 @@
             </ns0:child>
         </ns0:result>
     </ns0:rule>
-    <ns0:rule disabled="false" grade="100">
+    <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>REL</ns1:category>
             <ns1:key>REL-004</ns1:key>
@@ -623,6 +1011,15 @@
                 <ns1:descriptionHTML>Unknown JMS Properties</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
+        <ns0:result>
+            <ns0:resource>/Issues/Reliability/REL-004/JMS Application Properties.sharedjmsapp</ns0:resource>
+            <ns0:key>resource</ns0:key>
+            <ns0:value>/Issues/Reliability/REL-004/JMS Application Properties.sharedjmsapp</ns0:value>
+            <ns0:child>
+                <ns0:key>property</ns0:key>
+                <ns0:value>JMS_TIBCO_unknown</ns0:value>
+            </ns0:child>
+        </ns0:result>
     </ns0:rule>
     <ns0:rule disabled="false" grade="90">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">

@@ -17,10 +17,10 @@
                <ul class="nav nav-tabs" role="tablist">
                   <li><a class="brand" href="../../index.html"><strong><span class="color-highlight">FC</span> Code Review</strong></a></li>
                   <li role="presentation"><a href="#GEN" aria-controls="GEN" role="tab" data-toggle="tab">General <span class="badge">3 / 3</span></a></li>
-                  <li role="presentation"><a href="#REL" aria-controls="REL" role="tab" data-toggle="tab">Reliability <span class="badge">3 / 6</span></a></li>
-                  <li role="presentation"><a href="#EFF" aria-controls="EFF" role="tab" data-toggle="tab">Efficiency <span class="badge">0 / 6</span></a></li>
-                  <li role="presentation"><a href="#MAI" aria-controls="MAI" role="tab" data-toggle="tab">Maintainability <span class="badge">1 / 11</span></a></li>
-                  <li role="presentation"><a href="#POR" aria-controls="POR" role="tab" data-toggle="tab">Portability <span class="badge">0 / 2</span></a></li>
+                  <li role="presentation"><a href="#REL" aria-controls="REL" role="tab" data-toggle="tab">Reliability <span class="badge">4 / 6</span></a></li>
+                  <li role="presentation"><a href="#EFF" aria-controls="EFF" role="tab" data-toggle="tab">Efficiency <span class="badge">4 / 6</span></a></li>
+                  <li role="presentation"><a href="#MAI" aria-controls="MAI" role="tab" data-toggle="tab">Maintainability <span class="badge">9 / 11</span></a></li>
+                  <li role="presentation"><a href="#POR" aria-controls="POR" role="tab" data-toggle="tab">Portability <span class="badge">2 / 2</span></a></li>
                   <li role="presentation"><a href="#ERR" aria-controls="ERR" role="tab" data-toggle="tab">Errors </a></li>
                   <li role="presentation"><a href="#CONF" aria-controls="CONF" role="tab" data-toggle="tab">Configuration </a></li>
                   <li role="presentation"><a href="#FILES" aria-controls="FILES" role="tab" data-toggle="tab">Files </a></li>
@@ -42,7 +42,7 @@
                                  <p><strong><em>Key: </em></strong><tt>GEN-001</tt><br><strong><em>Name: </em></strong><tt>Basic CodeReview</tt><br><strong><em>Weight: </em></strong><tt>0</tt><br></p>
                               </div>
                               <div class="col-md-4">
-                                 <p><strong><em>Description: </em></strong>Basic CodeReview<br><br><strong><em>Number of processes: </em></strong>6<br><strong><em>Number of activities: </em></strong>6<br><strong><em>Number of files: </em></strong>30<br><strong><em>Number of libraries (Projlibs): </em></strong>0<br><strong><em>Number of EARs: </em></strong>1<br><strong><em>Number of PARs: </em></strong>1<br><strong><em>Number of AARs: </em></strong>0<br><strong><em>Number of library builder: </em></strong>0<br></p>
+                                 <p><strong><em>Description: </em></strong>Basic CodeReview<br><br><strong><em>Number of processes: </em></strong>31<br><strong><em>Number of activities: </em></strong>44<br><strong><em>Number of files: </em></strong>82<br><strong><em>Number of libraries (Projlibs): </em></strong>0<br><strong><em>Number of EARs: </em></strong>1<br><strong><em>Number of PARs: </em></strong>1<br><strong><em>Number of AARs: </em></strong>0<br><strong><em>Number of library builder: </em></strong>0<br></p>
                               </div>
                               <div class="col-md-5">
                                  <embed src="index.svg" style="float: right;" width="250" height="250"></embed>
@@ -57,7 +57,7 @@
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_GEN-002" aria-controls="collapse_GEN-002">
                   <div class="panel-heading"><span class="label label-default">GEN-002</span><h3 id="GEN-002">GVs in connections configuration</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
+                        <div role="progressbar" style="width: 80%; min-width: 25px;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">80 %<span class="sr-only" style="display: none; visibility: hidden;">80 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_GEN-002">
@@ -65,7 +65,7 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>GEN-002</tt><br><strong><em>Name: </em></strong><tt>GVs in connections configuration</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>GEN-002</tt><br><strong><em>Name: </em></strong><tt>GVs in connections configuration</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 2 = 80</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>GVs in connections configuration</pre><br></p>
@@ -83,6 +83,10 @@
                                     <td>/Resources/JDBC Connection.sharedjdbc</td>
                                     <td>Driver</td>
                                     <td>URL</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Resources/JMS Connection.sharedjmscon</td>
+                                    <td>JNDI URL</td>
                                  </tr>
                               </table></span></div>
                      </div>
@@ -208,9 +212,9 @@
                                  </tr>
                                  <tr>
                                     <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
-                                    <td>JDBC Transaction</td>
-                                    <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
                                     <td>JMS Transaction</td>
+                                    <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
+                                    <td>JDBC Transaction</td>
                                  </tr>
                                  <tr>
                                     <td>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</td>
@@ -257,7 +261,7 @@
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_REL-004" aria-controls="collapse_REL-004">
                   <div class="panel-heading"><span class="label label-default">REL-004</span><h3 id="REL-004">Unknown JMS Properties</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_REL-004">
@@ -265,15 +269,24 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>REL-004</tt><br><strong><em>Name: </em></strong><tt>Unknown JMS Properties</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>REL-004</tt><br><strong><em>Name: </em></strong><tt>Unknown JMS Properties</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Unknown JMS Properties</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="REL-004">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>resource</th>
+                                    <th>property</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Reliability/REL-004/JMS Application Properties.sharedjmsapp</td>
+                                    <td>JMS_TIBCO_unknown</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
@@ -339,7 +352,7 @@
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-001" aria-controls="collapse_EFF-001">
                   <div class="panel-heading"><span class="label label-default">EFF-001</span><h3 id="EFF-001">Nested loop</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 80%; min-width: 25px;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">80 %<span class="sr-only" style="display: none; visibility: hidden;">80 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_EFF-001">
@@ -347,7 +360,7 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>EFF-001</tt><br><strong><em>Name: </em></strong><tt>Nested loop</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>EFF-001</tt><br><strong><em>Name: </em></strong><tt>Nested loop</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 2 = 80</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Nested loop</pre><br></p>
@@ -365,16 +378,35 @@
                                  <td>3</td>
                               </tr>
                            </table>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="EFF-001">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>process</th>
+                                    <th>Level 2</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Efficiency/EFF-001/Nested loops.process</td>
+                                    <td>/Issues/Efficiency/EFF-001/Nested loops.process</td>
+                                    <td>Level 2</td>
+                                 </tr>
+                              </table>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>group</th>
+                                 </tr>
+                                 <tr>
+                                    <td>Level 3</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-002" aria-controls="collapse_EFF-002">
                   <div class="panel-heading"><span class="label label-default">EFF-002</span><h3 id="EFF-002">Critical Section on JobSharedVariable</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_EFF-002">
@@ -382,22 +414,31 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>EFF-002</tt><br><strong><em>Name: </em></strong><tt>Critical Section on JobSharedVariable</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>EFF-002</tt><br><strong><em>Name: </em></strong><tt>Critical Section on JobSharedVariable</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Performance issue</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="EFF-002">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>activity</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</td>
+                                    <td>SetVariable</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-003" aria-controls="collapse_EFF-003">
                   <div class="panel-heading"><span class="label label-default">EFF-003</span><h3 id="EFF-003">Critical Section on single SharedVariable</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_EFF-003">
@@ -405,15 +446,24 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>EFF-003</tt><br><strong><em>Name: </em></strong><tt>Critical Section on single SharedVariable</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>EFF-003</tt><br><strong><em>Name: </em></strong><tt>Critical Section on single SharedVariable</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Critical Section on single SharedVariable</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="EFF-003">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>activity</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</td>
+                                    <td>SetVariable</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
@@ -443,7 +493,7 @@
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-005" aria-controls="collapse_EFF-005">
                   <div class="panel-heading"><span class="label label-default">EFF-005</span><h3 id="EFF-005">JMS Selector</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_EFF-005">
@@ -451,15 +501,24 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>EFF-005</tt><br><strong><em>Name: </em></strong><tt>JMS Selector</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>EFF-005</tt><br><strong><em>Name: </em></strong><tt>JMS Selector</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>JMS Selector</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="EFF-005">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>activity</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Efficiency/EFF-005/JMS Selector.process</td>
+                                    <td>JMS Queue Receiver</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
@@ -493,7 +552,7 @@
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-001" aria-controls="collapse_MAI-001">
                   <div class="panel-heading"><span class="label label-default">MAI-001</span><h3 id="MAI-001">Collect Transition Colors</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_MAI-001">
@@ -501,22 +560,33 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>MAI-001</tt><br><strong><em>Name: </em></strong><tt>Collect Transition Colors</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>MAI-001</tt><br><strong><em>Name: </em></strong><tt>Collect Transition Colors</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Collect Transition Colors</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="MAI-001">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>type</th>
+                                    <th>color</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-001/Transition with colors.process</td>
+                                    <td>xpath</td>
+                                    <td>#00FF00</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-002" aria-controls="collapse_MAI-002">
                   <div class="panel-heading"><span class="label label-default">MAI-002</span><h3 id="MAI-002">Dynamic Process Calls</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_MAI-002">
@@ -524,22 +594,31 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>MAI-002</tt><br><strong><em>Name: </em></strong><tt>Dynamic Process Calls</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>MAI-002</tt><br><strong><em>Name: </em></strong><tt>Dynamic Process Calls</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Dynamic Process Calls</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="MAI-002">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>activity</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-002/Dynamic process call.process</td>
+                                    <td>Interface</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-003" aria-controls="collapse_MAI-003">
                   <div class="panel-heading"><span class="label label-default">MAI-003</span><h3 id="MAI-003">Process Call Depth</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_MAI-003">
@@ -547,7 +626,7 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>MAI-003</tt><br><strong><em>Name: </em></strong><tt>Process Call Depth</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>MAI-003</tt><br><strong><em>Name: </em></strong><tt>Process Call Depth</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Process Call Depth</pre><br></p>
@@ -565,16 +644,39 @@
                                  <td>7</td>
                               </tr>
                            </table>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="MAI-003">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>process</th>
+                                    <th>process</th>
+                                    <th>process</th>
+                                    <th>process</th>
+                                    <th>process</th>
+                                    <th>process</th>
+                                    <th>process</th>
+                                    <th>process</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 2.process</td>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 3.process</td>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 4.process</td>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 5.process</td>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 6.process</td>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 7.process</td>
+                                    <td>Process Level 7</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-004" aria-controls="collapse_MAI-004">
                   <div class="panel-heading"><span class="label label-default">MAI-004</span><h3 id="MAI-004">Java XPath</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_MAI-004">
@@ -582,15 +684,22 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>MAI-004</tt><br><strong><em>Name: </em></strong><tt>Java XPath</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>MAI-004</tt><br><strong><em>Name: </em></strong><tt>Java XPath</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Java XPath</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="MAI-004">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-004/JavaCustomFunction.javaxpath</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
@@ -655,7 +764,7 @@
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-007" aria-controls="collapse_MAI-007">
                   <div class="panel-heading"><span class="label label-default">MAI-007</span><h3 id="MAI-007">Number of activity by process</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 80%; min-width: 25px;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">80 %<span class="sr-only" style="display: none; visibility: hidden;">80 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_MAI-007">
@@ -663,7 +772,7 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>MAI-007</tt><br><strong><em>Name: </em></strong><tt>Number of activity by process</tt><br><strong><em>Weight: </em></strong><tt>20</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>MAI-007</tt><br><strong><em>Name: </em></strong><tt>Number of activity by process</tt><br><strong><em>Weight: </em></strong><tt>20</tt><br><strong><em>Score: </em></strong><tt>100 - 20 * 1 = 80</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Number of activity by process</pre><br></p>
@@ -681,9 +790,18 @@
                                  <td>15</td>
                               </tr>
                            </table>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="MAI-007">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>activity-number</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
+                                    <td>16</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
@@ -698,7 +816,7 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>MAI-008</tt><br><strong><em>Name: </em></strong><tt>Uncommented processes</tt><br><strong><em>Weight: </em></strong><tt>20</tt><br><strong><em>Score: </em></strong><tt>100 - 20 * 6 &lt;= 0</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>MAI-008</tt><br><strong><em>Name: </em></strong><tt>Uncommented processes</tt><br><strong><em>Weight: </em></strong><tt>20</tt><br><strong><em>Score: </em></strong><tt>100 - 20 * 31 &lt;= 0</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Uncommented processes</pre><br></p>
@@ -709,6 +827,78 @@
                               <table class="table table-striped">
                                  <tr>
                                     <th>process</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Efficiency/EFF-001/Nested loops.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Efficiency/EFF-004/Get JMS Queue Message.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Efficiency/EFF-005/JMS Selector.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Efficiency/EFF-006/JMS Synchronous activities.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-001/Transition with colors.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-002/Called process.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-002/Dynamic process call.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-002/Interface.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 2.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 3.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 4.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 5.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 6.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-003/Process Level 7.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-009/Oversized process.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-010/Unlabelled transitions.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-011/Starter Process with output.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Portability/POR-001/External Command.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Portability/POR-002/Java Code activity.process</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Portability/POR-002/Java Method activity.process</td>
                                  </tr>
                                  <tr>
                                     <td>/Issues/Reliability/REL-001/Recursive Call.process</td>
@@ -723,6 +913,9 @@
                                     <td>/Issues/Reliability/REL-003/JDBC SQL Direct.process</td>
                                  </tr>
                                  <tr>
+                                    <td>/Issues/Reliability/REL-005/No Out Transition from Start.process</td>
+                                 </tr>
+                                 <tr>
                                     <td>/Issues/Reliability/REL-005/No Out Transition.process</td>
                                  </tr>
                                  <tr>
@@ -735,7 +928,7 @@
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-009" aria-controls="collapse_MAI-009">
                   <div class="panel-heading"><span class="label label-default">MAI-009</span><h3 id="MAI-009">Oversized Processes</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_MAI-009">
@@ -743,7 +936,7 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>MAI-009</tt><br><strong><em>Name: </em></strong><tt>Oversized Processes</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>MAI-009</tt><br><strong><em>Name: </em></strong><tt>Oversized Processes</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Oversized Processes</pre><br></p>
@@ -765,16 +958,23 @@
                                  <td>1100</td>
                               </tr>
                            </table>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="MAI-009">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-009/Oversized process.process</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-010" aria-controls="collapse_MAI-010">
                   <div class="panel-heading"><span class="label label-default">MAI-010</span><h3 id="MAI-010">Unlabelled Transitions</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 80%; min-width: 25px;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">80 %<span class="sr-only" style="display: none; visibility: hidden;">80 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_MAI-010">
@@ -782,22 +982,35 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>MAI-010</tt><br><strong><em>Name: </em></strong><tt>Unlabelled Transitions</tt><br><strong><em>Weight: </em></strong><tt>20</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>MAI-010</tt><br><strong><em>Name: </em></strong><tt>Unlabelled Transitions</tt><br><strong><em>Weight: </em></strong><tt>20</tt><br><strong><em>Score: </em></strong><tt>100 - 20 * 1 = 80</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Unlabelled Transitions</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="MAI-010">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>from</th>
+                                    <th>to</th>
+                                    <th>condition</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-010/Unlabelled transitions.process</td>
+                                    <td>Start</td>
+                                    <td>Log</td>
+                                    <td>$Start/root/logEnabled='true'</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_MAI-011" aria-controls="collapse_MAI-011">
                   <div class="panel-heading"><span class="label label-default">MAI-011</span><h3 id="MAI-011">Starter Process with output</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_MAI-011">
@@ -805,15 +1018,24 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>MAI-011</tt><br><strong><em>Name: </em></strong><tt>Starter Process with output</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>MAI-011</tt><br><strong><em>Name: </em></strong><tt>Starter Process with output</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Starter Process with output</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="MAI-011">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>starter</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-011/Starter Process with output.process</td>
+                                    <td>/Issues/Maintainability/MAI-011/Starter Process with output.process</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
@@ -824,7 +1046,7 @@
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_POR-001" aria-controls="collapse_POR-001">
                   <div class="panel-heading"><span class="label label-default">POR-001</span><h3 id="POR-001">External Command Uses</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 80%; min-width: 25px;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">80 %<span class="sr-only" style="display: none; visibility: hidden;">80 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_POR-001">
@@ -832,22 +1054,35 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>POR-001</tt><br><strong><em>Name: </em></strong><tt>External Command Uses</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>POR-001</tt><br><strong><em>Name: </em></strong><tt>External Command Uses</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 2 = 80</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>External Command Uses</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="POR-001">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>activity</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
+                                    <td>External Command</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Portability/POR-001/External Command.process</td>
+                                    <td>External Command</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_POR-002" aria-controls="collapse_POR-002">
                   <div class="panel-heading"><span class="label label-default">POR-002</span><h3 id="POR-002">Java Activities Uses</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 70%; min-width: 25px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-warning">70 %<span class="sr-only" style="display: none; visibility: hidden;">70 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_POR-002">
@@ -855,15 +1090,32 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>POR-002</tt><br><strong><em>Name: </em></strong><tt>Java Activities Uses</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>POR-002</tt><br><strong><em>Name: </em></strong><tt>Java Activities Uses</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 3 = 70</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Java Activities Uses</pre><br></p>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
-                        </div>
+                           <hr><span id="POR-002">
+                              <p><strong><em>Output: </em></strong></p>
+                              <table class="table table-striped">
+                                 <tr>
+                                    <th>process</th>
+                                    <th>activity</th>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
+                                    <td>Java Code</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Portability/POR-002/Java Code activity.process</td>
+                                    <td>Java Code</td>
+                                 </tr>
+                                 <tr>
+                                    <td>/Issues/Portability/POR-002/Java Method activity.process</td>
+                                    <td>Java Method</td>
+                                 </tr>
+                              </table></span></div>
                      </div>
                   </div>
                </div>
@@ -962,6 +1214,57 @@
                      <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/.folder</td>
                   </tr>
                   <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-001/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-001/Nested
+                        loops.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-002/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-002/Critical
+                        Section on JobSharedVariable.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-003/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-003/Critical
+                        Section on single SharedVariable.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-004/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-004/Get
+                        JMS Queue Message.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-005/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-005/JMS
+                        Selector.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-006/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-006/JMS
+                        Synchronous activities.process
+                     </td>
+                  </tr>
+                  <tr>
                      <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/.folder</td>
                   </tr>
                   <tr>
@@ -969,6 +1272,133 @@
                   </tr>
                   <tr>
                      <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-001/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-001/Transition
+                        with colors.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Called
+                        process.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Dynamic
+                        process call.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Interface.process</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process
+                        Level 1.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process
+                        Level 2.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process
+                        Level 3.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process
+                        Level 4.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process
+                        Level 5.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process
+                        Level 6.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process
+                        Level 7.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-004/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-004/JavaCustomFunction.javaxpath</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-007/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-007/Too
+                        many activities.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-009/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-009/Oversized
+                        process.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/Unlabelled
+                        transitions.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-011/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-011/Starter
+                        Process with output.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-001/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-001/External
+                        Command.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/Java
+                        Code activity.process
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/Java
+                        Method activity.process
+                     </td>
                   </tr>
                   <tr>
                      <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/.folder</td>
@@ -1003,7 +1433,20 @@
                      </td>
                   </tr>
                   <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-004/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-004/JMS
+                        Application Properties.sharedjmsapp
+                     </td>
+                  </tr>
+                  <tr>
                      <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/.folder</td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/No
+                        Out Transition from Start.process
+                     </td>
                   </tr>
                   <tr>
                      <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/No
@@ -1022,8 +1465,33 @@
                      <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/.folder</td>
                   </tr>
                   <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/FTP
+                        Connection.sharedftp
+                     </td>
+                  </tr>
+                  <tr>
                      <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/JDBC
                         Connection.sharedjdbc
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/JMS
+                        Connection.sharedjmscon
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/Job
+                        Shared Variable.jobsharedvariable
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/Shared
+                        Variable.sharedvariable
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/XSLT
+                        File.xslt
                      </td>
                   </tr>
                   <tr>
@@ -1037,9 +1505,9 @@
          <p class="text-muted credit"><i>Project</i> :
             				<strong>Code Review Plugin for TIBCO BusinessWorks - IT - WorstProjectEver project</strong>
             				- <i>Review Date</i> :
-            				<strong>2015-09-11 01:08:48</strong>
+            				<strong>2015-09-11 19:05:20</strong>
             				- <i>Review Duration</i> :
-            				<strong>2.472</strong>
+            				<strong>7.128</strong>
             				sec.
             				<br><span class="color-highlight">FC</span> Code Review for TIBCO BusinessWorks - © 2013-2015  - <a href="http://www.fastconnect.fr/" target="_blank">FastConnect</a></p>
       </footer><script type="text/javascript" src="resources/jquery.min.js">//</script><script type="text/javascript" src="resources/bootstrap.min.js">//</script><script type="text/javascript" src="resources/docs.js">//</script><script type="text/javascript">
