@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - WorstProjectEver project" timestamp="2015-09-11T19:05:20.73+02:00" duration="7.128" project-basedir="/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver" home-page="../../index.html" language="FR">
+<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - WorstProjectEver project" timestamp="2015-09-12T00:56:26.023+02:00" duration="7.734" project-basedir="/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver" home-page="../../index.html" language="FR">
     <ns0:general disabled="false">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>GEN</ns1:category>
@@ -68,88 +68,88 @@
             </ns0:entry>
         </ns0:config>
         <ns0:files>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/.designtimelibs</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/WorstProjectEver.archive</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/vcrepo.dat</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae.aeschema</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/corba.aeschema</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/java.aeschema</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/sql.aeschema</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae/baseDocument.aeschema</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-001/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-001/Nested loops.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-002/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-003/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-004/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-004/Get JMS Queue Message.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-005/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-005/JMS Selector.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-006/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-006/JMS Synchronous activities.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-001/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-001/Transition with colors.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Called process.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Dynamic process call.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Interface.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 1.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 2.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 3.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 4.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 5.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 6.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 7.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-004/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-004/JavaCustomFunction.javaxpath</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-007/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-007/Too many activities.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-009/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-009/Oversized process.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/Unlabelled transitions.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-011/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-011/Starter Process with output.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-001/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-001/External Command.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/Java Code activity.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/Java Method activity.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-001/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-001/Recursive Call.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-003/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-003/JDBC SQL Direct.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-004/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-004/JMS Application Properties.sharedjmsapp</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/No Out Transition from Start.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/No Out Transition.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-006/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-006/No Otherwise Transition.process</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/.folder</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/FTP Connection.sharedftp</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/JDBC Connection.sharedjdbc</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/JMS Connection.sharedjmscon</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/Job Shared Variable.jobsharedvariable</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/Shared Variable.sharedvariable</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/XSLT File.xslt</ns0:file>
-            <ns0:file>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/defaultVars/defaultVars.substvar</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/.designtimelibs</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/WorstProjectEver.archive</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/vcrepo.dat</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae.aeschema</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/corba.aeschema</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/java.aeschema</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/sql.aeschema</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/AESchemas/ae/baseDocument.aeschema</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-001/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-001/Nested loops.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-002/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-003/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-004/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-004/Get JMS Queue Message.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-005/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-005/JMS Selector.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-006/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Efficiency/EFF-006/JMS Synchronous activities.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-001/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-001/Transition with colors.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Called process.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Dynamic process call.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-002/Interface.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 1.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 2.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 3.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 4.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 5.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 6.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-003/Process Level 7.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-004/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-004/JavaCustomFunction.javaxpath</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-007/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-007/Too many activities.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-009/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-009/Oversized process.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/Unlabelled transitions.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-011/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-011/Starter Process with output.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-001/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-001/External Command.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/Java Code activity.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Portability/POR-002/Java Method activity.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-001/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-001/Recursive Call.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-003/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-003/JDBC SQL Direct.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-004/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-004/JMS Application Properties.sharedjmsapp</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/No Out Transition from Start.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-005/No Out Transition.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-006/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Reliability/REL-006/No Otherwise Transition.process</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/.folder</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/FTP Connection.sharedftp</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/JDBC Connection.sharedjdbc</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/JMS Connection.sharedjmscon</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/Job Shared Variable.jobsharedvariable</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/Shared Variable.sharedvariable</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Resources/XSLT File.xslt</ns0:file>
+            <ns0:file>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/defaultVars/defaultVars.substvar</ns0:file>
         </ns0:files>
     </ns0:additional-data>
     <ns0:aggregated-grades>
@@ -807,7 +807,7 @@
             </ns1:infos>
         </ns1:rule>
         <ns0:result>
-            <ns0:resource>/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/Unlabelled transitions.process</ns0:resource>
+            <ns0:resource>/home/jenkins/workspace/tibco-codereview-it-site-nightly/src/it/worst-project-ever/src/main/tibco/WorstProjectEver/Issues/Maintainability/MAI-010/Unlabelled transitions.process</ns0:resource>
             <ns0:key>process</ns0:key>
             <ns0:value>/Issues/Maintainability/MAI-010/Unlabelled transitions.process</ns0:value>
             <ns0:child>
