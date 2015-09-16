@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - Demo project" timestamp="2015-09-16T14:45:23.267+02:00" duration="7.384" project-basedir="/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/demo/src/main/tibco/Demo" home-page="../index.html" language="FR">
+<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - Demo project" timestamp="2015-09-16T17:07:31.739+02:00" duration="7.541" project-basedir="/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/demo/src/main/tibco/Demo" home-page="../index.html" language="FR">
     <ns0:general disabled="false">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>GEN</ns1:category>
@@ -156,51 +156,67 @@
     <ns0:categories>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>GEN</ns1:category>
-            <ns1:name>General</ns1:name>
-            <ns1:description>General category</ns1:description>
-            <ns1:descriptionHTML>General category</ns1:descriptionHTML>
+            <ns1:infos>
+                <ns1:name>General</ns1:name>
+                <ns1:description/>
+                <ns1:descriptionHTML/>
+            </ns1:infos>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>REL</ns1:category>
-            <ns1:name>Reliability</ns1:name>
-            <ns1:description>Reliability category</ns1:description>
-            <ns1:descriptionHTML>Reliability category</ns1:descriptionHTML>
+            <ns1:infos>
+                <ns1:name>Reliability</ns1:name>
+                <ns1:description/>
+                <ns1:descriptionHTML/>
+            </ns1:infos>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>EFF</ns1:category>
-            <ns1:name>Efficiency</ns1:name>
-            <ns1:description>Efficiency category</ns1:description>
-            <ns1:descriptionHTML>Efficiency category</ns1:descriptionHTML>
+            <ns1:infos>
+                <ns1:name>Efficiency</ns1:name>
+                <ns1:description/>
+                <ns1:descriptionHTML/>
+            </ns1:infos>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>MAI</ns1:category>
-            <ns1:name>Maintainability</ns1:name>
-            <ns1:description>Maintainability category</ns1:description>
-            <ns1:descriptionHTML>Maintainability category</ns1:descriptionHTML>
+            <ns1:infos>
+                <ns1:name>Maintainability</ns1:name>
+                <ns1:description/>
+                <ns1:descriptionHTML/>
+            </ns1:infos>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>POR</ns1:category>
-            <ns1:name>Portability</ns1:name>
-            <ns1:description>Portability category</ns1:description>
-            <ns1:descriptionHTML>Portability category</ns1:descriptionHTML>
+            <ns1:infos>
+                <ns1:name>Portability</ns1:name>
+                <ns1:description/>
+                <ns1:descriptionHTML/>
+            </ns1:infos>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>ERR</ns1:category>
-            <ns1:name>Errors</ns1:name>
-            <ns1:description>Errors category</ns1:description>
-            <ns1:descriptionHTML>Errors category</ns1:descriptionHTML>
+            <ns1:infos>
+                <ns1:name>Errors</ns1:name>
+                <ns1:description>Errors category</ns1:description>
+                <ns1:descriptionHTML>Errors category</ns1:descriptionHTML>
+            </ns1:infos>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>CONF</ns1:category>
-            <ns1:name>Configuration</ns1:name>
-            <ns1:description>Configuration category</ns1:description>
-            <ns1:descriptionHTML>Errors category</ns1:descriptionHTML>
+            <ns1:infos>
+                <ns1:name>Configuration</ns1:name>
+                <ns1:description>Configuration category</ns1:description>
+                <ns1:descriptionHTML>Errors category</ns1:descriptionHTML>
+            </ns1:infos>
         </ns1:category>
         <ns1:category xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>FILES</ns1:category>
-            <ns1:name>Files</ns1:name>
-            <ns1:description>Files category</ns1:description>
-            <ns1:descriptionHTML>Errors category</ns1:descriptionHTML>
+            <ns1:infos>
+                <ns1:name>Files</ns1:name>
+                <ns1:description>Files category</ns1:description>
+                <ns1:descriptionHTML>Errors category</ns1:descriptionHTML>
+            </ns1:infos>
         </ns1:category>
     </ns0:categories>
     <ns0:rule disabled="false" grade="80">
