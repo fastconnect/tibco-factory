@@ -17,8 +17,8 @@
                <ul class="nav nav-tabs" role="tablist">
                   <li><a class="brand" href="../../index.html"><strong><span class="color-highlight">FC</span> Code Review</strong></a></li>
                   <li role="presentation"><a href="#GEN" aria-controls="GEN" role="tab" data-toggle="tab">General <span class="badge">3 / 3</span></a></li>
-                  <li role="presentation"><a href="#REL" aria-controls="REL" role="tab" data-toggle="tab">Reliability <span class="badge">4 / 6</span></a></li>
-                  <li role="presentation"><a href="#EFF" aria-controls="EFF" role="tab" data-toggle="tab">Efficiency <span class="badge">4 / 6</span></a></li>
+                  <li role="presentation"><a href="#REL" aria-controls="REL" role="tab" data-toggle="tab">Reliability <span class="badge">6 / 6</span></a></li>
+                  <li role="presentation"><a href="#EFF" aria-controls="EFF" role="tab" data-toggle="tab">Efficiency <span class="badge">6 / 6</span></a></li>
                   <li role="presentation"><a href="#MAI" aria-controls="MAI" role="tab" data-toggle="tab">Maintainability <span class="badge">9 / 11</span></a></li>
                   <li role="presentation"><a href="#POR" aria-controls="POR" role="tab" data-toggle="tab">Portability <span class="badge">2 / 2</span></a></li>
                   <li role="presentation"><a href="#ERR" aria-controls="ERR" role="tab" data-toggle="tab">Errors </a></li>
@@ -47,15 +47,17 @@
                               <div class="col-md-5">
                                  <embed src="index.svg" style="float: right;" width="250" height="250"></embed>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><i>No issue detected.</i></p>
+                              </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
                         </div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_GEN-002" aria-controls="collapse_GEN-002">
-                  <div class="panel-heading"><span class="label label-default">GEN-002</span><h3 id="GEN-002">GVs in connections configuration</h3>
+                  <div class="panel-heading"><span class="label label-default">GEN-002</span><h3 id="GEN-002">Connection configuration hardcoded</h3>
                      <div class="progress" style="width: 150px;">
                         <div role="progressbar" style="width: 80%; min-width: 25px;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">80 %<span class="sr-only" style="display: none; visibility: hidden;">80 %</span></div>
                      </div>
@@ -65,30 +67,35 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>GEN-002</tt><br><strong><em>Name: </em></strong><tt>GVs in connections configuration</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 2 = 80</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>GEN-002</tt><br><strong><em>Name: </em></strong><tt>Connection configuration hardcoded</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 2 = 80</tt><br></p>
                               </div>
                               <div class="col-md-9">
-                                 <p><strong><em>Description</em></strong><br><pre>GVs in connections configuration</pre><br></p>
+                                 <p><strong><em>Description</em></strong><br><pre>All fields of a connection should be parameterized with Global Variables.</pre><br></p>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>dir</th>
+                                          <th>xpath</th>
+                                          <th>xpath</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Resources/JDBC Connection.sharedjdbc</td>
+                                          <td>Driver</td>
+                                          <td>URL</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Resources/JMS Connection.sharedjmscon</td>
+                                          <td>JNDI URL</td>
+                                       </tr>
+                                    </table>
+                                 </div>
                               </div>
                            </div>
-                           <hr><span id="GEN-002">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>dir</th>
-                                    <th>xpath</th>
-                                    <th>xpath</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Resources/JDBC Connection.sharedjdbc</td>
-                                    <td>Driver</td>
-                                    <td>URL</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Resources/JMS Connection.sharedjmscon</td>
-                                    <td>JNDI URL</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -109,19 +116,24 @@
                                  <p><strong><em>Description</em></strong><br><pre>The <strong>targetNameSpace</strong> of the <abbr title="XML Schema Definition">XSD</abbr> starts with <i>http://www.tibco.com</i><br />It is most likely the default value set by the Designer.</pre><br></p>
                                  <p><strong><em>Correction</em></strong><br><pre>A good <strong>targetNameSpace</strong> should be customized with a mnemonic name such as <i>http://company.com/category/feature.xsd</i>.</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>file</th>
+                                          <th>namespace</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</td>
+                                          <td>http://www.tibco.com/schemas/WorstProjectEver/Issues/General/GEN-003/Schema.xsd</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="GEN-003">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>file</th>
-                                    <th>namespace</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</td>
-                                    <td>http://www.tibco.com/schemas/WorstProjectEver/Issues/General/GEN-003/Schema.xsd</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -141,19 +153,24 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Namespace Collisions</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>file</th>
+                                          <th>namespace</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</td>
+                                          <td>http://www.tibco.com/schemas/WorstProjectEver/Issues/General/GEN-003/Schema.xsd</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="GEN-004">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>file</th>
-                                    <th>namespace</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/General/GEN-003/SchemaWithDefaultNamespace.xsd</td>
-                                    <td>http://www.tibco.com/schemas/WorstProjectEver/Issues/General/GEN-003/Schema.xsd</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -164,7 +181,7 @@
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_REL-001" aria-controls="collapse_REL-001">
                   <div class="panel-heading"><span class="label label-default">REL-001</span><h3 id="REL-001">Recursive Calls</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_REL-001">
@@ -172,14 +189,28 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>REL-001</tt><br><strong><em>Name: </em></strong><tt>Recursive Calls</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>REL-001</tt><br><strong><em>Name: </em></strong><tt>Recursive Calls</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Recursive Calls</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>called process</th>
+                                          <th>process</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-001/Recursive Call.process</td>
+                                          <td>/Issues/Reliability/REL-001/Recursive Call.process</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
                         </div>
                      </div>
                   </div>
@@ -200,29 +231,34 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Nested Transactions</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process1</th>
+                                          <th>transaction1</th>
+                                          <th>process2</th>
+                                          <th>transaction2</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
+                                          <td>JMS Transaction</td>
+                                          <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
+                                          <td>JDBC Transaction</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</td>
+                                          <td>JDBC Transaction</td>
+                                          <td>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</td>
+                                          <td>JMS Transaction</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="REL-002">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process1</th>
-                                    <th>transaction1</th>
-                                    <th>process2</th>
-                                    <th>transaction2</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
-                                    <td>JMS Transaction</td>
-                                    <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
-                                    <td>JDBC Transaction</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</td>
-                                    <td>JDBC Transaction</td>
-                                    <td>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</td>
-                                    <td>JMS Transaction</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -242,19 +278,24 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>JDBC SQLDirect Uses</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-003/JDBC SQL Direct.process</td>
+                                          <td>SQL Direct</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="REL-003">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>activity</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-003/JDBC SQL Direct.process</td>
-                                    <td>SQL Direct</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -274,26 +315,153 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Unknown JMS Properties</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Parameters used</em></strong></p>
+                                 <table class="table table-striped">
+                                    <tr>
+                                       <th>key</th>
+                                       <th>value</th>
+                                    </tr>
+                                    <tr>
+                                       <td>prefix</td>
+                                       <td>JMS_TIBCO_</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_TIBCO_CM_PUBLISHER</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_TIBCO_COMPRESS</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_TIBCO_DISABLE_SENDER</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_TIBCO_IMPORTED</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_TIBCO_MSG_EXT</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_TIBCO_MSG_TRACE</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_TIBCO_PRESERVE_UNDELIVERED</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_TIBCO_SENDER</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_TIBCO_SS_SENDER</td>
+                                    </tr>
+                                    <tr>
+                                       <td>prefix</td>
+                                       <td>JMS_IBM_</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Character_Set</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Feedback</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Format</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Last_Msg_In_Group</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_MsgType</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_PutApplType</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_PutDate</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_PutTime</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Report_COA</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Report_COD</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Report_Discard_Msg</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Report_Exception</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Report_Expiration</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Report_NAN</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Report_PAN</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Report_Pass_Correl_ID</td>
+                                    </tr>
+                                    <tr>
+                                       <td>property</td>
+                                       <td>JMS_IBM_Report_Pass_Msg_ID</td>
+                                    </tr>
+                                 </table>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>resource</th>
+                                          <th>property</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-004/JMS Application Properties.sharedjmsapp</td>
+                                          <td>JMS_TIBCO_unknown</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="REL-004">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>resource</th>
-                                    <th>property</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-004/JMS Application Properties.sharedjmsapp</td>
-                                    <td>JMS_TIBCO_unknown</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_REL-005" aria-controls="collapse_REL-005">
                   <div class="panel-heading"><span class="label label-default">REL-005</span><h3 id="REL-005">No out Transition</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
+                        <div role="progressbar" style="width: 60%; min-width: 25px;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-warning">60 %<span class="sr-only" style="display: none; visibility: hidden;">60 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_REL-005">
@@ -301,31 +469,49 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>REL-005</tt><br><strong><em>Name: </em></strong><tt>No out Transition</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>REL-005</tt><br><strong><em>Name: </em></strong><tt>No out Transition</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 4 = 60</tt><br></p>
                               </div>
                               <div class="col-md-9">
-                                 <p><strong><em>Description</em></strong><br><pre>No out Transition</pre><br></p>
+                                 <p><strong><em>Description</em></strong><br><pre>When an activity has no transition to another activity, the behaviour of the process at runtime might become undefined.<br />All activities must have at least one successor in the process graph, except the End activity.</pre><br></p>
+                                 <p><strong><em>Correction</em></strong><br><pre>Simply add a transition from the concerned activity to another activity or to the End activity.</pre><br></p>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-002/Called process.process</td>
+                                          <td>Start</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-002/Interface.process</td>
+                                          <td>Start</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-005/No Out Transition from Start.process</td>
+                                          <td>Start</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-005/No Out Transition.process</td>
+                                          <td>Some mapping</td>
+                                       </tr>
+                                    </table>
+                                 </div>
                               </div>
                            </div>
-                           <hr><span id="REL-005">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>activity</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-005/No Out Transition.process</td>
-                                    <td>Some mapping</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_REL-006" aria-controls="collapse_REL-006">
                   <div class="panel-heading"><span class="label label-default">REL-006</span><h3 id="REL-006">No otherwise Transition</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_REL-006">
@@ -333,14 +519,29 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>REL-006</tt><br><strong><em>Name: </em></strong><tt>No otherwise Transition</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>REL-006</tt><br><strong><em>Name: </em></strong><tt>No otherwise Transition</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
-                                 <p><strong><em>Description</em></strong><br><pre>No otherwise Transition</pre><br></p>
+                                 <p><strong><em>Description</em></strong><br><pre>When an activity has transitions with condition(s), the <em>Otherwise</em> transition is mandatory.</pre><br></p>
+                                 <p><strong><em>Correction</em></strong><br><pre>Simply add an <em>Otherwise</em> transition from the concerned activity to another activity or to the End activity.</pre><br></p>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-006/No Otherwise Transition.process</td>
+                                          <td>Start</td>
+                                       </tr>
+                                    </table>
+                                 </div>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
                         </div>
                      </div>
                   </div>
@@ -350,7 +551,7 @@
                <h1>Efficiency</h1>
                <p>Efficiency category</p>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-001" aria-controls="collapse_EFF-001">
-                  <div class="panel-heading"><span class="label label-default">EFF-001</span><h3 id="EFF-001">Nested loop</h3>
+                  <div class="panel-heading"><span class="label label-default">EFF-001</span><h3 id="EFF-001">Nested loops</h3>
                      <div class="progress" style="width: 150px;">
                         <div role="progressbar" style="width: 80%; min-width: 25px;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">80 %<span class="sr-only" style="display: none; visibility: hidden;">80 %</span></div>
                      </div>
@@ -360,46 +561,56 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>EFF-001</tt><br><strong><em>Name: </em></strong><tt>Nested loop</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 2 = 80</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>EFF-001</tt><br><strong><em>Name: </em></strong><tt>Nested loops</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 2 = 80</tt><br></p>
                               </div>
                               <div class="col-md-9">
-                                 <p><strong><em>Description</em></strong><br><pre>Nested loop</pre><br></p>
+                                 <p><strong><em>Description</em></strong><br><pre>Nested loops should be avoided for performance reason.</pre><br></p>
+                                 <p><strong><em>Correction</em></strong><br><pre>When a mapper is inside a loop, it can be replaced by a simple mapper with XSLT 'for-each' construct.</pre><br></p>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Parameters used</em></strong></p>
+                                 <table class="table table-striped">
+                                    <tr>
+                                       <th>key</th>
+                                       <th>value</th>
+                                    </tr>
+                                    <tr>
+                                       <td>MaxNestedLoops</td>
+                                       <td>3</td>
+                                    </tr>
+                                 </table>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>process</th>
+                                          <th>Level 2</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-001/Nested loops.process</td>
+                                          <td>/Issues/Efficiency/EFF-001/Nested loops.process</td>
+                                          <td>Level 2</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>group</th>
+                                       </tr>
+                                       <tr>
+                                          <td>Level 3</td>
+                                       </tr>
+                                    </table>
+                                 </div>
                               </div>
                            </div>
-                           <hr>
-                           <p><strong><em>Parameters used: </em></strong></p>
-                           <table class="table table-striped">
-                              <tr>
-                                 <th>key</th>
-                                 <th>value</th>
-                              </tr>
-                              <tr>
-                                 <td>MaxNestedLoops</td>
-                                 <td>3</td>
-                              </tr>
-                           </table>
-                           <hr><span id="EFF-001">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>process</th>
-                                    <th>Level 2</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Efficiency/EFF-001/Nested loops.process</td>
-                                    <td>/Issues/Efficiency/EFF-001/Nested loops.process</td>
-                                    <td>Level 2</td>
-                                 </tr>
-                              </table>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>group</th>
-                                 </tr>
-                                 <tr>
-                                    <td>Level 3</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -417,21 +628,26 @@
                                  <p><strong><em>Key: </em></strong><tt>EFF-002</tt><br><strong><em>Name: </em></strong><tt>Critical Section on JobSharedVariable</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
-                                 <p><strong><em>Description</em></strong><br><pre>Performance issue</pre><br></p>
+                                 <p><strong><em>Description</em></strong><br><pre>Critical Section around JobSharedVariable is useless since a JobSharedVariable is related to a single job.</pre><br></p>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</td>
+                                          <td>SetVariable</td>
+                                       </tr>
+                                    </table>
+                                 </div>
                               </div>
                            </div>
-                           <hr><span id="EFF-002">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>activity</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</td>
-                                    <td>SetVariable</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -449,28 +665,33 @@
                                  <p><strong><em>Key: </em></strong><tt>EFF-003</tt><br><strong><em>Name: </em></strong><tt>Critical Section on single SharedVariable</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
-                                 <p><strong><em>Description</em></strong><br><pre>Critical Section on single SharedVariable</pre><br></p>
+                                 <p><strong><em>Description</em></strong><br><pre>Critical Section on a single SharedVariable access is useless, SharedVariable activities are thread-safe and critical section should only be used for consistency matters.</pre><br></p>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</td>
+                                          <td>SetVariable</td>
+                                       </tr>
+                                    </table>
+                                 </div>
                               </div>
                            </div>
-                           <hr><span id="EFF-003">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>activity</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</td>
-                                    <td>SetVariable</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-004" aria-controls="collapse_EFF-004">
                   <div class="panel-heading"><span class="label label-default">EFF-004</span><h3 id="EFF-004">Get JMS Queue Message Uses</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_EFF-004">
@@ -478,14 +699,28 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>EFF-004</tt><br><strong><em>Name: </em></strong><tt>Get JMS Queue Message Uses</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>EFF-004</tt><br><strong><em>Name: </em></strong><tt>Get JMS Queue Message Uses</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
-                                 <p><strong><em>Description</em></strong><br><pre>Get JMS Queue Message Uses</pre><br></p>
+                                 <p><strong><em>Description</em></strong><br><pre>Get JMS Queue Message Uses activity is expensive for EMS server.</pre><br></p>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-004/Get JMS Queue Message.process</td>
+                                          <td>Get JMS Queue Message</td>
+                                       </tr>
+                                    </table>
+                                 </div>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
                         </div>
                      </div>
                   </div>
@@ -504,28 +739,33 @@
                                  <p><strong><em>Key: </em></strong><tt>EFF-005</tt><br><strong><em>Name: </em></strong><tt>JMS Selector</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
-                                 <p><strong><em>Description</em></strong><br><pre>JMS Selector</pre><br></p>
+                                 <p><strong><em>Description</em></strong><br><pre>JMS Selector can slow down EMS server throughput and increase CPU load</pre><br></p>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-005/JMS Selector.process</td>
+                                          <td>JMS Queue Receiver</td>
+                                       </tr>
+                                    </table>
+                                 </div>
                               </div>
                            </div>
-                           <hr><span id="EFF-005">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>activity</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Efficiency/EFF-005/JMS Selector.process</td>
-                                    <td>JMS Queue Receiver</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
                <div class="panel panel-default" role="button" data-toggle="collapse" aria-expanded="false" href="#collapse_EFF-006" aria-controls="collapse_EFF-006">
                   <div class="panel-heading"><span class="label label-default">EFF-006</span><h3 id="EFF-006">JMS Synchronous activities</h3>
                      <div class="progress" style="width: 150px;">
-                        <div role="progressbar" style="width: 100%; min-width: 25px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-success">100 %<span class="sr-only" style="display: none; visibility: hidden;">100 %</span></div>
+                        <div role="progressbar" style="width: 90%; min-width: 25px;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-info">90 %<span class="sr-only" style="display: none; visibility: hidden;">90 %</span></div>
                      </div>
                   </div>
                   <div class="collapse" id="collapse_EFF-006">
@@ -533,14 +773,28 @@
                         <div>
                            <div class="row">
                               <div class="col-md-3">
-                                 <p><strong><em>Key: </em></strong><tt>EFF-006</tt><br><strong><em>Name: </em></strong><tt>JMS Synchronous activities</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br></p>
+                                 <p><strong><em>Key: </em></strong><tt>EFF-006</tt><br><strong><em>Name: </em></strong><tt>JMS Synchronous activities</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
-                                 <p><strong><em>Description</em></strong><br><pre>JMS Synchronous activities</pre><br></p>
+                                 <p><strong><em>Description</em></strong><br><pre>JMS Synchronous activities are inefficient for scalability.</pre><br></p>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-006/JMS Synchronous activities.process</td>
+                                          <td>Wait for JMS Queue Message</td>
+                                       </tr>
+                                    </table>
+                                 </div>
                               </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
                         </div>
                      </div>
                   </div>
@@ -565,21 +819,26 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Collect Transition Colors</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>type</th>
+                                          <th>color</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-001/Transition with colors.process</td>
+                                          <td>xpath</td>
+                                          <td>#00FF00</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="MAI-001">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>type</th>
-                                    <th>color</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-001/Transition with colors.process</td>
-                                    <td>xpath</td>
-                                    <td>#00FF00</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -597,21 +856,26 @@
                                  <p><strong><em>Key: </em></strong><tt>MAI-002</tt><br><strong><em>Name: </em></strong><tt>Dynamic Process Calls</tt><br><strong><em>Weight: </em></strong><tt>10</tt><br><strong><em>Score: </em></strong><tt>100 - 10 * 1 = 90</tt><br></p>
                               </div>
                               <div class="col-md-9">
-                                 <p><strong><em>Description</em></strong><br><pre>Dynamic Process Calls</pre><br></p>
+                                 <p><strong><em>Description</em></strong><br><pre>Dynamic process calls reduce maintanibility.</pre><br></p>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-002/Dynamic process call.process</td>
+                                          <td>Interface</td>
+                                       </tr>
+                                    </table>
+                                 </div>
                               </div>
                            </div>
-                           <hr><span id="MAI-002">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>activity</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-002/Dynamic process call.process</td>
-                                    <td>Interface</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -631,45 +895,52 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Process Call Depth</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Parameters used</em></strong></p>
+                                 <table class="table table-striped">
+                                    <tr>
+                                       <th>key</th>
+                                       <th>value</th>
+                                    </tr>
+                                    <tr>
+                                       <td>MaxProcessCallDepth</td>
+                                       <td>7</td>
+                                    </tr>
+                                 </table>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>process</th>
+                                          <th>process</th>
+                                          <th>process</th>
+                                          <th>process</th>
+                                          <th>process</th>
+                                          <th>process</th>
+                                          <th>process</th>
+                                          <th>process</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 2.process</td>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 3.process</td>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 4.process</td>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 5.process</td>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 6.process</td>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 7.process</td>
+                                          <td>Process Level 7</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr>
-                           <p><strong><em>Parameters used: </em></strong></p>
-                           <table class="table table-striped">
-                              <tr>
-                                 <th>key</th>
-                                 <th>value</th>
-                              </tr>
-                              <tr>
-                                 <td>MaxProcessCallDepth</td>
-                                 <td>7</td>
-                              </tr>
-                           </table>
-                           <hr><span id="MAI-003">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>process</th>
-                                    <th>process</th>
-                                    <th>process</th>
-                                    <th>process</th>
-                                    <th>process</th>
-                                    <th>process</th>
-                                    <th>process</th>
-                                    <th>process</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 2.process</td>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 3.process</td>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 4.process</td>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 5.process</td>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 6.process</td>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 7.process</td>
-                                    <td>Process Level 7</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -689,17 +960,22 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Java XPath</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-004/JavaCustomFunction.javaxpath</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="MAI-004">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-004/JavaCustomFunction.javaxpath</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -719,9 +995,11 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Projlib Import</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><i>No issue detected.</i></p>
+                              </div>
                            </div>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
                         </div>
                      </div>
                   </div>
@@ -742,21 +1020,25 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Complex Input</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Parameters used</em></strong></p>
+                                 <table class="table table-striped">
+                                    <tr>
+                                       <th>key</th>
+                                       <th>value</th>
+                                    </tr>
+                                    <tr>
+                                       <td>MaxMappingLines</td>
+                                       <td>100</td>
+                                    </tr>
+                                 </table>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><i>No issue detected.</i></p>
+                              </div>
                            </div>
-                           <hr>
-                           <p><strong><em>Parameters used: </em></strong></p>
-                           <table class="table table-striped">
-                              <tr>
-                                 <th>key</th>
-                                 <th>value</th>
-                              </tr>
-                              <tr>
-                                 <td>MaxMappingLines</td>
-                                 <td>100</td>
-                              </tr>
-                           </table>
-                           <hr>
-                           <p><i>No issue detected.</i></p>
                         </div>
                      </div>
                   </div>
@@ -777,31 +1059,38 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Number of activity by process</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Parameters used</em></strong></p>
+                                 <table class="table table-striped">
+                                    <tr>
+                                       <th>key</th>
+                                       <th>value</th>
+                                    </tr>
+                                    <tr>
+                                       <td>MaxActivityByProcess</td>
+                                       <td>15</td>
+                                    </tr>
+                                 </table>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity-number</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
+                                          <td>16</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr>
-                           <p><strong><em>Parameters used: </em></strong></p>
-                           <table class="table table-striped">
-                              <tr>
-                                 <th>key</th>
-                                 <th>value</th>
-                              </tr>
-                              <tr>
-                                 <td>MaxActivityByProcess</td>
-                                 <td>15</td>
-                              </tr>
-                           </table>
-                           <hr><span id="MAI-007">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>activity-number</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
-                                    <td>16</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -821,107 +1110,112 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Uncommented processes</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-001/Nested loops.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-004/Get JMS Queue Message.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-005/JMS Selector.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Efficiency/EFF-006/JMS Synchronous activities.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-001/Transition with colors.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-002/Called process.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-002/Dynamic process call.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-002/Interface.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 2.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 3.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 4.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 5.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 6.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-003/Process Level 7.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-009/Oversized process.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-010/Unlabelled transitions.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-011/Starter Process with output.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Portability/POR-001/External Command.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Portability/POR-002/Java Code activity.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Portability/POR-002/Java Method activity.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-001/Recursive Call.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-003/JDBC SQL Direct.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-005/No Out Transition from Start.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-005/No Out Transition.process</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Reliability/REL-006/No Otherwise Transition.process</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="MAI-008">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Efficiency/EFF-001/Nested loops.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Efficiency/EFF-002/Critical Section on JobSharedVariable.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Efficiency/EFF-003/Critical Section on single SharedVariable.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Efficiency/EFF-004/Get JMS Queue Message.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Efficiency/EFF-005/JMS Selector.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Efficiency/EFF-006/JMS Synchronous activities.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-001/Transition with colors.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-002/Called process.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-002/Dynamic process call.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-002/Interface.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 2.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 3.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 4.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 5.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 6.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-003/Process Level 7.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-009/Oversized process.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-010/Unlabelled transitions.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-011/Starter Process with output.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Portability/POR-001/External Command.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Portability/POR-002/Java Code activity.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Portability/POR-002/Java Method activity.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-001/Recursive Call.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-002/Nested Transaction JDBC in JMS.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-002/Nested Transaction JMS in JDBC.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-003/JDBC SQL Direct.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-005/No Out Transition from Start.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-005/No Out Transition.process</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Reliability/REL-006/No Otherwise Transition.process</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -941,33 +1235,40 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Oversized Processes</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Parameters used</em></strong></p>
+                                 <table class="table table-striped">
+                                    <tr>
+                                       <th>key</th>
+                                       <th>value</th>
+                                    </tr>
+                                    <tr>
+                                       <td>OversizedProcesses_Height</td>
+                                       <td>900</td>
+                                    </tr>
+                                    <tr>
+                                       <td>OversizedProcesses_Width</td>
+                                       <td>1100</td>
+                                    </tr>
+                                 </table>
+                              </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-009/Oversized process.process</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr>
-                           <p><strong><em>Parameters used: </em></strong></p>
-                           <table class="table table-striped">
-                              <tr>
-                                 <th>key</th>
-                                 <th>value</th>
-                              </tr>
-                              <tr>
-                                 <td>OversizedProcesses_Height</td>
-                                 <td>900</td>
-                              </tr>
-                              <tr>
-                                 <td>OversizedProcesses_Width</td>
-                                 <td>1100</td>
-                              </tr>
-                           </table>
-                           <hr><span id="MAI-009">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-009/Oversized process.process</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -987,23 +1288,28 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Unlabelled Transitions</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>from</th>
+                                          <th>to</th>
+                                          <th>condition</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-010/Unlabelled transitions.process</td>
+                                          <td>Start</td>
+                                          <td>Log</td>
+                                          <td>$Start/root/logEnabled='true'</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="MAI-010">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>from</th>
-                                    <th>to</th>
-                                    <th>condition</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-010/Unlabelled transitions.process</td>
-                                    <td>Start</td>
-                                    <td>Log</td>
-                                    <td>$Start/root/logEnabled='true'</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -1023,19 +1329,24 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Starter Process with output</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>starter</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-011/Starter Process with output.process</td>
+                                          <td>/Issues/Maintainability/MAI-011/Starter Process with output.process</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="MAI-011">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>starter</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-011/Starter Process with output.process</td>
-                                    <td>/Issues/Maintainability/MAI-011/Starter Process with output.process</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -1059,23 +1370,28 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>External Command Uses</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
+                                          <td>External Command</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Portability/POR-001/External Command.process</td>
+                                          <td>External Command</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="POR-001">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>activity</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
-                                    <td>External Command</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Portability/POR-001/External Command.process</td>
-                                    <td>External Command</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -1095,27 +1411,32 @@
                               <div class="col-md-9">
                                  <p><strong><em>Description</em></strong><br><pre>Java Activities Uses</pre><br></p>
                               </div>
+                              <hr>
+                              <div class="col-md-12">
+                                 <p><strong><em>Output</em></strong></p>
+                                 <div class="table-responsive">
+                                    <table class="table table-striped">
+                                       <tr>
+                                          <th>process</th>
+                                          <th>activity</th>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
+                                          <td>Java Code</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Portability/POR-002/Java Code activity.process</td>
+                                          <td>Java Code</td>
+                                       </tr>
+                                       <tr>
+                                          <td>/Issues/Portability/POR-002/Java Method activity.process</td>
+                                          <td>Java Method</td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                              </div>
                            </div>
-                           <hr><span id="POR-002">
-                              <p><strong><em>Output: </em></strong></p>
-                              <table class="table table-striped">
-                                 <tr>
-                                    <th>process</th>
-                                    <th>activity</th>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Maintainability/MAI-007/Too many activities.process</td>
-                                    <td>Java Code</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Portability/POR-002/Java Code activity.process</td>
-                                    <td>Java Code</td>
-                                 </tr>
-                                 <tr>
-                                    <td>/Issues/Portability/POR-002/Java Method activity.process</td>
-                                    <td>Java Method</td>
-                                 </tr>
-                              </table></span></div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -1505,9 +1826,9 @@
          <p class="text-muted credit"><i>Project</i> :
             				<strong>Code Review Plugin for TIBCO BusinessWorks - IT - WorstProjectEver project</strong>
             				- <i>Review Date</i> :
-            				<strong>2015-09-16 12:48:28</strong>
+            				<strong>2015-09-16 12:54:12</strong>
             				- <i>Review Duration</i> :
-            				<strong>7.225</strong>
+            				<strong>7.305</strong>
             				sec.
             				<br><span class="color-highlight">FC</span> Code Review for TIBCO BusinessWorks - © 2013-2015  - <a href="http://www.fastconnect.fr/" target="_blank">FastConnect</a></p>
       </footer><script type="text/javascript" src="resources/jquery.min.js">//</script><script type="text/javascript" src="resources/bootstrap.min.js">//</script><script type="text/javascript" src="resources/docs.js">//</script><script type="text/javascript">
