@@ -22,11 +22,12 @@
 		<notaBene><![CDATA[<b>NB:</b>]]></notaBene>
 		<bwMavenPluginVersion>${bw.maven.plugin.version}</bwMavenPluginVersion>
 		<codeReviewPluginVersion>${code.review.plugin.version}</codeReviewPluginVersion>
+		<fcUnitPluginVersion>${fcunit.plugin.version}</fcUnitPluginVersion>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<bw.maven.plugin.version>2.3.2</bw.maven.plugin.version>
+		<bw.maven.plugin.version>2.3.3</bw.maven.plugin.version>
 		<code.review.plugin.version>2.0.0</code.review.plugin.version>
-		<fcunit.plugin.version>2.3.0</fcunit.plugin.version>
+		<fcunit.plugin.version>2.0.0</fcunit.plugin.version>
 
 		<repositoryReleaseURL>${settingsRepositoryReleaseURL}</repositoryReleaseURL>
 		<repositorySnapshotURL>${settingsRepositorySnapshotURL}</repositorySnapshotURL>
