@@ -348,6 +348,33 @@
 			</properties>
 			<build>
 				<plugins>
+					<!--
+					replace parameters in Maven site URL <url>
+					(for mvnrepository.com for instance)
+					-->
+					<plugin>
+						<groupId>com.google.code.maven-replacer-plugin</groupId>
+						<artifactId>replacer</artifactId>
+						<version>1.5.3</version>
+						<configuration>
+							<file>pom.xml</file>
+							<outputFile>${project.basedir}/pom.xml</outputFile>
+							<replacements>
+								<replacement>
+									<token>\$\{repositorySiteDisplayURL\}</token>
+									<value>${repositorySiteDisplayURL}</value>
+								</replacement>
+							</replacements>
+						</configuration>
+						<executions>
+							<execution>
+								<phase>verify</phase>
+								<goals>
+									<goal>replace</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
 					<!-- sign artifacts with GnuPG -->
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
