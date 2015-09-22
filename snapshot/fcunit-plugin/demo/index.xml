@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites xmlns:fcue="http://fastconnect.fr/fcunit-errors.xsd"
+            xmlns:xs="http://www.w3.org/TR/xmlschema-2/"
+            xmlns:fcfn="http://fastconnect.fr/fcunit_helpers"/>
