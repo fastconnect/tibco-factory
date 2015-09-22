@@ -48,3 +48,11 @@ This Maven plugin will run automatic Code Review on TIBCO BusinessWorks
 projects. It generates XML/HTML reports of rules passed or failed by the
 projects and has an open architecture to implement custom rules.
 <div>[Learn more »](./code-review-plugin/index.html)</div>
+
+---
+
+# FCUnit
+
+FCUnit is a Maven plugin enabling a JUnit-like unit tests in TIBCO BusinessWorks
+projects.
+<div>[Learn more »](./fcunit-plugin/index.html)</div>

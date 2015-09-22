@@ -95,6 +95,7 @@
 
 			<endContent>
 				<script type="text/javascript" src="$resourcePath/js/highlight.min.js"></script>
+				<script type="text/javascript" src="$resourcePath/js/jquery.imagemapster.min.js"></script>
 				<script type="text/javascript" src="$resourcePath/js/custom.js"></script>
 			</endContent>
 
@@ -104,6 +105,7 @@
 					<markPageHeader>false</markPageHeader>
 					<sections>
 						<body />
+						<thumbs>2</thumbs>
 						<thumbs>2</thumbs>
 					</sections>
 				</index>
@@ -152,12 +154,12 @@
           <![CDATA[
 			<map id="ALM" name="ALM">
 			  <area shape="rect" alt="Development" title="" coords="157,4,254,50" href="./bw-maven-plugin/phases/development.html" target=""/>
-			  <area shape="rect" alt="Unit Tests" title="" coords="285,71,383,116" href="" target=""/>
-			  <area shape="rect" alt="Packaging" title="" coords="308,161,405,207" href="" target=""/>
-			  <area shape="rect" alt="Integration Tests" title="" coords="255,252,353,297" href="" target=""/>
+			  <area shape="rect" alt="Unit Tests" title="" coords="285,71,383,116" href="./fcunit-plugin/index.html" target=""/>
+			  <area shape="rect" alt="Review" title="" coords="308,161,405,207" href="./code-review-plugin/index.html" target=""/>
+			  <area shape="rect" alt="Packaging" title="" coords="255,252,353,297" href="./bw-maven-plugin/phases/packaging.html" target=""/>
 			  <area shape="rect" alt="Deployment" title="" coords="58,253,156,298" href="./bw-maven-plugin/phases/deployment.html" target=""/>
 			  <area shape="rect" alt="Release" title="" coords="5,162,103,208" href="" target=""/>
-			  <area shape="rect" alt="Maintenance" title="" coords="30,71,126,116" href="./fc-metro-parent/index.html" target=""/>
+			  <area shape="rect" alt="Maintenance" title="" coords="30,71,126,116" href="" target=""/>
 			</map>
 			<img src="./images/ALM.png" alt="" usemap="#ALM" border="0" />
           ]]>
