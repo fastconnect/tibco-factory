@@ -359,7 +359,7 @@
 							<artifactId>replacer</artifactId>
 							<version>1.5.3</version>
 							<configuration>
-								<file>pom.xml</file>
+								<file>${project.basedir}/pom.xml</file>
 								<outputFile>${project.basedir}/pom.xml</outputFile>
 								<replacements>
 									<replacement>
