@@ -61,3 +61,11 @@ h5[id]:before,
 h6[id]:before {
 	display: inline;
 }
+
+li.dropdown ul, li.dropdown ul li, li.dropdown ul li a {
+	z-index:1000;
+}
+
+.dropdown-backdrop {
+    position: static;
+}
