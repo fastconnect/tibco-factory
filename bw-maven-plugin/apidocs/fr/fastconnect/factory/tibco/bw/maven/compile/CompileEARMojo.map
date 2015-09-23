@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="c1776" href="../AbstractBWArtifactMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" alt="" coords="15,17,177,42"/>
+<area shape="rect" id="c1660" href="../AbstractBWArtifactMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" alt="" coords="15,17,177,42"/>
 <area shape="rect" id="node1" href="../AbstractBWArtifactMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,5,187,53"/>
-<area shape="rect" id="c1802" href="./CompileEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo" alt="" coords="35,113,157,138"/>
+<area shape="rect" id="c1686" href="./CompileEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo" alt="" coords="35,113,157,138"/>
 <area shape="rect" id="node2" href="./CompileEARMojo.html" title="&lt;TABLE&gt;" alt="" coords="24,101,168,149"/>
 </map>

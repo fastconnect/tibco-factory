@@ -10,55 +10,55 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo
-	c828 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./doc/AbstractDocMojo.html">
+	c742 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./doc/AbstractDocMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractDocMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./doc/AbstractDocMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c840 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWArtifactMojo.html">
+	c754 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWArtifactMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBWArtifactMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractBWArtifactMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.InitializeMojo
-	c841 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.InitializeMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InitializeMojo.html">
+	c755 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.InitializeMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./InitializeMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> InitializeMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./InitializeMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c842 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractBWMojo.html">
+	c756 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractBWMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AbstractBWMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractBWMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo
-	c844 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./bwengine/AbstractServiceEngineMojo.html">
+	c758 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./bwengine/AbstractServiceEngineMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractServiceEngineMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./bwengine/AbstractServiceEngineMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.run.LaunchDesignerMojo
-	c872 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.run.LaunchDesignerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./run/LaunchDesignerMojo.html">
+	c784 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.run.LaunchDesignerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./run/LaunchDesignerMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LaunchDesignerMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./run/LaunchDesignerMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c842:p -> c828:p [dir=back,arrowtail=empty];
+	c756:p -> c742:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c842:p -> c840:p [dir=back,arrowtail=empty];
+	c756:p -> c754:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.InitializeMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c842:p -> c841:p [dir=back,arrowtail=empty];
+	c756:p -> c755:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo extends org.apache.maven.plugin.AbstractMojo
-	c873:p -> c842:p [dir=back,arrowtail=empty];
+	c785:p -> c756:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c842:p -> c844:p [dir=back,arrowtail=empty];
+	c756:p -> c758:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.run.LaunchDesignerMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c842:p -> c872:p [dir=back,arrowtail=empty];
+	c756:p -> c784:p [dir=back,arrowtail=empty];
 	// org.apache.maven.plugin.AbstractMojo
-	c873 [label=<<table title="org.apache.maven.plugin.AbstractMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/plugin/AbstractMojo.html">
+	c785 [label=<<table title="org.apache.maven.plugin.AbstractMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="http://java.sun.com/j2se/1.4.2/docs/api/org/apache/maven/plugin/AbstractMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractMojo </font></td></tr>
 		</table></td></tr>

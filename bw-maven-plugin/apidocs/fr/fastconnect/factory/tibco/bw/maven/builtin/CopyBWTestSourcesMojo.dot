@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<CustomResource extends org.apache.maven.model.Resource>
-	c2103 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractWrapperForBuiltinMojo.html">
+	c1977 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractWrapperForBuiltinMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractWrapperForBuiltinMojo&lt;CustomResource extends Resource&gt; </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractWrapperForBuiltinMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo
-	c2110 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CopyBWTestSourcesMojo.html">
+	c1984 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./CopyBWTestSourcesMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CopyBWTestSourcesMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CopyBWTestSourcesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.builtin.CopyBWTestSourcesMojo extends fr.fastconnect.factory.tibco.bw.maven.builtin.AbstractWrapperForBuiltinMojo<org.apache.maven.model.Resource>
-	c2103:p -> c2110:p [dir=back,arrowtail=empty];
+	c1977:p -> c1984:p [dir=back,arrowtail=empty];
 }
 

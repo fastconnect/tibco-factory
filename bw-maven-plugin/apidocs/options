@@ -8,5 +8,5 @@
 'UTF-8'
 -protected
 -sourcepath
-'/home/jenkins/workspace/tibco-bwmaven-release/target/checkout/bw-maven-plugin/src/main/java:/home/jenkins/workspace/tibco-bwmaven-release/target/checkout/bw-maven-plugin/target/generated-sources/jaxb:/home/jenkins/workspace/tibco-bwmaven-release/target/checkout/bw-maven-plugin/target/generated-sources/wsimport:/home/jenkins/workspace/tibco-bwmaven-release/target/checkout/bw-maven-plugin/target/generated-sources/plugin'
+'/home/jenkins/workspace/tibco-bwmaven-release/target/checkout/bw-maven-plugin/src/main/java:/home/jenkins/workspace/tibco-bwmaven-release/target/checkout/bw-maven-plugin/target/generated-sources/jaxb:/home/jenkins/workspace/tibco-bwmaven-release/target/checkout/bw-maven-plugin/target/generated-sources/plugin'
 -views

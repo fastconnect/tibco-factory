@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM
-	c2761 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GeneratePOM.html">
+	c2493 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./GeneratePOM.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GeneratePOM </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GeneratePOM.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c2765 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPackagingMojo.html">
+	c2497 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPackagingMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractPackagingMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPackagingMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c2765:p -> c2761:p [dir=back,arrowtail=empty];
+	c2497:p -> c2493:p [dir=back,arrowtail=empty];
 }
 
