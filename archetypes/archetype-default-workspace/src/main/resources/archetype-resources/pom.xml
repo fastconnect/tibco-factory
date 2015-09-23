@@ -39,6 +39,7 @@
 		     default project configuration found in 'fc-tibco-factory' -->
 		<bw.maven.plugin.version>${bw.maven.plugin.version}</bw.maven.plugin.version>
 		<code.review.plugin.version>${code.review.plugin.version}</code.review.plugin.version>
+		<fcunit.plugin.version>${fcunit.plugin.version}</fcunit.plugin.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 

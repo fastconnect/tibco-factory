@@ -10,10 +10,10 @@
 	<artifactId>archetype-default-project</artifactId>
 	<packaging>maven-archetype</packaging>
 
-	<name>FC TIBCO Factory - Archetypes - Default project with properties scaffolding</name>
+	<name>FC TIBCO Factory - Archetypes - Default POM with properties scaffolding</name>
 	<description>
 		This archetype will create an independent POM with default properties
-		required by the ${factoryName}.
+		required by the FC TIBCO Factory plugins.
 	</description>
 
 	<properties>

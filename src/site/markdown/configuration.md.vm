@@ -125,5 +125,6 @@ mvn archetype:generate -DarchetypeGroupId=fr.fastconnect.factory.tibco \
                        -DprojectName=ProjectName \
                        -DbwMavenPluginVersion=${bwMavenPluginVersion} \
                        -DcodeReviewPluginVersion=${codeReviewPluginVersion} \
+                       -DfcUnitPluginVersion=${fcUnitPluginVersion} \
                        [-DinteractiveMode=false] 
 ```

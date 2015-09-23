@@ -40,6 +40,7 @@
 			<item name="" />
 			<item name="BWMaven" href="./bw-maven-plugin/index.html" />
 			<item name="FCCodeReview" href="./code-review-plugin/index.html" />
+			<item name="FCUnit" href="./fcunit-plugin/index.html" />
 		</menu>
 
 		<menu name="More">

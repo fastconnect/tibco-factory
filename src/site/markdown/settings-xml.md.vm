@@ -27,6 +27,8 @@ $h1 Default "settings.xml" sample file
 
 	<pluginGroups>
 		<pluginGroup>fr.fastconnect.factory.tibco.bw.maven</pluginGroup>
+		<pluginGroup>fr.fastconnect.factory.tibco.bw.codereview</pluginGroup>
+		<pluginGroup>fr.fastconnect.factory.tibco.bw.fcunit</pluginGroup>
 	</pluginGroups>
 
 	<profiles>

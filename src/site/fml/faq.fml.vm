@@ -31,7 +31,7 @@
 				<p>The plugin needs to know where the TIBCO stack (TRA, BW, Designer,...)
         is installed on the current machine.</p>
 				<p>You should create a <b>&lt;profile&gt;</b> section in your
-					<a href="./documentation/configuration.html#Maven_settingsxml_file">settings.xml</a> file as the one below:
+					<a href="./settings-xml.html">settings.xml</a> file as the one below:
 				</p>
 
 				<source>

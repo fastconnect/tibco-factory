@@ -34,6 +34,7 @@
 
 		<bw.maven.plugin.version>${bwMavenPluginVersion}</bw.maven.plugin.version>
 		<code.review.plugin.version>${codeReviewPluginVersion}</code.review.plugin.version>
+		<fcunit.plugin.version>${fcUnitPluginVersion}</fcunit.plugin.version>
 
 		<!-- TIBCO stack configuration -->
 			<!-- appmanage (deployment utility) -->
@@ -126,9 +127,6 @@
 		<project.review.directory>${project.build.directory}/review</project.review.directory>
 		<project.review.project.directory>${project.review.directory}/project</project.review.project.directory>
 		<project.review.resources.directory>${project.review.directory}/resources</project.review.resources.directory>
-
-		<!-- FCUnit -->
-		<fcunit.engine.port>9099</fcunit.engine.port>
 
 		<short.name>APP</short.name>
 	</properties>

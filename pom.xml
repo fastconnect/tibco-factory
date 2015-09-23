@@ -363,8 +363,8 @@
 								<outputFile>${project.basedir}/pom.xml</outputFile>
 								<replacements>
 									<replacement>
-										<token>\$\{repositorySiteDisplayURL\}</token>
-										<value>${repositorySiteDisplayURL}</value>
+										<token>&lt;url&gt;\$\{repositorySiteDisplayURL\}&lt;/url&gt;</token>
+										<value>&lt;url&gt;${repositorySiteDisplayURL}&lt;/url&gt;</value>
 									</replacement>
 								</replacements>
 							</configuration>

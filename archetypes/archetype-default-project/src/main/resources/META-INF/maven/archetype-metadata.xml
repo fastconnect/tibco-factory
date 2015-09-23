@@ -31,6 +31,9 @@
 		<requiredProperty key="codeReviewPluginVersion">
 			<defaultValue>${codeReviewPluginVersion}</defaultValue>
 		</requiredProperty>
+		<requiredProperty key="fcUnitPluginVersion">
+			<defaultValue>${fcUnitPluginVersion}</defaultValue>
+		</requiredProperty>
 	</requiredProperties>
 	<fileSets>
 		<fileSet filtered="true">
