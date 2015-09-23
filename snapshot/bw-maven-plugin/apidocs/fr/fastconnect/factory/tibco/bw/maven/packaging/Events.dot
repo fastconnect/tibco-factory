@@ -10,7 +10,7 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.Events
-	c2234 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.Events" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Events.html">
+	c2103 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.Events" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./Events.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> Events </td></tr>
 		</table></td></tr>

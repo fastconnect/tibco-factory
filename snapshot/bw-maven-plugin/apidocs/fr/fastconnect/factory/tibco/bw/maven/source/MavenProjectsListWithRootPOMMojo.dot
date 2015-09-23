@@ -10,34 +10,34 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.source.AddProjectsAsModules
-	c3610 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.AddProjectsAsModules" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AddProjectsAsModules.html">
+	c3315 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.AddProjectsAsModules" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AddProjectsAsModules.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AddProjectsAsModules </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AddProjectsAsModules.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo
-	c3614 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MavenProjectsListWithRootPOMMojo.html">
+	c3319 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MavenProjectsListWithRootPOMMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MavenProjectsListWithRootPOMMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MavenProjectsListWithRootPOMMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo
-	c3617 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MavenProjectsListMojo.html">
+	c3322 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./MavenProjectsListMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MavenProjectsListMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MavenProjectsListMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.source.RemoveProjectsAsModules
-	c3619 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveProjectsAsModules" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoveProjectsAsModules.html">
+	c3324 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveProjectsAsModules" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./RemoveProjectsAsModules.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> RemoveProjectsAsModules </td></tr>
 		</table></td></tr>
 		</table>>, URL="./RemoveProjectsAsModules.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.source.AddProjectsAsModules extends fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo
-	c3614:p -> c3610:p [dir=back,arrowtail=empty];
+	c3319:p -> c3315:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo extends fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo
-	c3617:p -> c3614:p [dir=back,arrowtail=empty];
+	c3322:p -> c3319:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.source.RemoveProjectsAsModules extends fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo
-	c3614:p -> c3619:p [dir=back,arrowtail=empty];
+	c3319:p -> c3324:p [dir=back,arrowtail=empty];
 }
 
