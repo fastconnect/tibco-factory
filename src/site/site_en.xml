@@ -36,7 +36,7 @@
 		</menu>
 
 		<menu name="Plugins">
-			<item name="Current versions" href="./current-versions.html" />
+			<item name="Plugins list" href="./default-versions.html" />
 			<item name="" />
 			<item name="BWMaven" href="./bw-maven-plugin/index.html" />
 			<item name="FCCodeReview" href="./code-review-plugin/index.html" />

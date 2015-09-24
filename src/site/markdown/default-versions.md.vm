@@ -14,13 +14,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *#
-# Current versions of plugins
+# Default versions of plugins
+
+This list contains all ${factoryNameHighlight} plugins with default versions
+as of ${factoryNameHighlight} __${factoryVersion}__.
 
 ---
 
 | Name                                                                 | Version                    | Maven coordinates                                                                        |
 |----------------------------------------------------------------------|----------------------------|------------------------------------------------------------------------------------------|
 | [${factoryName}](./index.html)                                       | ${factoryVersion}          | fr.fastconnect.factory.tibco:${project.artifactId}:${factoryVersion}                     |
-| [BWMaven](./bw-maven-plugin/index.html)                              | ${bwMavenPluginVersion}    | fr.fastconnect.factory.tibco.bw.maven:bw-maven-plugin:${bwMavenPluginVersion}            |
-| [FC Code Review](./code-review-plugin/index.html)                    | ${codeReviewPluginVersion} | fr.fastconnect.factory.tibco.bw.codereview:code-review-plugin:${codeReviewPluginVersion} |
-| [FCUnit](./fcunit-plugin/index.html)                                 | ${fcUnitPluginVersion}     | fr.fastconnect.factory.tibco.bw.fcunit:fcunit-plugin:${fcUnitPluginVersion}              |
+| &nbsp;&nbsp; [BWMaven](./bw-maven-plugin/index.html)                 | ${bwMavenPluginVersion}    | fr.fastconnect.factory.tibco.bw.maven:bw-maven-plugin:${bwMavenPluginVersion}            |
+| &nbsp;&nbsp; [FC Code Review](./code-review-plugin/index.html)       | ${codeReviewPluginVersion} | fr.fastconnect.factory.tibco.bw.codereview:code-review-plugin:${codeReviewPluginVersion} |
+| &nbsp;&nbsp; [FCUnit](./fcunit-plugin/index.html)                    | ${fcUnitPluginVersion}     | fr.fastconnect.factory.tibco.bw.fcunit:fcunit-plugin:${fcUnitPluginVersion}              |

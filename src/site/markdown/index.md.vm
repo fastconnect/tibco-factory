@@ -29,7 +29,7 @@ However, the ${factoryNameHighlight} will
 dramatically improve the development of such a framework!
 
 The ${factoryNameHighlight} is plugin-based and below is a description of
-[each plugin](./current-versions.html). Before using a plugin, it is advised to
+[each plugin](./default-versions.html). Before using a plugin, it is advised to
 start with ${factoryNameHighlight} common [installation](./installation.html)
 & [configuration](./configuration.html) instructions.
 
