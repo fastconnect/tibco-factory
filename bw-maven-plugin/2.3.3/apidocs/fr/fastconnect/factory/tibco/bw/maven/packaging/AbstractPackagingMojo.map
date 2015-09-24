@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="c910" href="./GenerateXMLFromPropertiesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo" alt="" coords="16,209,232,234"/>
+<area shape="rect" id="node1" href="./GenerateXMLFromPropertiesMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,243,245"/>
+<area shape="rect" id="c911" href="./MergePropertiesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo" alt="" coords="277,209,421,234"/>
+<area shape="rect" id="node2" href="./MergePropertiesMojo.html" title="&lt;TABLE&gt;" alt="" coords="267,197,432,245"/>
+<area shape="rect" id="c912" href="./ExtractXMLFromEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo" alt="" coords="467,209,640,234"/>
+<area shape="rect" id="node3" href="./ExtractXMLFromEARMojo.html" title="&lt;TABLE&gt;" alt="" coords="456,197,651,245"/>
+<area shape="rect" id="c913" href="./GeneratePOM.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePOM" alt="" coords="685,209,789,234"/>
+<area shape="rect" id="node4" href="./GeneratePOM.html" title="&lt;TABLE&gt;" alt="" coords="675,197,800,245"/>
+<area shape="rect" id="c916" href="./GeneratePropertiesFromXMLMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePropertiesFromXMLMojo" alt="" coords="835,209,1051,234"/>
+<area shape="rect" id="node5" href="./GeneratePropertiesFromXMLMojo.html" title="&lt;TABLE&gt;" alt="" coords="824,197,1061,245"/>
+<area shape="rect" id="c917" href="./AbstractPackagingMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" alt="" coords="565,113,725,138"/>
+<area shape="rect" id="node6" href="./AbstractPackagingMojo.html" title="&lt;TABLE&gt;" alt="" coords="555,101,736,149"/>
+<area shape="rect" id="c933" href="../deployment/AbstractBWDeployMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" alt="" coords="1095,209,1254,234"/>
+<area shape="rect" id="node8" href="../deployment/AbstractBWDeployMojo.html" title="&lt;TABLE&gt;" alt="" coords="1085,197,1264,245"/>
+<area shape="rect" id="c920" href="../AbstractBWArtifactMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" alt="" coords="565,17,726,42"/>
+<area shape="rect" id="node7" href="../AbstractBWArtifactMojo.html" title="&lt;TABLE&gt;" alt="" coords="555,5,736,53"/>
+</map>
