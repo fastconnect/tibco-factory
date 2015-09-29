@@ -903,6 +903,6 @@
 		<tag>HEAD</tag>
 	</scm>
 
-	<url>http://fastconnect.github.io/tibco-factory/</url>
+	<url>${repositorySiteDisplayURL}</url>
 
 </project>
