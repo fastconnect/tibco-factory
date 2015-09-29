@@ -375,6 +375,34 @@
 										<goal>replace</goal>
 									</goals>
 								</execution>
+								<execution>
+									<id>update-versions</id>
+									<phase>verify</phase>
+									<inherited>false</inherited>
+									<goals>
+										<goal>replace</goal>
+									</goals>
+									<configuration>
+										<replacements>
+											<replacement>
+												<token>&lt;releaseVersion&gt;\$\{project.version\}&lt;/releaseVersion&gt;</token>
+												<value>&lt;releaseVersion&gt;${project.version}&lt;/releaseVersion&gt;</value>
+											</replacement>
+											<replacement>
+												<token>&lt;bw.maven.plugin.version&gt;.*&lt;/bw.maven.plugin.version&gt;</token>
+												<value>&lt;bw.maven.plugin.version&gt;${bw.maven.plugin.version}&lt;/bw.maven.plugin.version&gt;</value>
+											</replacement>
+											<replacement>
+												<token>&lt;code.review.plugin.version&gt;.*&lt;/code.review.plugin.version&gt;</token>
+												<value>&lt;code.review.plugin.version&gt;${code.review.plugin.version}&lt;/code.review.plugin.version&gt;</value>
+											</replacement>
+											<replacement>
+												<token>&lt;fcunit.plugin.version&gt;.*&lt;/fcunit.plugin.version&gt;</token>
+												<value>&lt;fcunit.plugin.version&gt;${fcunit.plugin.version}&lt;/fcunit.plugin.version&gt;</value>
+											</replacement>
+										</replacements>
+									</configuration>
+								</execution>
 							</executions>
 						</plugin>
 					</plugins>
@@ -585,12 +613,12 @@
 			<extension>
 				<groupId>org.apache.maven.scm</groupId>
 				<artifactId>maven-scm-provider-gitexe</artifactId>
-				<version>1.9.4</version>
+				<version>1.9.2</version>
 			</extension>
 			<extension>
 				<groupId>org.apache.maven.scm</groupId>
 				<artifactId>maven-scm-manager-plexus</artifactId>
-				<version>1.9.4</version>
+				<version>1.9.2</version>
 			</extension>
 			<extension>
 				<groupId>com.github.stephenc.wagon</groupId>
