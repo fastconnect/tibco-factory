@@ -3,15 +3,15 @@ FastConnect TIBCO Factory
 
 FastConnect TIBCO Factory is composed of several elements:
 
-* BWMaven
-* FCUnit
-* FCCodeReview
+* [BWMaven](https://github.com/fastconnect/tibco-bwmaven)
+* [FCUnit](https://github.com/fastconnect/tibco-fcunit)
+* [FCCodeReview](https://github.com/fastconnect/tibco-codereview)
 
 Requirements
 -------------
 1. Available Internet connection
 2. Installed Oracle JDK 6 or higher
-3. Installed maven 3 or higher
+3. Installed Maven 3 or higher
 
 Copyright and license
 ----------------------
