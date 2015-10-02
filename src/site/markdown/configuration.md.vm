@@ -117,7 +117,7 @@ following command:
 
 ```bash
 mvn archetype:generate -DarchetypeGroupId=fr.fastconnect.factory.tibco \
-                       -DarchetypeArtifactId=archetype-default-project \
+                       -DarchetypeArtifactId=archetype-default-pom \
                        -DarchetypeVersion=${project.version} \
                        -DgroupId=com.company.project \
                        -DartifactId=project-root \

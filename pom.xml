@@ -123,9 +123,6 @@
 		<project.review.directory>${project.build.directory}/review</project.review.directory>
 		<project.review.project.directory>${project.review.directory}/project</project.review.project.directory>
 		<project.review.resources.directory>${project.review.directory}/resources</project.review.resources.directory>
-
-		<!-- FCUnit -->
-		<fcunit.engine.port>9099</fcunit.engine.port>
 	</properties>
 
 	<profiles>
@@ -600,7 +597,7 @@
 
 	<modules>
 		<module>archetypes</module>
-		<module>archetypes/archetype-default-project</module>
+		<module>archetypes/archetype-default-pom</module>
 		<module>archetypes/archetype-default-workspace</module>
 	</modules>
 

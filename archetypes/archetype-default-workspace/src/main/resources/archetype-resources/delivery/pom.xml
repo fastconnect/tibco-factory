@@ -29,9 +29,10 @@
 	<artifactId>${artifactId}-delivery</artifactId>
 	<packaging>pom</packaging>
 
-	<name>Distribution for ${workspaceName}</name>
+	<name>${workspaceName} - Delivery package</name>
 
 	<properties>
+		<archive>${project.build.directory}/${short.name}-${project.version}.zip</archive>
 		<deploy.extract>${short.name}</deploy.extract>
 		<deliveryExclude>*:${project.artifactId}</deliveryExclude> <!-- ignore self -->
 		<generate.pom.use.parent>true</generate.pom.use.parent> <!-- use parent instead of self -->
@@ -59,7 +60,7 @@
 				<executions>
 					<execution>
 						<id>create-project-bundle</id>
-						<phase>package</phase>
+						<phase>prepare-package</phase>
 						<goals>
 							<goal>single</goal>
 						</goals>
@@ -72,13 +73,86 @@
 				<version>1.2</version>
 				<executions>
 					<execution>
+						<id>extract-poms</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>copy</goal>
+						</goals>
+						<configuration>
+							<fileset>
+								<directory>${archive}</directory>
+								<includes>
+									<include>${deploy.pom}</include>
+									<include>${package.bw.applications.root}/**/${deploy.pom}</include>
+								</includes>
+								<outputDirectory>${project.build.directory}/copy-fileset</outputDirectory>
+							</fileset>
+						</configuration>
+					</execution>
+					<execution>
+						<id>include-fixed-poms</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy</goal>
+						</goals>
+						<configuration>
+							<fileset>
+								<directory>${project.build.directory}/copy-fileset</directory>
+								<includes>
+									<include>${deploy.pom}</include>
+									<include>${package.bw.applications.root}/**/${deploy.pom}</include>
+								</includes>
+								<outputDirectory>${archive}</outputDirectory>
+							</fileset>
+						</configuration>
+					</execution>
+					<execution>
+						<id>unzip</id>
 						<phase>package</phase>
 						<goals>
 							<goal>cp</goal>
 						</goals>
 						<configuration>
-							<from>${project.build.directory}/${short.name}-${project.version}.zip</from>
+							<from>${archive}</from>
 							<to>${project.build.directory}/${deploy.extract}</to>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<version>1.8</version>
+				<inherited>false</inherited>
+				<executions>
+					<execution>
+						<id>prepare-poms</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target>
+								<mkdir dir="${project.build.directory}/copy-fileset" />
+							</target>
+						</configuration>
+					</execution>
+					<execution>
+						<id>fix-relative-path</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>run</goal>
+						</goals>
+						<configuration>
+							<target>
+								<replaceregexp byline="true">
+									<regexp pattern="&lt;/parent&gt;" />
+									<substitution expression=" &lt;relativePath&gt;../${package.bw.applications.root.return}/${assembly.relative.path.return}&lt;/relativePath&gt;${line.separator} &lt;/parent&gt;" />
+									<fileset dir="${project.build.directory}/copy-fileset">
+										<include name="**/${deploy.pom}" />
+									</fileset>
+								</replaceregexp>
+							</target>
 						</configuration>
 					</execution>
 				</executions>

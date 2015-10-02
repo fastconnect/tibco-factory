@@ -33,7 +33,7 @@
 	<description>This POM defines the common dependencies, plugins and properties for BusinessWorks projects</description>
 
 	<properties>
-		<bw.project.location>./${bw.project.name}</bw.project.location>
+		<bw.project.location>./src/main/tibco/${bw.project.name}</bw.project.location>
 
 		<bw.project.archive.builder>/${bw.project.name}.archive</bw.project.archive.builder>
 		<bw.project.library.builder>/${bw.project.name}.libbuilder</bw.project.library.builder>
@@ -81,7 +81,13 @@
 									<property>executables.extension</property>
 									<message><![CDATA[You must have a executables.extension property. Check your settings.xml!]]></message>
 									<regex>(\.exe)?$</regex>
-									<regexMessage>executables.extension must be empty or ".exe".</regexMessage>
+									<regexMessage>executables.extension must be empty or ".exe" but is ${executables.extension}.</regexMessage>
+								</requireProperty>
+								<requireProperty>
+									<property>libraries.extension</property>
+									<message><![CDATA[You must have a libraries.extension property. Check your settings.xml!]]></message>
+									<regex>(\.dll|\.so)?$</regex>
+									<regexMessage>libraries.extension must be ".dll" or ".so" but is "${libraries.extension}".</regexMessage>
 								</requireProperty>
 								<requireProperty>
 									<property>tibco.bw.version</property>
@@ -94,6 +100,10 @@
 								<requireProperty>
 									<property>tibco.ems.version</property>
 									<message><![CDATA[You must have a tibco.ems.version property. Check your settings.xml!]]></message>
+								</requireProperty>
+								<requireProperty>
+									<property>tibco.hawk.version</property>
+									<message><![CDATA[You must have a tibco.hawk.version property. Check your settings.xml!]]></message>
 								</requireProperty>
 								<requireProperty>
 									<property>tibco.tra.version</property>

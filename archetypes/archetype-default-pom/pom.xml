@@ -7,7 +7,7 @@
 		<version>2.3.5-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>archetype-default-project</artifactId>
+	<artifactId>archetype-default-pom</artifactId>
 	<packaging>maven-archetype</packaging>
 
 	<name>FC TIBCO Factory - Archetypes - Default POM with properties scaffolding</name>

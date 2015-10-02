@@ -37,13 +37,18 @@
 	<properties>
 		<!-- here you can override the default TIBCO stack configuration and
 		     default project configuration found in 'fc-tibco-factory' -->
-		<bw.maven.plugin.version>${bw.maven.plugin.version}</bw.maven.plugin.version>
-		<code.review.plugin.version>${code.review.plugin.version}</code.review.plugin.version>
-		<fcunit.plugin.version>${fcunit.plugin.version}</fcunit.plugin.version>
+		<bw.maven.plugin.version>${bwMavenPluginVersion}</bw.maven.plugin.version>
+		<code.review.plugin.version>${codeReviewPluginVersion}</code.review.plugin.version>
+		<fcunit.plugin.version>${fcUnitPluginVersion}</fcunit.plugin.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+		<!-- delivery package -->
 		<short.name>APP</short.name>
+		<generate.pom.parent.groupId>${groupId}</generate.pom.parent.groupId>
+		<generate.pom.parent.artifactId>${artifactId}</generate.pom.parent.artifactId>
+		<generate.pom.parent.version>${project.version}</generate.pom.parent.version>
+		<generate.pom.ignore.parent>${fcFactoryGroupId}:${fcFactoryArtifactId}</generate.pom.ignore.parent>
 	</properties>
 
 	<modules>
@@ -60,6 +65,47 @@
 					<artifactId>bw-maven-plugin</artifactId>
 					<version>${bw.maven.plugin.version}</version>
 					<extensions>true</extensions>
+					<configuration>
+						<!-- these rules will be used by the 'maven-enforcer-plugin' in the root deploy POM -->
+						<rules>
+							<requireProperty>
+								<property>tibco.hostname</property>
+								<message><![CDATA[tibco.hostname is required to deploy]]></message>
+								<regex>.*</regex>
+								<regexMessage>tibco.hostname may not be undefined nor empty.</regexMessage>
+							</requireProperty>
+							<requireProperty>
+								<property>tibco.home</property>
+								<message><![CDATA[tibco.home is required to deploy]]></message>
+								<regex>.*</regex>
+								<regexMessage>tibco.home may not be undefined nor empty.</regexMessage>
+							</requireProperty>
+							<requireProperty>
+								<property>tibco.bw.version</property>
+								<message><![CDATA[tibco.bw.version is required to deploy]]></message>
+								<regex>.*</regex>
+								<regexMessage>tibco.bw.version may not be undefined nor empty.</regexMessage>
+							</requireProperty>
+							<requireProperty>
+								<property>tibco.domain.name</property>
+								<message><![CDATA[tibco.domain.name is required to deploy]]></message>
+								<regex>.*</regex>
+								<regexMessage>tibco.domain.name may not be undefined nor empty.</regexMessage>
+							</requireProperty>
+							<requireProperty>
+								<property>tibco.domain.username</property>
+								<message><![CDATA[tibco.domain.username is required to deploy]]></message>
+								<regex>.*</regex>
+								<regexMessage>tibco.domain.username may not be undefined nor empty.</regexMessage>
+							</requireProperty>
+							<requireProperty>
+								<property>tibco.domain.password</property>
+								<message><![CDATA[tibco.domain.password is required to deploy]]></message>
+								<regex>.*</regex>
+								<regexMessage>tibco.domain.password may not be undefined nor empty.</regexMessage>
+							</requireProperty>
+						</rules>
+					</configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>

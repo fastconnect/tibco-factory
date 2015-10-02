@@ -34,13 +34,19 @@
 		<requiredProperty key="fcFactoryVersion">
 			<defaultValue>${factoryVersion}</defaultValue>
 		</requiredProperty>
+		<requiredProperty key="bwMavenPluginVersion">
+			<defaultValue>${bwMavenPluginVersion}</defaultValue>
+		</requiredProperty>
+		<requiredProperty key="codeReviewPluginVersion">
+			<defaultValue>${codeReviewPluginVersion}</defaultValue>
+		</requiredProperty>
+		<requiredProperty key="fcUnitPluginVersion">
+			<defaultValue>${fcUnitPluginVersion}</defaultValue>
+		</requiredProperty>
 	</requiredProperties>
 	<fileSets>
 		<fileSet encoding="UTF-8" filtered="true" packaged="false">
 			<directory>bw</directory>
-		</fileSet>
-		<fileSet encoding="UTF-8" filtered="true" packaged="false">
-			<directory>config</directory>
 		</fileSet>
 		<fileSet encoding="UTF-8" filtered="true" packaged="false">
 			<directory>java</directory>
