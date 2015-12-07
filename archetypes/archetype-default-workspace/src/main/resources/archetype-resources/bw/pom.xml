@@ -47,6 +47,9 @@
 		<!-- common files are used by all projects -->
 		<deploy.properties.globalVariables.common>${parentProject.basedir}/config/common.gv.properties</deploy.properties.globalVariables.common>
 		<deploy.properties.services.common>${parentProject.basedir}/config/common.services.properties</deploy.properties.services.common>
+
+		<!-- standalone deployment POMs will have the same configuration as the root deployment POM -->
+		<deploy.pom.standalone.template>${parentProject.basedir}/../delivery/src/main/maven/deployment-pom.xml</deploy.pom.standalone.template>
 	</properties>
 
 	<modules>
@@ -96,10 +99,6 @@
 								<requireProperty>
 									<property>tibco.designer.version</property>
 									<message><![CDATA[You must have a tibco.designer.version property. Check your settings.xml!]]></message>
-								</requireProperty>
-								<requireProperty>
-									<property>tibco.ems.version</property>
-									<message><![CDATA[You must have a tibco.ems.version property. Check your settings.xml!]]></message>
 								</requireProperty>
 								<requireProperty>
 									<property>tibco.hawk.version</property>

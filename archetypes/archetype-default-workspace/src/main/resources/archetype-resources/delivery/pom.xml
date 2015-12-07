@@ -36,6 +36,7 @@
 		<deploy.extract>${short.name}</deploy.extract>
 		<deliveryExclude>*:${project.artifactId}</deliveryExclude> <!-- ignore self -->
 		<generate.pom.use.parent>true</generate.pom.use.parent> <!-- use parent instead of self -->
+		<generate.pom.root.skip>false</generate.pom.root.skip>
 	</properties>
 	
 	<build>
