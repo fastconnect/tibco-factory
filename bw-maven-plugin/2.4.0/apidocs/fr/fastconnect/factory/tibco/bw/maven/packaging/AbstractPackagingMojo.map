@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="c1096" href="./GenerateXMLFromPropertiesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.GenerateXMLFromPropertiesMojo" alt="" coords="16,209,232,234"/>
+<area shape="rect" id="node1" href="./GenerateXMLFromPropertiesMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,243,245"/>
+<area shape="rect" id="c1097" href="./MergePropertiesMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo" alt="" coords="277,209,421,234"/>
+<area shape="rect" id="node2" href="./MergePropertiesMojo.html" title="&lt;TABLE&gt;" alt="" coords="267,197,432,245"/>
+<area shape="rect" id="c1098" href="./ExtractXMLFromEARMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.ExtractXMLFromEARMojo" alt="" coords="467,209,640,234"/>
+<area shape="rect" id="node3" href="./ExtractXMLFromEARMojo.html" title="&lt;TABLE&gt;" alt="" coords="456,197,651,245"/>
+<area shape="rect" id="c1101" href="./GeneratePropertiesFromXMLMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.GeneratePropertiesFromXMLMojo" alt="" coords="685,209,901,234"/>
+<area shape="rect" id="node4" href="./GeneratePropertiesFromXMLMojo.html" title="&lt;TABLE&gt;" alt="" coords="675,197,912,245"/>
+<area shape="rect" id="c1102" href="./AbstractPackagingMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" alt="" coords="473,113,633,138"/>
+<area shape="rect" id="node5" href="./AbstractPackagingMojo.html" title="&lt;TABLE&gt;" alt="" coords="463,101,644,149"/>
+<area shape="rect" id="c1118" href="../deployment/AbstractBWDeployMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" alt="" coords="946,209,1105,234"/>
+<area shape="rect" id="node7" href="../deployment/AbstractBWDeployMojo.html" title="&lt;TABLE&gt;" alt="" coords="936,197,1115,245"/>
+<area shape="rect" id="c1105" href="../AbstractBWArtifactMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" alt="" coords="473,17,634,42"/>
+<area shape="rect" id="node6" href="../AbstractBWArtifactMojo.html" title="&lt;TABLE&gt;" alt="" coords="463,5,644,53"/>
+</map>
