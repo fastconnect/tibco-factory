@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c3051 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../AbstractBWMojo.html">
+	c3380 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="../AbstractBWMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AbstractBWMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="../AbstractBWMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.run.LaunchDesignerMojo
-	c3078 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.run.LaunchDesignerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LaunchDesignerMojo.html">
+	c3412 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.run.LaunchDesignerMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./LaunchDesignerMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> LaunchDesignerMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./LaunchDesignerMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.run.LaunchDesignerMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c3051:p -> c3078:p [dir=back,arrowtail=empty];
+	c3380:p -> c3412:p [dir=back,arrowtail=empty];
 }
 

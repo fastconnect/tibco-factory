@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo
-	c3394 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MergePropertiesMojo.html">
+	c3748 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./MergePropertiesMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> MergePropertiesMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./MergePropertiesMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c3400 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPackagingMojo.html">
+	c3753 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractPackagingMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractPackagingMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractPackagingMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.packaging.MergePropertiesMojo extends fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c3400:p -> c3394:p [dir=back,arrowtail=empty];
+	c3753:p -> c3748:p [dir=back,arrowtail=empty];
 }
 

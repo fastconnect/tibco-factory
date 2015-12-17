@@ -10,26 +10,26 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.doc.GenerateAPTDocMojo
-	c75 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.doc.GenerateAPTDocMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GenerateAPTDocMojo.html">
+	c79 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.doc.GenerateAPTDocMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GenerateAPTDocMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GenerateAPTDocMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GenerateAPTDocMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo
-	c76 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractDocMojo.html">
+	c80 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractDocMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractDocMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractDocMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.doc.GenerateXMLDocMojo
-	c77 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.doc.GenerateXMLDocMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GenerateXMLDocMojo.html">
+	c81 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.doc.GenerateXMLDocMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./GenerateXMLDocMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> GenerateXMLDocMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./GenerateXMLDocMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.doc.GenerateAPTDocMojo extends fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo
-	c76:p -> c75:p [dir=back,arrowtail=empty];
+	c80:p -> c79:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.doc.GenerateXMLDocMojo extends fr.fastconnect.factory.tibco.bw.maven.doc.AbstractDocMojo
-	c76:p -> c77:p [dir=back,arrowtail=empty];
+	c80:p -> c81:p [dir=back,arrowtail=empty];
 }
 

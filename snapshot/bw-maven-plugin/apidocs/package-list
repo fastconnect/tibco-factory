@@ -3,6 +3,7 @@ fr.fastconnect.factory.tibco.bw.maven.builtin
 fr.fastconnect.factory.tibco.bw.maven.bwengine
 fr.fastconnect.factory.tibco.bw.maven.compile
 fr.fastconnect.factory.tibco.bw.maven.deployment
+fr.fastconnect.factory.tibco.bw.maven.deployment.batch
 fr.fastconnect.factory.tibco.bw.maven.doc
 fr.fastconnect.factory.tibco.bw.maven.packaging
 fr.fastconnect.factory.tibco.bw.maven.run
