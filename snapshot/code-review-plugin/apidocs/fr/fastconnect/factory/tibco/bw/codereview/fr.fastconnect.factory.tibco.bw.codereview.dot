@@ -33,23 +33,23 @@ digraph G {
 <tr><td align="center" balign="center"> CodeReviewNoForkMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CodeReviewNoForkMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo
-	c4 [label=<<table title="fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PrepareCodeReviewLauncherMojo.html">
+	// fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewMojo
+	c4 [label=<<table title="fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PrepareCodeReviewMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PrepareCodeReviewLauncherMojo </td></tr>
+<tr><td align="center" balign="center"> PrepareCodeReviewMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./PrepareCodeReviewLauncherMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo.ResolveDependenciesWithProjectMojo
-	c5 [label=<<table title="fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo.ResolveDependenciesWithProjectMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PrepareCodeReviewLauncherMojo.ResolveDependenciesWithProjectMojo.html">
+		</table>>, URL="./PrepareCodeReviewMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+	// fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewMojo.ResolveDependenciesWithProjectMojo
+	c5 [label=<<table title="fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewMojo.ResolveDependenciesWithProjectMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PrepareCodeReviewMojo.ResolveDependenciesWithProjectMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ResolveDependenciesWithProjectMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./PrepareCodeReviewLauncherMojo.ResolveDependenciesWithProjectMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./PrepareCodeReviewMojo.ResolveDependenciesWithProjectMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.codereview.CodeReviewMojo extends fr.fastconnect.factory.tibco.bw.codereview.CodeReviewNoForkMojo
 	c3:p -> c1:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.codereview.ConvertRulesToSonarMojo extends fr.fastconnect.factory.tibco.bw.codereview.CodeReviewNoForkMojo
 	c3:p -> c2:p [dir=back,arrowtail=empty];
-	//fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo extends fr.fastconnect.factory.tibco.bw.codereview.CodeReviewNoForkMojo
+	//fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewMojo extends fr.fastconnect.factory.tibco.bw.codereview.CodeReviewNoForkMojo
 	c3:p -> c4:p [dir=back,arrowtail=empty];
 }
 

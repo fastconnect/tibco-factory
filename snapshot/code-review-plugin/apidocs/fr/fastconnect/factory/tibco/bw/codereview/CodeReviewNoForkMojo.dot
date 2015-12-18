@@ -27,12 +27,12 @@ digraph G {
 <tr><td align="center" balign="center"> CodeReviewNoForkMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./CodeReviewNoForkMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
-	// fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo
-	c79 [label=<<table title="fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PrepareCodeReviewLauncherMojo.html">
+	// fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewMojo
+	c79 [label=<<table title="fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PrepareCodeReviewMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PrepareCodeReviewLauncherMojo </td></tr>
+<tr><td align="center" balign="center"> PrepareCodeReviewMojo </td></tr>
 		</table></td></tr>
-		</table>>, URL="./PrepareCodeReviewLauncherMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./PrepareCodeReviewMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.codereview.pages.CodeReviewIndexMojo
 	c81 [label=<<table title="fr.fastconnect.factory.tibco.bw.codereview.pages.CodeReviewIndexMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./pages/CodeReviewIndexMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
@@ -51,7 +51,7 @@ digraph G {
 	c78:p -> c77:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.codereview.CodeReviewNoForkMojo extends fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo
 	c89:p -> c78:p [dir=back,arrowtail=empty];
-	//fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewLauncherMojo extends fr.fastconnect.factory.tibco.bw.codereview.CodeReviewNoForkMojo
+	//fr.fastconnect.factory.tibco.bw.codereview.PrepareCodeReviewMojo extends fr.fastconnect.factory.tibco.bw.codereview.CodeReviewNoForkMojo
 	c78:p -> c79:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.codereview.pages.CodeReviewIndexMojo extends fr.fastconnect.factory.tibco.bw.codereview.CodeReviewNoForkMojo
 	c78:p -> c81:p [dir=back,arrowtail=empty];
