@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - Demo project" timestamp="2015-09-22T01:08:58.4+02:00" duration="7.197" project-basedir="/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/demo/src/main/tibco/Demo" home-page="../index.html" language="FR">
+<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - Demo project" timestamp="2015-12-18T01:11:27.556+01:00" duration="6.351" project-basedir="/home/jenkins/workspace/tibco-codereview-site-nightly/src/it/demo/src/main/tibco/Demo" home-page="../index.html" language="FR">
     <ns0:general disabled="false">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>GEN</ns1:category>
@@ -460,9 +460,9 @@
             <ns1:severity>MAJOR</ns1:severity>
             <ns1:weight>10</ns1:weight>
             <ns1:infos>
-                <ns1:name>Collect Transition Colors</ns1:name>
-                <ns1:description>Collect Transition Colors</ns1:description>
-                <ns1:descriptionHTML>Collect Transition Colors</ns1:descriptionHTML>
+                <ns1:name>Colors in Transition</ns1:name>
+                <ns1:description>Colors in Transition reduce the readibility of the process in the debugger and can lead to misunderstanding of the process logic.</ns1:description>
+                <ns1:descriptionHTML>Colors in Transition reduce the readibility of the process in the debugger and can lead to misunderstanding of the process logic.</ns1:descriptionHTML>
             </ns1:infos>
         </ns1:rule>
         <ns0:result>
@@ -508,7 +508,7 @@
             <ns1:severity>MAJOR</ns1:severity>
             <ns1:weight>10</ns1:weight>
             <ns1:infos>
-                <ns1:name>Process Call Depth</ns1:name>
+                <ns1:name>Process Call Tree Too Deep</ns1:name>
                 <ns1:description>Process Call Depth</ns1:description>
                 <ns1:descriptionHTML>Process Call Depth</ns1:descriptionHTML>
             </ns1:infos>
