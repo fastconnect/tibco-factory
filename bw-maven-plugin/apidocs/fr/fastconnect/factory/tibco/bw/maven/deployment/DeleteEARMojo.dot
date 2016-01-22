@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.deployment.DeleteEARMojo
-	c2032 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.DeleteEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DeleteEARMojo.html">
+	c2356 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.DeleteEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./DeleteEARMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> DeleteEARMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./DeleteEARMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo
-	c2033 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWDeployMojo.html">
+	c2357 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWDeployMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AbstractBWDeployMojo </td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBWDeployMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractBWDeployMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.deployment.DeleteEARMojo extends fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo
-	c2033:p -> c2032:p [dir=back,arrowtail=empty];
+	c2357:p -> c2356:p [dir=back,arrowtail=empty];
 }
 

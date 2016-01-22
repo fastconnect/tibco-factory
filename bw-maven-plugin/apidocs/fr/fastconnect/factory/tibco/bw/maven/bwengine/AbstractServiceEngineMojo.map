@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" id="c1118" href="../AbstractBWMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" alt="" coords="47,17,166,42"/>
+<area shape="rect" id="c1318" href="../AbstractBWMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" alt="" coords="47,17,166,42"/>
 <area shape="rect" id="node1" href="../AbstractBWMojo.html" title="&lt;TABLE&gt;" alt="" coords="37,5,176,53"/>
-<area shape="rect" id="c1120" href="./AbstractServiceEngineMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" alt="" coords="16,113,197,138"/>
+<area shape="rect" id="c1320" href="./AbstractServiceEngineMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.bwengine.AbstractServiceEngineMojo" alt="" coords="16,113,197,138"/>
 <area shape="rect" id="node2" href="./AbstractServiceEngineMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,101,208,149"/>
 </map>

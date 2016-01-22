@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="c3432" href="./AddProjectsAsModules.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AddProjectsAsModules" alt="" coords="15,209,171,234"/>
+<area shape="rect" id="c3789" href="./AddProjectsAsModules.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AddProjectsAsModules" alt="" coords="15,209,171,234"/>
 <area shape="rect" id="node1" href="./AddProjectsAsModules.html" title="&lt;TABLE&gt;" alt="" coords="5,197,181,245"/>
-<area shape="rect" id="c3436" href="./MavenProjectsListWithRootPOMMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo" alt="" coords="79,113,318,138"/>
+<area shape="rect" id="c3793" href="./MavenProjectsListWithRootPOMMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListWithRootPOMMojo" alt="" coords="79,113,318,138"/>
 <area shape="rect" id="node2" href="./MavenProjectsListWithRootPOMMojo.html" title="&lt;TABLE&gt;" alt="" coords="69,101,328,149"/>
-<area shape="rect" id="c3441" href="./RemoveProjectsAsModules.html" title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveProjectsAsModules" alt="" coords="215,209,395,234"/>
+<area shape="rect" id="c3798" href="./RemoveProjectsAsModules.html" title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveProjectsAsModules" alt="" coords="215,209,395,234"/>
 <area shape="rect" id="node4" href="./RemoveProjectsAsModules.html" title="&lt;TABLE&gt;" alt="" coords="205,197,405,245"/>
-<area shape="rect" id="c3439" href="./MavenProjectsListMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" alt="" coords="121,17,276,42"/>
+<area shape="rect" id="c3796" href="./MavenProjectsListMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" alt="" coords="121,17,276,42"/>
 <area shape="rect" id="node3" href="./MavenProjectsListMojo.html" title="&lt;TABLE&gt;" alt="" coords="111,5,287,53"/>
 </map>

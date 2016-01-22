@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="c427" href="./StopBatchMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.batch.StopBatchMojo" alt="" coords="16,113,125,138"/>
+<area shape="rect" id="node1" href="./StopBatchMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,101,136,149"/>
+<area shape="rect" id="c428" href="./DeployBatchMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.batch.DeployBatchMojo" alt="" coords="171,113,293,138"/>
+<area shape="rect" id="node2" href="./DeployBatchMojo.html" title="&lt;TABLE&gt;" alt="" coords="160,101,304,149"/>
+<area shape="rect" id="c429" href="./UndeployBatchMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.batch.UndeployBatchMojo" alt="" coords="338,113,475,138"/>
+<area shape="rect" id="node3" href="./UndeployBatchMojo.html" title="&lt;TABLE&gt;" alt="" coords="328,101,485,149"/>
+<area shape="rect" id="c430" href="./ExtractXMLBatchMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.batch.ExtractXMLBatchMojo" alt="" coords="520,113,669,138"/>
+<area shape="rect" id="node4" href="./ExtractXMLBatchMojo.html" title="&lt;TABLE&gt;" alt="" coords="509,101,680,149"/>
+<area shape="rect" id="c431" href="./DeleteBatchMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.batch.DeleteBatchMojo" alt="" coords="715,113,835,138"/>
+<area shape="rect" id="node5" href="./DeleteBatchMojo.html" title="&lt;TABLE&gt;" alt="" coords="704,101,845,149"/>
+<area shape="rect" id="c432" href="./AbstractBWBatchDeployMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.batch.AbstractBWBatchDeployMojo" alt="" coords="403,17,597,42"/>
+<area shape="rect" id="node6" href="./AbstractBWBatchDeployMojo.html" title="&lt;TABLE&gt;" alt="" coords="393,5,607,53"/>
+<area shape="rect" id="c433" href="./StartBatchMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.deployment.batch.StartBatchMojo" alt="" coords="879,113,990,138"/>
+<area shape="rect" id="node7" href="./StartBatchMojo.html" title="&lt;TABLE&gt;" alt="" coords="869,101,1000,149"/>
+</map>

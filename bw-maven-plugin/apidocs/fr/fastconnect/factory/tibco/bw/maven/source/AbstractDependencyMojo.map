@@ -1,10 +1,10 @@
 <map id="G" name="G">
-<area shape="rect" id="c787" href="./RemoveDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveDependencyMojo" alt="" coords="15,209,182,234"/>
+<area shape="rect" id="c968" href="./RemoveDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.RemoveDependencyMojo" alt="" coords="15,209,182,234"/>
 <area shape="rect" id="node1" href="./RemoveDependencyMojo.html" title="&lt;TABLE&gt;" alt="" coords="5,197,192,245"/>
-<area shape="rect" id="c793" href="./MavenProjectsListMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" alt="" coords="120,17,275,42"/>
+<area shape="rect" id="c974" href="./MavenProjectsListMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.MavenProjectsListMojo" alt="" coords="120,17,275,42"/>
 <area shape="rect" id="node2" href="./MavenProjectsListMojo.html" title="&lt;TABLE&gt;" alt="" coords="109,5,285,53"/>
-<area shape="rect" id="c801" href="./AbstractDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo" alt="" coords="113,113,282,138"/>
+<area shape="rect" id="c982" href="./AbstractDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AbstractDependencyMojo" alt="" coords="113,113,282,138"/>
 <area shape="rect" id="node4" href="./AbstractDependencyMojo.html" title="&lt;TABLE&gt;" alt="" coords="103,101,292,149"/>
-<area shape="rect" id="c797" href="./AddDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AddDependencyMojo" alt="" coords="226,209,369,234"/>
+<area shape="rect" id="c978" href="./AddDependencyMojo.html" title="fr.fastconnect.factory.tibco.bw.maven.source.AddDependencyMojo" alt="" coords="226,209,369,234"/>
 <area shape="rect" id="node3" href="./AddDependencyMojo.html" title="&lt;TABLE&gt;" alt="" coords="216,197,379,245"/>
 </map>

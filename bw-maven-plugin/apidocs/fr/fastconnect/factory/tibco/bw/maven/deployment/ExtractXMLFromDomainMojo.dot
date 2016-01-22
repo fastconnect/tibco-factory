@@ -10,18 +10,18 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.deployment.ExtractXMLFromDomainMojo
-	c2331 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.ExtractXMLFromDomainMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ExtractXMLFromDomainMojo.html">
+	c2803 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.ExtractXMLFromDomainMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./ExtractXMLFromDomainMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> ExtractXMLFromDomainMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./ExtractXMLFromDomainMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo
-	c2333 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWDeployMojo.html">
+	c2805 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWDeployMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> AbstractBWDeployMojo </td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBWDeployMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractBWDeployMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.deployment.ExtractXMLFromDomainMojo extends fr.fastconnect.factory.tibco.bw.maven.deployment.AbstractBWDeployMojo
-	c2333:p -> c2331:p [dir=back,arrowtail=empty];
+	c2805:p -> c2803:p [dir=back,arrowtail=empty];
 }
 

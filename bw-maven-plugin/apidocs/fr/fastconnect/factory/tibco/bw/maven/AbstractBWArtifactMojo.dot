@@ -10,58 +10,58 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	// fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo
-	c597 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./packaging/AbstractPackagingMojo.html">
+	c697 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./packaging/AbstractPackagingMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractPackagingMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./packaging/AbstractPackagingMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c603 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractBWArtifactMojo.html">
+	c703 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" bgcolor="lemonChiffon" href="./AbstractBWArtifactMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"><font face="Helvetica-Oblique"> AbstractBWArtifactMojo </font></td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractBWArtifactMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c606 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWMojo.html">
+	c706 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./AbstractBWMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> AbstractBWMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./AbstractBWMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo
-	c652 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./compile/UpdateAliasesLibsMojo.html">
+	c760 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./compile/UpdateAliasesLibsMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> UpdateAliasesLibsMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./compile/UpdateAliasesLibsMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo
-	c654 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./compile/CompileEARMojo.html">
+	c762 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./compile/CompileEARMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CompileEARMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./compile/CompileEARMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo
-	c658 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./compile/IncludeDependenciesInEARMojo.html">
+	c766 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./compile/IncludeDependenciesInEARMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> IncludeDependenciesInEARMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./compile/IncludeDependenciesInEARMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo
-	c660 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./compile/CompileProjlibMojo.html">
+	c768 [label=<<table title="fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./compile/CompileProjlibMojo.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> CompileProjlibMojo </td></tr>
 		</table></td></tr>
 		</table>>, URL="./compile/CompileProjlibMojo.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//fr.fastconnect.factory.tibco.bw.maven.packaging.AbstractPackagingMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c603:p -> c597:p [dir=back,arrowtail=empty];
+	c703:p -> c697:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWMojo
-	c606:p -> c603:p [dir=back,arrowtail=empty];
+	c706:p -> c703:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.compile.UpdateAliasesLibsMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c603:p -> c652:p [dir=back,arrowtail=empty];
+	c703:p -> c760:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.compile.CompileEARMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c603:p -> c654:p [dir=back,arrowtail=empty];
+	c703:p -> c762:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.compile.IncludeDependenciesInEARMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c603:p -> c658:p [dir=back,arrowtail=empty];
+	c703:p -> c766:p [dir=back,arrowtail=empty];
 	//fr.fastconnect.factory.tibco.bw.maven.compile.CompileProjlibMojo extends fr.fastconnect.factory.tibco.bw.maven.AbstractBWArtifactMojo
-	c603:p -> c660:p [dir=back,arrowtail=empty];
+	c703:p -> c768:p [dir=back,arrowtail=empty];
 }
 
