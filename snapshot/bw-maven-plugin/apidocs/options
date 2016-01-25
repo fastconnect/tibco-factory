@@ -3,10 +3,10 @@
 -doclet
 'org.umlgraph.doclet.UmlGraphDoc'
 -docletpath
-'/home/m2/repo/org/umlgraph/umlgraph/5.6.6/umlgraph-5.6.6.jar:/home/jenkins/tools/hudson.model.JDK/JDK8/jre/../lib/tools.jar'
+'/home/m2/repo/org/umlgraph/umlgraph/5.6.6/umlgraph-5.6.6.jar:/var/jenkins_home/tools/hudson.model.JDK/JDK8/jre/../lib/tools.jar'
 -encoding
 'UTF-8'
 -protected
 -sourcepath
-'/home/jenkins/workspace/tibco-bwmaven-site-nightly/bw-maven-plugin/src/main/java:/home/jenkins/workspace/tibco-bwmaven-site-nightly/bw-maven-plugin/target/generated-sources/jaxb'
+'/var/jenkins_home/workspace/tibco-bwmaven-site-nightly/bw-maven-plugin/src/main/java:/var/jenkins_home/workspace/tibco-bwmaven-site-nightly/bw-maven-plugin/target/generated-sources/jaxb'
 -views
