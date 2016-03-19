@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - Demo project" timestamp="2016-03-18T01:08:20.73Z" duration="6.27" project-basedir="/var/jenkins_home/workspace/tibco-codereview-site-nightly/src/it/demo/src/main/tibco/Demo" home-page="../index.html" language="FR">
+<ns0:review-result xmlns:ns0="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/ReviewResult.xsd" project-name="Code Review Plugin for TIBCO BusinessWorks - IT - Demo project" timestamp="2016-03-19T01:08:19.22Z" duration="6.367" project-basedir="/var/jenkins_home/workspace/tibco-codereview-site-nightly/src/it/demo/src/main/tibco/Demo" home-page="../index.html" language="FR">
     <ns0:general disabled="false">
         <ns1:rule xmlns:ns1="http://www.fastconnect.fr/FCTibcoFactory/CodeReview/RuleCard.xsd">
             <ns1:category>GEN</ns1:category>
