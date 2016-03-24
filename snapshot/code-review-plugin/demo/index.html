@@ -94,12 +94,14 @@
                                        <tr>
                                           <th>dir</th>
                                           <th>xpath</th>
-                                          <th>xpath</th>
                                        </tr>
                                        <tr>
                                           <td>/Resources/JDBC Connection.sharedjdbc</td>
                                           <td>Driver</td>
-                                          <td>URL</td>
+                                          <tr>
+                                             <td></td>
+                                             <td>URL</td>
+                                          </tr>
                                        </tr>
                                        <tr>
                                           <td>/Resources/JMS Connection.sharedjmscon</td>
@@ -699,6 +701,8 @@
                                        <tr>
                                           <th>process</th>
                                           <th>process</th>
+                                          <th>process</th>
+                                          <th>group</th>
                                           <th>Level 2</th>
                                        </tr>
                                        <tr>
@@ -1095,24 +1099,38 @@
                                        <tr>
                                           <th>process</th>
                                           <th>process</th>
-                                          <th>process</th>
-                                          <th>process</th>
-                                          <th>process</th>
-                                          <th>process</th>
-                                          <th>process</th>
-                                          <th>process</th>
-                                          <th>process</th>
                                        </tr>
                                        <tr>
                                           <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
                                           <td>/Issues/Maintainability/MAI-003/Process Level 1.process</td>
-                                          <td>/Issues/Maintainability/MAI-003/Process Level 2.process</td>
-                                          <td>/Issues/Maintainability/MAI-003/Process Level 3.process</td>
-                                          <td>/Issues/Maintainability/MAI-003/Process Level 4.process</td>
-                                          <td>/Issues/Maintainability/MAI-003/Process Level 5.process</td>
-                                          <td>/Issues/Maintainability/MAI-003/Process Level 6.process</td>
-                                          <td>/Issues/Maintainability/MAI-003/Process Level 7.process</td>
-                                          <td>Process Level 7</td>
+                                          <tr>
+                                             <td></td>
+                                             <td>/Issues/Maintainability/MAI-003/Process Level 2.process</td>
+                                          </tr>
+                                          <tr>
+                                             <td></td>
+                                             <td>/Issues/Maintainability/MAI-003/Process Level 3.process</td>
+                                          </tr>
+                                          <tr>
+                                             <td></td>
+                                             <td>/Issues/Maintainability/MAI-003/Process Level 4.process</td>
+                                          </tr>
+                                          <tr>
+                                             <td></td>
+                                             <td>/Issues/Maintainability/MAI-003/Process Level 5.process</td>
+                                          </tr>
+                                          <tr>
+                                             <td></td>
+                                             <td>/Issues/Maintainability/MAI-003/Process Level 6.process</td>
+                                          </tr>
+                                          <tr>
+                                             <td></td>
+                                             <td>/Issues/Maintainability/MAI-003/Process Level 7.process</td>
+                                          </tr>
+                                          <tr>
+                                             <td></td>
+                                             <td>Process Level 7</td>
+                                          </tr>
                                        </tr>
                                     </table>
                                  </div>
@@ -2070,16 +2088,14 @@
          <p class="text-muted credit"><i>Project</i> :
             				<strong>Code Review Plugin for TIBCO BusinessWorks - IT - Demo project</strong>
             				- <i>Review Date</i> :
-            				<strong>2016-03-23 01:08:20</strong>
+            				<strong>2016-03-24 01:08:17</strong>
             				- <i>Review Duration</i> :
-            				<strong>6.32</strong>
+            				<strong>6.616</strong>
             				sec.
             				<br><span class="color-highlight">FC</span> Code Review for TIBCO BusinessWorks - © 2013-2015  - <a href="http://www.fastconnect.fr/" target="_blank">FastConnect</a></p>
       </footer><script type="text/javascript" src="resources/jquery.min.js">//</script><script type="text/javascript" src="resources/bootstrap.min.js">//</script><script type="text/javascript" src="resources/docs.js">//</script><script type="text/javascript">
-	        $(document).ready(function() {
-				$('body').scrollspy({ target: '.navbar-fixed-top' })
-	        });
-
+			$('[data-toggle="tooltip"]').tooltip();
+			$('body').scrollspy({ target: '.navbar-fixed-top' });
 	        $('#top-menu-tabs li:eq(1) a').tab('show'); // Select first tab
         </script></body>
 </html>
